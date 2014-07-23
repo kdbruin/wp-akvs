@@ -8,9 +8,8 @@
 - .externalToolBuilders
 - .project
 - .settings
-- build.ant
+- build.xml
 - composer.json
 - composer.lock
-- nbproject
 - app/upgrade
 - app/uploads

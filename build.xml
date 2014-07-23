@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Project Name" default="deploy">
-    <property name="username" value="user"/>
-    <property name="host" value="hostname"/>
-    <property name="path" value="/usr/local/www/sites/site-name"/>
+    <property name="username" value="www"/>
+    <property name="host" value="filevault.localdomain"/>
+    <property name="path" value="/usr/local/www/sites/AKV-Soesterkwartier"/>
     <property name="exclude" value=".rsync-excludes"/>
 
     <target name="deploy">
