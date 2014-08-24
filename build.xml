@@ -23,4 +23,10 @@
         </exec>
     </target>
 
+	<target name="composer-update">
+		<exec dir="." executable="${user.home}/Shared/Scripts/composer" failonerror="true">
+			<arg value="update" />
+		</exec>
+	</target>
+
 </project>
