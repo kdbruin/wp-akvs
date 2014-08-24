@@ -11,5 +11,7 @@
 - build.xml
 - composer.json
 - composer.lock
+- app/plugins/debug*
+- app/plugins/monster-widget
 - app/upgrade
 - app/uploads
