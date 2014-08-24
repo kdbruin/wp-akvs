@@ -1,6 +1,9 @@
 # General files
 composer.lock
 
+# IDE
+nbproject/private/
+
 # Ignore Composer installed files
 vendor
 wp

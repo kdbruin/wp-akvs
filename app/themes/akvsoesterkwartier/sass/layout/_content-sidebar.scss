@@ -1,20 +1,66 @@
-.content-area {
-	float: left;
-	margin: 0 -$size__site-sidebar 0 0;
-	width: $size__site-main;
-}
-
 .site-main {
-	margin: 0 $size__site-sidebar 0 0;
+	background: $color__background-main;
 }
 
 .site-content .widget-area {
-	float: right;
-	overflow: hidden;
 	width: $size__site-sidebar;
+	float: right;
+	padding: 4rem;
+	background: $color__background-widget;
 }
 
 .site-footer {
 	clear: both;
 	width: $size__site-main;
+}
+
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation {
+	position: relative;
+	@include max_size($size__site-max-content);
+	padding: 0 4rem;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: $size__break-xlarge) {
+	.content-area {
+		float: left;
+		width: $size__site-main;
+		margin-right: -$size__site-sidebar;
+	}
+}
+
+@media screen and (min-width: $size__break-large) and (max-width: $size__break-xlarge - 1) {
+	.content-area {
+		width: $size__site-main;
+		float: left;
+		margin-left: -$size__site-sidebar;
+		padding-left: $size__site-sidebar;
+	}
+    
+	.entry-header,
+	.entry-content,
+	.entry-meta,
+	.entry-footer,
+	.tag-links,
+	.post-navigation,
+	.comments-area,
+	.paging-navigation { 
+		margin-right: 0; 
+	}
+}
+
+@media screen and (max-width: $size__break-large - 1) {  
+	.site-content .widget-area {
+		width: auto;
+		@include max-size(78);
+		float: none;
+		margin: 1em auto 0;
+	}
 }

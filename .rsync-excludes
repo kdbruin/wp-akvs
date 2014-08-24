@@ -8,10 +8,12 @@
 - .externalToolBuilders
 - .project
 - .settings
+- nbproject
 - build.xml
 - composer.json
 - composer.lock
 - app/plugins/debug*
 - app/plugins/monster-widget
+- app/themes/akvsoesterkwartier/sass
 - app/upgrade
 - app/uploads

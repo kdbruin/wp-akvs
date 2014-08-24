@@ -4,6 +4,12 @@
 	font-size: $sizeValue + rem;
 }
 
+// Rem output with px fallback
+@mixin max-size($sizeValue: 10) {
+	max-size: ($sizeValue * 10) + px;
+	max-size: $sizeValue + rem;
+}
+
 // Box model
 @mixin box-sizing($box-model) {
 	-webkit-box-sizing: $box-model; // Safari <= 7
