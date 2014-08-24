@@ -9,25 +9,30 @@
       "package": {
         "name": "wordpressNL",
         "type": "webroot",
-        "version": "3.9.1",
+        "version": "3.9.2",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/release/nl_NL/wordpress-3.9.1.zip"
+          "url": "https://downloads.wordpress.org/release/nl_NL/wordpress-3.9.2.zip"
         },
         "require" : {
           "fancyguy/webroot-installer": "1.1.0"
         }
       }
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://filevault.localdomain/home/git/private/akvs-plugin.git"
     }
   ],
   "require": {
     "php": ">=5.3.0",
-    "wordpressNL": "3.9.1",
+    "wordpressNL": "3.9.2",
     "fancyguy/webroot-installer": "1.1.0",
     "vlucas/phpdotenv": "1.0.6",
     "wpackagist-plugin/regenerate-thumbnails": "2.2.4",
-    "wpackagist-plugin/smpl-shortcodes": "1.0.16",
+    "wpackagist-plugin/smpl-shortcodes": "1.0.18",
     "wpackagist-plugin/wp-pagenavi": "2.85",
+    "kdb/akvs-plugin": "dev-master",
     "wpackagist-theme/smpl-skeleton": "*"
   },
   "extra": {

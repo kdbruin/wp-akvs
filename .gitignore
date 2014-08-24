@@ -1,5 +1,5 @@
-# NetBeans project private files
-nbproject/private
+# General files
+composer.lock
 
 # Ignore Composer installed files
 vendor
