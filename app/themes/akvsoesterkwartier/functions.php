@@ -99,8 +99,8 @@ add_action( 'widgets_init', 'akvs_widgets_init' );
  */
 function akvs_scripts()
 {
-    wp_enqueue_style( 'akvs-style', get_template_directory_uri() . '/css/akv-soesterkwartier.css' );
-    wp_enqueue_style( 'akvs-style-content-sidebar', get_template_directory_uri() . '/css/content-sidebar.css' );
+    wp_enqueue_style( 'akvs-style', get_stylesheet_uri() );
+    wp_enqueue_style( 'akvs-style-content-sidebar', get_template_directory_uri() . '/layouts/content-sidebar.css' );
 
     wp_enqueue_style( 'akvs-google-fonts', 'http://fonts.googleapis.com/css?family=Lato:100,400,700,900,400italic,900italic|PT+Serif:400,700,400italic,700italic' );
 
