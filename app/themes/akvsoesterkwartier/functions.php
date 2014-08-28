@@ -46,6 +46,7 @@ if ( !function_exists( 'akvs_setup' ) ) :
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus( array(
             'primary' => __( 'Primary Menu', 'akvs' ),
+            'social'  => __( 'Social Menu', 'akvs' ),
         ) );
 
         /*
@@ -90,6 +91,16 @@ function akvs_widgets_init()
         'before_title'  => '<h1 class="widget-title">',
         'after_title'   => '</h1>',
     ) );
+    
+    register_sidebar( array(
+        'name'          => __( 'Footer Widgets', 'akvs' ),
+        'description'   => __( 'Footer widgets area appears in the footer of the site.', 'akvs' ),
+        'id'            => 'sidebar-2',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</aside>',
+        'before_title'  => '<h1 class="widget-title">',
+        'after_title'   => '</h1>',
+    ) );
 }
 
 add_action( 'widgets_init', 'akvs_widgets_init' );
@@ -106,8 +117,15 @@ function akvs_scripts()
 
     wp_enqueue_style( 'akvs-fontawesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' );
 
+    wp_enqueue_script( 'akvs-superfish', get_template_directory_uri() . '/js/superfish.min.js', array( 'jquery' ), '20140827', true );
+    wp_enqueue_script( 'akvs-superfish-settings', get_template_directory_uri() . '/js/superfish-settings.js', array( 'akvs-superfish' ), '20140827', true );
+
+    wp_enqueue_script( 'akvs-hide-search', get_template_directory_uri() . '/js/hide-search.js', array( 'jquery' ), '20140827', true );
+
     wp_enqueue_script( 'akvs-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
+    wp_enqueue_script( 'akvs-masonry', get_template_directory_uri() . '/js/masonry-settings.js', array('masonry'), '20140401', true );
+    
     wp_enqueue_script( 'akvs-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
