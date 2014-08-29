@@ -32,7 +32,6 @@
     "wpackagist-plugin/developer": "1.2.5",
     "wpackagist-plugin/regenerate-thumbnails": "2.2.4",
     "wpackagist-plugin/wordpress-importer": "0.6.1",
-    "wpackagist-plugin/wp-pagenavi": "2.85",
     "kdb/akvs-plugin": "dev-master"
   },
   "extra": {
