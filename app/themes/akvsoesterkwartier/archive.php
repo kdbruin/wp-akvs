@@ -18,34 +18,34 @@ get_header();
     	    <h1 class="page-title">
 		    <?php
 		    if ( is_category() ) :
-			printf( __( 'Posts in the ', 'my-simone' ) );
+			printf( __( 'Posts in the ', 'akvs' ) );
 			echo '<em>';
 			single_cat_title();
-			echo '</em> ' . __( 'category', 'my-simone' ) . ':';
+			echo '</em> ' . __( 'category', 'akvs' ) . ':';
 
 		    elseif ( is_tag() ) :
-			printf( __( 'Posts with the ', 'my-simone' ) );
+			printf( __( 'Posts with the ', 'akvs' ) );
 			echo '<em>';
 			single_tag_title();
-			echo '</em> ' . __( 'tag', 'my-simone' ) . ':';
+			echo '</em> ' . __( 'tag', 'akvs' ) . ':';
 
 		    elseif ( is_author() ) :
-			printf( __( 'Author: %s', 'my-simone' ), '<span class="vcard">' . get_the_author() . '</span>' );
+			printf( __( 'Author: %s', 'akvs' ), '<span class="vcard">' . get_the_author() . '</span>' );
 
 		    elseif ( is_day() ) :
-			printf( __( 'Posts from %s', 'my-simone' ), '<span>' . get_the_date() . '</span>' );
+			printf( __( 'Posts from %s', 'akvs' ), '<span>' . get_the_date() . '</span>' );
 
 		    elseif ( is_month() ) :
-			printf( __( 'Posts from %s', 'my-simone' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'my-simone' ) ) . '</span>' );
+			printf( __( 'Posts from %s', 'akvs' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'akvs' ) ) . '</span>' );
 
 		    elseif ( is_year() ) :
-			printf( __( 'Posts from %s', 'my-simone' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'my-simone' ) ) . '</span>' );
+			printf( __( 'Posts from %s', 'akvs' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'akvs' ) ) . '</span>' );
 
 		    elseif ( is_tax( 'post_format', 'post-format-aside' ) ) :
-			_e( 'Asides', 'my-simone' );
+			_e( 'Asides', 'akvs' );
 
 		    else :
-			_e( 'Archives', 'my-simone' );
+			_e( 'Archives', 'akvs' );
 
 		    endif;
 		    ?>

@@ -6,15 +6,13 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-    <?php 
-    if (has_post_thumbnail()) {
-	echo '<div class="single-post-thumbnail clear">';
-	echo '<div class="image-shifter">';
-	echo the_post_thumbnail('large-thumb');
-	echo '</div>';
-	echo '</div>';
-    }
-    ?>
+    <?php if (has_post_thumbnail()) : ?>
+    <div class="single-post-thumbnail clear">
+        <div class="image-shifter">
+            <?php echo the_post_thumbnail('large-thumb'); ?>
+        </div>
+    </div>
+    <?php endif; ?>
 
     <header class="entry-header">
 

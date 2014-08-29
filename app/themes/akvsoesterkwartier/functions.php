@@ -42,8 +42,8 @@ if ( !function_exists( 'akvs_setup' ) ) :
          * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
          */
         add_theme_support( 'post-thumbnails' );
-	add_image_size('large-thumb', 1060, 650, true);
-	add_image_size('index-thumb', 780, 250, true);
+        add_image_size( 'large-thumb', 1060, 650, true );
+        add_image_size( 'index-thumb', 780, 250, true );
 
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus( array(
@@ -93,7 +93,7 @@ function akvs_widgets_init()
         'before_title'  => '<h1 class="widget-title">',
         'after_title'   => '</h1>',
     ) );
-    
+
     register_sidebar( array(
         'name'          => __( 'Footer Widgets', 'akvs' ),
         'description'   => __( 'Footer widgets area appears in the footer of the site.', 'akvs' ),
@@ -113,7 +113,14 @@ add_action( 'widgets_init', 'akvs_widgets_init' );
 function akvs_scripts()
 {
     wp_enqueue_style( 'akvs-style', get_stylesheet_uri() );
-    wp_enqueue_style( 'akvs-style-content-sidebar', get_template_directory_uri() . '/layouts/content-sidebar.css' );
+    if ( is_page_template( 'page-templates/page-nosidebar.php' ) )
+    {
+        wp_enqueue_style( 'akvs-layout-style', get_template_directory_uri() . '/layouts/no-sidebar.css' );
+    }
+    else
+    {
+        wp_enqueue_style( 'akvs-layout-style', get_template_directory_uri() . '/layouts/content-sidebar.css' );
+    }
 
     wp_enqueue_style( 'akvs-google-fonts', 'http://fonts.googleapis.com/css?family=Lato:100,400,700,900,400italic,900italic|PT+Serif:400,700,400italic,700italic' );
 
@@ -126,8 +133,8 @@ function akvs_scripts()
 
     wp_enqueue_script( 'akvs-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
-    wp_enqueue_script( 'akvs-masonry', get_template_directory_uri() . '/js/masonry-settings.js', array('masonry'), '20140401', true );
-    
+    wp_enqueue_script( 'akvs-masonry', get_template_directory_uri() . '/js/masonry-settings.js', array( 'masonry' ), '20140401', true );
+
     wp_enqueue_script( 'akvs-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
