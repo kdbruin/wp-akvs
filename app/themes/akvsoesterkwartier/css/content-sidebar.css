@@ -9,7 +9,7 @@ Global layout
   width: 380px;
   float: right;
   padding: 4rem;
-  background: white; }
+  background: #fff; }
 
 .site-footer {
   clear: both;
@@ -57,3 +57,5 @@ Global layout
     max-size: 78rem;
     float: none;
     margin: 1em auto 0; } }
+
+/*# sourceMappingURL=content-sidebar.css.map */

@@ -54,15 +54,17 @@ if ( !function_exists( 'akvs_post_nav' ) ) :
             return;
         }
         ?>
-        <nav class="navigation post-navigation" role="navigation">
-            <h1 class="screen-reader-text"><?php _e( 'Post navigation', 'akvs' ); ?></h1>
-            <div class="nav-links">
-                <?php
-                previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>&nbsp;%title', 'Previous post link', 'akvs' ) );
-                next_post_link( '<div class="nav-next">%link</div>', _x( '%title&nbsp;<span class="meta-nav">&rarr;</span>', 'Next post link', 'akvs' ) );
-                ?>
-            </div><!-- .nav-links -->
-        </nav><!-- .navigation -->
+	<nav class="navigation post-navigation" role="navigation">
+	    <div class="post-nav-box clear">
+		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'akvs' ); ?></h1>
+		<div class="nav-links">
+		    <?php
+		    previous_post_link( '<div class="nav-previous"><div class="nav-indicator">' . _x( 'Previous Post:', 'Previous post', 'akvs' ) . '</div><h1>%link</h1></div>', '%title' );
+		    next_post_link(     '<div class="nav-next"><div class="nav-indicator">' . _x( 'Next Post:', 'Next post', 'akvs' ) . '</div><h1>%link</h1></div>', '%title' );
+		    ?>
+		</div><!-- .nav-links -->
+	    </div><!-- .post-nav-box -->
+	</nav><!-- .navigation -->
         <?php
     }
 
@@ -73,26 +75,25 @@ if ( !function_exists( 'akvs_posted_on' ) ) :
     /**
      * Prints HTML with meta information for the current post-date/time and author.
      */
-    function akvs_posted_on()
-    {
-        $time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
-        if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) )
-        {
-            $time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
-        }
+    function akvs_posted_on() {
+	$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
+	if (get_the_time('U') !== get_the_modified_time('U')) {
+	    $time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
+	}
 
-        $time_string = sprintf( $time_string, esc_attr( get_the_date( 'c' ) ), esc_html( get_the_date() ), esc_attr( get_the_modified_date( 'c' ) ), esc_html( get_the_modified_date() )
-        );
+	$time_string = sprintf(
+	    $time_string, esc_attr(get_the_date('c')), esc_html(get_the_date()), esc_attr(get_the_modified_date('c')), esc_html(get_the_modified_date())
+	);
 
-        $posted_on = sprintf(
-            _x( 'Posted on %s', 'post date', 'akvs' ), '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
-        );
+	$posted_on = sprintf(
+	    _x('%s', 'post date', 'akvs'), '<a href="' . esc_url(get_permalink()) . '" rel="bookmark">' . $time_string . '</a>'
+	);
 
-        $byline = sprintf(
-            _x( 'by %s', 'post author', 'akvs' ), '<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
-        );
+	$byline = sprintf(
+	    _x('Written by %s', 'post author', 'akvs'), '<span class="author vcard"><a class="url fn n" href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '">' . esc_html(get_the_author()) . '</a></span>'
+	);
 
-        echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
+	echo '<span class="byline">' . $byline . '</span><span class="posted-on">' . $posted_on . '</span>';
     }
 
 endif;
