@@ -14,6 +14,6 @@
 - composer.lock
 - app/plugins/debug*
 - app/plugins/monster-widget
-- app/themes/akvsoesterkwartier/sass
+- app/themes/akvs/css/sass
 - app/upgrade
 - app/uploads

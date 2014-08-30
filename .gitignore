@@ -19,4 +19,5 @@ app/plugins/*
 # Themes
 app/themes/*
 !app/themes/.gitkeep
-!app/themes/akvsoesterkwartier
+!app/themes/akvs
+!app/themes/my-akvs

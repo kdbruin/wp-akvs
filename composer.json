@@ -20,6 +20,19 @@
       }
     },
     {
+      "type": "package",
+      "package": {
+	"name": "simone",
+        "type": "wordpress-theme",
+	"version": "1.0.8.1",
+        "source": {
+	  "type": "git",
+	  "url": "https://github.com/mor10/simone.git",
+	  "reference": "master"
+        }
+      }
+    },
+    {
       "type": "vcs",
       "url": "ssh://filevault.localdomain/home/git/private/akvs-plugin.git"
     }
@@ -32,7 +45,8 @@
     "wpackagist-plugin/developer": "1.2.5",
     "wpackagist-plugin/regenerate-thumbnails": "2.2.4",
     "wpackagist-plugin/wordpress-importer": "0.6.1",
-    "kdb/akvs-plugin": "dev-master"
+    "kdb/akvs-plugin": "dev-master",
+    "simone": "1.0.8.1"
   },
   "extra": {
     "installer-paths": {
