@@ -1,2 +1,8 @@
 $size__site-main: 100%;
-$size__site-sidebar: 25%;
+$size__site-sidebar: 380px;
+// size in rem and should be used with the max-size mixin
+$size__site-content: 78;
+
+// media query breakpoints
+$size__breakpoint-sidebar: 1160px;
+$size__breakpoint-large-screen: 1540px;
