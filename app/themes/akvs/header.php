@@ -24,10 +24,16 @@
 
             <header id="masthead" class="site-header" role="banner">
                 <div class="site-branding">
-                    <img class="site-logo" src="<?php echo get_template_directory_uri() . '/images/akvs-logo.jpg'; ?>" height="180" width="230" />
-                    <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-                    <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-                </div>
+		    <div class="site-logo">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+			    <img src="<?php echo get_template_directory_uri() . '/images/akvs-logo.jpg'; ?>" alt="<?php _e( 'AKV Soesterkwartier Logo', 'akvs' ); ?>" />
+			</a>
+		    </div>
+		    <div class="site-title-box">
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+		    </div>
+		</div>
 
                 <nav id="site-navigation" class="main-navigation" role="navigation">
                     <button class="menu-toggle"><?php _e( 'Primary Menu', 'akvs' ); ?></button>

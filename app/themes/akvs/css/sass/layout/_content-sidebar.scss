@@ -59,8 +59,8 @@
 @media screen and (max-width: $size__breakpoint-sidebar - 1) {
     .site-content .widget-area {
 	width: auto;
-        max-width: (10 * $size__site-content) + px;
+        @include max-width($size__site-content);
 	float: none;
 	margin: 1em auto 0;
-    }    
+    }
 }

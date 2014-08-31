@@ -524,17 +524,24 @@ a {
 X.X Header
 --------------------------------------------------------------*/
 .site-branding {
-  padding: 6rem 0;
-  text-align: center; }
+  padding: 3rem 0;
+  overflow: auto;
+  height: auto; }
 
-.site-icon {
-  display: inline-block;
-  max-height: 200px;
-  width: auto;
-  float: left; }
+.site-logo {
+  float: left;
+  padding-left: 4rem; }
+  .site-logo img {
+    width: 230px;
+    height: 150px;
+    max-width: 230px;
+    max-height: 150px; }
+
+.site-title-box {
+  float: left;
+  padding: 2rem 0 1rem 4rem; }
 
 .site-title {
-  display: inline-block;
   font-weight: 700;
   font-size: 40px;
   font-size: 4rem;
@@ -543,11 +550,30 @@ X.X Header
   padding-bottom: 1rem; }
 
 .site-description {
-  display: inline-block;
   font-weight: 100;
   font-size: 20px;
   font-size: 2rem; }
 
+.site-branding a {
+  text-decoration: none; }
+
+.site-title a,
+.site-description {
+  color: #000; }
+
+@media screen and (max-width: 720px) {
+  .site-branding {
+    padding: 0; }
+
+  .site-logo {
+    display: none; }
+
+  .site-title-box {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 1rem; } }
 /*--------------------------------------------------------------
 9.0 Widgets
 --------------------------------------------------------------*/

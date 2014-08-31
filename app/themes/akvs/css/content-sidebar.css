@@ -54,6 +54,7 @@ Layout: Content-Sidebar
   .site-content .widget-area {
     width: auto;
     max-width: 780px;
+    max-width: 78rem;
     float: none;
     margin: 1em auto 0; } }
 

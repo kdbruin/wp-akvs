@@ -2,7 +2,10 @@ $size__site-main: 100%;
 $size__site-sidebar: 380px;
 // size in rem and should be used with the max-size mixin
 $size__site-content: 78;
+$size__site-logo-width: 230px;
+$size__site-logo-height: 150px;
 
 // media query breakpoints
+$size__breakpoint-header: 720px;
 $size__breakpoint-sidebar: 1160px;
 $size__breakpoint-large-screen: 1540px;
