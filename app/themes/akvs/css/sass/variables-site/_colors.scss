@@ -6,7 +6,15 @@ $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
-$color__background-site-branding: #2c86ba;
+$color__background-site-branding: #fff;
+
+$color__menu-background-main: #313131;
+$color__menu-background-submenu: #4d4d4d;
+$color__menu-background-current-main: #fff;
+$color__menu-background-current-submenu: $color__menu-background-main;
+$color__menu-item: #fff;
+$color__menu-current-main: $color__menu-background-current-submenu;
+$color__menu-current-submenu: $color__menu-background-current-main;
 
 $color__text-screen: #21759b;
 $color__text-input: #666;
