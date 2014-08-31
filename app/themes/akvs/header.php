@@ -36,7 +36,7 @@
 		</div>
 
                 <nav id="site-navigation" class="main-navigation" role="navigation">
-                    <h1 class="menu-toggle"><?php _e( 'Primary Menu', 'akvs' ); ?></h1>
+                    <h1 class="menu-toggle"><?php _e( 'Menu', 'akvs' ); ?></h1>
                     <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
                 </nav><!-- #site-navigation -->
             </header><!-- #masthead -->
