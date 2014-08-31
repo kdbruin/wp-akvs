@@ -33,6 +33,7 @@ and Blueprint http://www.blueprintcss.org/
 6.0 - Accessibility
 7.0 - Alignments
 8.0 - Clearings
+X.X - Header
 9.0 - Widgets
 10.0 - Content
 	10.1 - Posts and pages
@@ -518,6 +519,34 @@ a {
 .site-content:after,
 .site-footer:after {
   clear: both; }
+
+/*--------------------------------------------------------------
+X.X Header
+--------------------------------------------------------------*/
+.site-branding {
+  padding: 6rem 0;
+  text-align: center; }
+
+.site-icon {
+  display: inline-block;
+  max-height: 200px;
+  width: auto;
+  float: left; }
+
+.site-title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 40px;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: normal;
+  padding-bottom: 1rem; }
+
+.site-description {
+  display: inline-block;
+  font-weight: 100;
+  font-size: 20px;
+  font-size: 2rem; }
 
 /*--------------------------------------------------------------
 9.0 Widgets

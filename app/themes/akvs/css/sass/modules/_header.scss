@@ -1,0 +1,29 @@
+// Site header
+
+.site-branding {
+    padding: 6rem 0;
+    text-align: center;
+    //background: $color__background-site-branding;
+}
+
+.site-icon {
+    display: inline-block;
+    max-height: 200px;
+    width: auto;
+    float: left;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: 700;
+    @include font-size(4);
+    text-transform: uppercase;
+    line-height: normal;
+    padding-bottom: 1rem;
+}
+
+.site-description {
+    display: inline-block;
+    font-weight: 100;
+    @include font-size(2);
+}

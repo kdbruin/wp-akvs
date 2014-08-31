@@ -8,7 +8,7 @@ Layout: Content-Sidebar
 .site-content .widget-area {
   width: 380px;
   float: right;
-  color: #fff;
+  background: #fff;
   padding: 4rem; }
 
 .site-footer {
