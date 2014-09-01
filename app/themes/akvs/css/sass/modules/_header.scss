@@ -1,29 +1,41 @@
 // Site header
 
-.site-branding {
-    background: $color__background-site-branding;
-    padding: 3rem 0;
-    overflow: auto;
-    height: auto;
-}
-
-.site-logo {
-    float: left;
-    padding-left: 4rem;
-
+.header-image {
     img {
-	width: $size__site-logo-width;
-	height: $size__site-logo-height;
-	max-width: $size__site-logo-width;
-	max-height: $size__site-logo-height;
+        display: block;
+        margin: 0 auto;
     }
 }
 
-.site-title-box {
-    float: left;
-    padding: 2rem 0 1rem 4rem;
+.header-background-image {
+    background: no-repeat center;
+    background-size: cover !important;
+    -moz-background-size: cover !important;
+    -webkit-background-size: cover !important;
+
+    .title-box {
+        background: $color__background-title-box;
+    }
 }
 
+.site-branding {
+    padding: 6rem 0;
+    text-align: center;
+    background: $color__background-site-branding;
+    
+    a { 
+        text-decoration: none; 
+    }
+}
+
+.title-box {
+    width: $size__header-title-box;
+    max-width: 75%;
+    padding: 4rem;
+    margin: 0 auto;
+    border: solid 1px $color__border-title-box;
+}
+                    
 .site-title {
     font-weight: 700;
     @include font-size(4);
@@ -37,29 +49,21 @@
     @include font-size(2);
 }
 
-.site-branding a {
-    text-decoration: none;
-}
-
 .site-title a,
 .site-description {
     color: $color__text-site-title;
 }
 
+/* Header responsive */
 @media screen and (max-width: $size__breakpoint-header) {
     .site-branding {
-	padding: 0;
+        padding: 0;
     }
     
-    .site-logo {
-	display: none;
-    }
-    
-    .site-title-box {
-	text-align: center;
-	width: 100%;
-	max-width: 100%;
-	margin: 0;
-	padding: 1rem;
+    .title-box {
+        max-width: 100%;
+        margin: 0;
+        padding: 4rem;
+        border: none;
     }
 }

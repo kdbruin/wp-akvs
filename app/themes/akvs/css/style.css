@@ -604,24 +604,31 @@ a {
 /*--------------------------------------------------------------
 X.X Header
 --------------------------------------------------------------*/
+.header-image img {
+  display: block;
+  margin: 0 auto; }
+
+.header-background-image {
+  background: no-repeat center;
+  background-size: cover !important;
+  -moz-background-size: cover !important;
+  -webkit-background-size: cover !important; }
+  .header-background-image .title-box {
+    background: rgba(51, 51, 51, 0.7); }
+
 .site-branding {
-  background: #fff;
-  padding: 3rem 0;
-  overflow: auto;
-  height: auto; }
+  padding: 6rem 0;
+  text-align: center;
+  background: #2c86ba; }
+  .site-branding a {
+    text-decoration: none; }
 
-.site-logo {
-  float: left;
-  padding-left: 4rem; }
-  .site-logo img {
-    width: 230px;
-    height: 150px;
-    max-width: 230px;
-    max-height: 150px; }
-
-.site-title-box {
-  float: left;
-  padding: 2rem 0 1rem 4rem; }
+.title-box {
+  width: 700px;
+  max-width: 75%;
+  padding: 4rem;
+  margin: 0 auto;
+  border: solid 1px #fff; }
 
 .site-title {
   font-weight: 700;
@@ -636,26 +643,20 @@ X.X Header
   font-size: 20px;
   font-size: 2rem; }
 
-.site-branding a {
-  text-decoration: none; }
-
 .site-title a,
 .site-description {
-  color: #000; }
+  color: #fff; }
 
-@media screen and (max-width: 720px) {
+/* Header responsive */
+@media screen and (max-width: 750px) {
   .site-branding {
     padding: 0; }
 
-  .site-logo {
-    display: none; }
-
-  .site-title-box {
-    text-align: center;
-    width: 100%;
+  .title-box {
     max-width: 100%;
     margin: 0;
-    padding: 1rem; } }
+    padding: 4rem;
+    border: none; } }
 /*--------------------------------------------------------------
 9.0 Widgets
 --------------------------------------------------------------*/

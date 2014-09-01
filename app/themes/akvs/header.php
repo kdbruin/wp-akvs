@@ -23,16 +23,24 @@
             <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'akvs' ); ?></a>
 
             <header id="masthead" class="site-header" role="banner">
+                
+            	<?php if ( get_header_image() && ('blank' == get_header_textcolor()) ) : ?>
+                <div class="header-image">
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                        <img src="<?php header_image(); ?>" width="< ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
+                    </a>
+                </div>
+                <?php endif; // End header image check. ?>
+            
+		<?php if ( get_header_image() && !('blank' == get_header_textcolor()) ) : ?>
+                <div class="site-branding header-background-image" style="background-image: url('<?php header_image(); ?>')">
+                <?php else : ?>
                 <div class="site-branding">
-		    <div class="site-logo">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			    <img src="<?php echo get_template_directory_uri() . '/images/akvs-logo.jpg'; ?>" alt="<?php _e( 'AKV Soesterkwartier Logo', 'akvs' ); ?>" />
-			</a>
-		    </div>
-		    <div class="site-title-box">
+                <?php endif; ?>
+                    <div class="title-box">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		    </div>
+                    </div>
 		</div>
 
                 <nav id="site-navigation" class="main-navigation" role="navigation">
