@@ -23,30 +23,41 @@
             <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'akvs' ); ?></a>
 
             <header id="masthead" class="site-header" role="banner">
-                
-            	<?php if ( get_header_image() && ('blank' == get_header_textcolor()) ) : ?>
-                <div class="header-image">
-                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-                        <img src="<?php header_image(); ?>" width="< ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
-                    </a>
-                </div>
-                <?php endif; // End header image check. ?>
-            
-		<?php if ( get_header_image() && !('blank' == get_header_textcolor()) ) : ?>
-                <div class="site-branding header-background-image" style="background-image: url('<?php header_image(); ?>')">
-                <?php else : ?>
-                <div class="site-branding">
-                <?php endif; ?>
-                    <div class="title-box">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-                    </div>
-		</div>
 
-                <nav id="site-navigation" class="main-navigation" role="navigation">
-                    <h1 class="menu-toggle"><?php _e( 'Menu', 'akvs' ); ?></h1>
-                    <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-                </nav><!-- #site-navigation -->
+                <?php if ( get_header_image() && ('blank' == get_header_textcolor()) ) : ?>
+                    <div class="header-image">
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                            <img src="<?php header_image(); ?>" width="< ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
+                        </a>
+                    </div>
+                <?php endif; // End header image check. ?>
+
+                <?php if ( get_header_image() && !('blank' == get_header_textcolor()) ) : ?>
+                    <div class="site-branding header-background-image" style="background-image: url('<?php header_image(); ?>')">
+                    <?php else : ?>
+                        <div class="site-branding">
+                        <?php endif; ?>
+                        <div class="title-box">
+                            <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                            <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+                        </div>
+                    </div>
+
+                    <nav id="site-navigation" class="main-navigation" role="navigation">
+                        <h1 class="menu-toggle"><?php _e( 'Menu', 'akvs' ); ?></h1>
+                        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+                        <div class="search-toggle">
+                            <i class="fa fa-search"></i>
+                            <a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'akvs' ); ?></a>
+                        </div>
+                        <?php akvs_social_menu(); ?>
+                    </nav><!-- #site-navigation -->
             </header><!-- #masthead -->
 
+            <div id="search-container" class="search-box-wrapper clear">
+                <div class="search-box clear">
+                    <?php get_search_form(); ?>
+                </div>
+            </div>
+            
             <div id="content" class="site-content">

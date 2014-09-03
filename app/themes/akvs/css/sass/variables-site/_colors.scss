@@ -8,6 +8,7 @@ $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 $color__background-site-branding: #2c86ba;
 $color__background-title-box: rgba(51, 51, 51, .7);
+$color__background-footer: #313131;
 
 $color__menu-background-main: #313131;
 $color__menu-background-submenu: #4d4d4d;
@@ -16,6 +17,8 @@ $color__menu-background-current-submenu: $color__menu-background-main;
 $color__menu-item: #fff;
 $color__menu-current-main: $color__menu-background-current-submenu;
 $color__menu-current-submenu: $color__menu-background-current-main;
+$color__menu-background-search: $color__menu-background-submenu;
+$color__menu-background-search-box: #fff;
 
 $color__text-screen: #21759b;
 $color__text-input: #666;
@@ -26,6 +29,9 @@ $color__link-hover: midnightblue;
 $color__text-main: #404040;
 $color__text-heading: #000;
 $color__text-site-title: #fff;
+$color__text-footer: #fff;
+$color__link-footer: #fff;
+$color__link-widget: #000;
 
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;
@@ -33,3 +39,5 @@ $color__border-button-focus: #aaa #bbb #bbb;
 $color__border-input: #ccc;
 $color__border-abbr: #666;
 $color__border-title-box: #fff;
+$color__border-footer: #fff;
+$color__border-widget: #fff;

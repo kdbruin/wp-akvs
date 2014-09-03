@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------
+ Footer
+--------------------------------------------------------------*/
+
+.site-footer {
+    padding: 2em;
+    font-family: $font__footer;
+    @include font-size(1.6);
+    color: $color__text-footer;
+    background: $color__background-footer;
+
+    a {
+        color: $color__link-footer;
+    }
+}
+
+.site-info { 
+    text-align: center; 
+}

@@ -35,6 +35,7 @@ and Blueprint http://www.blueprintcss.org/
 7.0 - Alignments
 8.0 - Clearings
 X.X - Header
+Y.Y - Footer
 9.0 - Widgets
 10.0 - Content
 	10.1 - Posts and pages
@@ -92,6 +93,11 @@ X.X - Header
 X.X Header
 --------------------------------------------------------------*/
 @import "modules/header";
+
+/*--------------------------------------------------------------
+Y.Y Footer
+--------------------------------------------------------------*/
+@import "modules/footer";
 
 /*--------------------------------------------------------------
 9.0 Widgets

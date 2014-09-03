@@ -1,13 +1,115 @@
-.widget {
-	margin: 0 0 1.5em;
+/*--------------------------------------------------------------
+9.0 Widgets
+--------------------------------------------------------------*/
+.widget-title {
+    margin-bottom: 1em;    
+    @include font-size(2.4);
+    border-bottom: 2px solid $color__border-widget;    
+}
 
-	/* Make sure select elements fit in widgets */
-	select {
-		max-width: 100%;
-	}
+.widget {
+    margin: 0 0 4em;
+    font-family: $font__widget;
+    @include font-size(1.6);
+
+    a {
+        font-weight: 700;
+        color: $color__link-widget;
+        text-decoration: none;
+    }
+
+    ul, ol {
+        padding: 0;
+        margin: -1em 0 0;
+        list-style-type: none;
+    }
+
+    li {
+        padding: 1em 0 0;
+
+        ul, ol { 
+            margin-top: 0;
+        }
+
+        li { 
+            margin-left: 1.5em; 
+        }
+    }
+    
+    /* Make sure select elements fit in widgets */
+    select {
+	max-width: 100%;
+    }
 }
 
 /* Search widget */
 .widget_search .search-submit {
 	display: none;
+}
+
+.footer-widgets {
+    margin: 0 auto;
+
+    .widget-title,
+    .widget a {
+        color: $color__text-footer;
+        border-color: $color__border-footer;
+    }
+
+    .widget {
+        float: left;
+        width: $size__site-footer-widget;
+        margin: 0 4rem 8rem 4rem;
+    }
+}
+
+.widget_recent_entries li:before,
+.widget_recent_comments li:before,
+.widget_archive li:before {
+    display: block;
+    float: left;
+    padding-top: 2px;
+    margin-left: -2.5em;
+    font-family: $font__fa;
+    @include font-size(1.4);
+} 
+
+.widget_recent_entries li,
+.widget_recent_comments li { margin: 0 0 .5em 2.5em; }
+
+.widget_recent_entries li:before { content: "\f036"; }
+
+.widget_recent_comments li:before { content: "\f075"; }
+
+.widget_archive li { margin: 0 0 0 2.5em; }
+
+.widget_archive li:before { content: "\f187"; }
+
+.widget_nav_menu a,
+.widget_pages a {
+    display: block;
+    padding: 1em 0;
+    border-bottom: solid 1px hsl(0, 0%, 90%);
+}
+
+.widget_nav_menu li,
+.widget_pages li { padding-top: 0; }
+
+.widget_rss li { margin-bottom: .5em; }
+
+.widget_rss .rss-date,
+.widget_rss cite {
+    display: block;
+    font-size: 85%;
+}
+
+/* Footer widgets responsive */
+@media screen and (max-width: $size__breakpoint-footer) {
+    #footer-widgets { width: 100% !important; }
+    
+    .footer-widgets .widget {
+        float: none;
+        width: 100%;
+        margin: 0 0 8rem;
+    }
 }
