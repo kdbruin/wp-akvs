@@ -2,8 +2,13 @@
 Theme Name: AKV Soesterkwartier
 Layout: Content-Sidebar
 */
-.site-main {
+.site-content {
+  padding-bottom: 4em;
   background: #b2b2b2; }
+
+.single .site-content,
+.page .site-content {
+  background: #fff; }
 
 .site-content .widget-area {
   width: 380px;

@@ -1,5 +1,11 @@
-.site-main {
+.site-content {
+    padding-bottom: 4em;
     background: $color__background-main;
+}
+
+.single .site-content,
+.page .site-content {
+    background: $color__background-single;
 }
 
 .site-content .widget-area {
