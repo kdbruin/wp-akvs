@@ -2,6 +2,7 @@
 - .DS_Store
 - .listing
 - .git*
+- .htaccess
 - .rsync-excludes
 - .lftp-mirror
 - .env*
