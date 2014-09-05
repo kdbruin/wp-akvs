@@ -11,7 +11,7 @@
     a { 
         text-decoration: underline; 
     }
-                    
+
     h1, h2, h3, h4, h5, h6 {
         margin-bottom: .4em;
     }
@@ -52,7 +52,7 @@
 }
 
 /* Smaller fonts for smaller screens */
-@media screen and (max-width: 680px) {
+@media screen and (max-width: $size__breakpoint-header) {
     .entry-title {
         @include font-size(3.2);
         line-height: 1.3em;
@@ -102,7 +102,7 @@
 
     a {
         color: $color__link-meta;
-        
+
         &:hover {
             color: $color__link-meta-hover;
         }
@@ -144,30 +144,114 @@
 }
 
 .sticky {
-	display: block;
+    display: block;
 }
 
 .hentry {
-	margin: 0 0 1.5em;
+    margin: 0 0 1.5em;
 }
 
 .byline,
 .updated:not(.published){
-	display: none;
+    display: none;
 }
 
 .single .byline,
 .group-blog .byline {
-	display: inline;
+    display: inline;
 }
 
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+    margin: 1.5em 0 0;
 }
 
 .page-links {
-	clear: both;
-	margin: 0 0 1.5em;
+    clear: both;
+    margin: 0 0 1.5em;
+}
+
+@media screen and (min-width: $size__breakpoint-meta){
+    .single {
+        .entry-meta {
+            width: 120px;
+            margin-left: -160px;
+            float: left;
+            text-align: right;
+        }
+
+        .written-by {
+            display: block;
+        }
+
+        .byline, .posted-on {
+            display: block;
+            margin-bottom: 1em;
+        }        
+    }
+}
+@media screen and (max-width: ($size__breakpoint-meta - 1)){
+    .written-by:after {
+        content: ' ';
+    }
+    .posted-on:before {
+        content: ' on ';
+    }
+    .posted-on:after {
+        content: '.';
+    }
+}
+
+/* Blockquotes */
+blockquote {
+    padding: 1em 1.5em 0;
+    margin-bottom: 1em;
+    font-style: italic;
+    border-top: solid 1px $color__border-blockquote;
+    border-bottom: solid 1px $color__border-blockquote;
+
+    em { 
+        font-style: normal; 
+    }
+
+    cite {
+        display: block;
+        margin-top: 1em;
+        margin-left: 40%;
+        @include font-size(1.8);
+        font-family: $font__cite;
+        font-style: normal;
+        line-height: 1.5em;
+        text-align: right;
+    }
+}
+
+blockquote.alignleft {
+    width: 50%;
+    float: left;
+    padding: 1em 0 0;
+    margin-right: 2em;
+}
+
+blockquote.alignright {
+    width: 50%;
+    float: right;
+    padding: 1em 0 0;
+    margin-left: 2em;
+}
+
+/* Blockquotes responsive */
+/* Optional rules that set blockquotes to full width on smaller screens */
+@media screen and (max-width: $size__breakpoint-header) {
+    blockquote.alignleft,
+    blockquote.alignright { width: 40%; }
+}
+
+@media screen and (max-width: $size__breakpoint-menu) {
+    blockquote.alignleft,
+    blockquote.alignright {
+        width: 100%;
+        padding: 1em 1.5em 0;   
+    }
 }

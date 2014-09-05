@@ -10,6 +10,9 @@ $color__background-ins: #fff9c0;
 $color__background-site-branding: #2c86ba;
 $color__background-title-box: rgba(51, 51, 51, .7);
 $color__background-footer: #313131;
+$color__background-caption: #e5e5e5;
+$color__background-gallery-caption: hsla(0, 0%, 0%, .8);
+$color__background-gallery-item: #333;
 
 $color__menu-background-main: #313131;
 $color__menu-background-submenu: #4d4d4d;
@@ -34,6 +37,7 @@ $color__link-footer: #fff;
 $color__link-widget: #000;
 $color__link-meta-hover: #000;
 $color__link-meta: #333;
+$color__text-caption: #fff;
 
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;
@@ -43,3 +47,5 @@ $color__border-abbr: #666;
 $color__border-title-box: #fff;
 $color__border-footer: #fff;
 $color__border-widget: #fff;
+$color__border-post-nav: hsl(0, 0%, 80%);
+$color__border-blockquote: hsl(0, 0%, 80%);

@@ -13,3 +13,16 @@
 .aligncenter {
 	@include center-block;
 }
+
+/* Alignment responsive */
+@media screen and (min-width: $size__breakpoint-alignleft) {
+    .alignleft {
+        margin-left: -160px; 
+    }
+}
+
+@media screen and (min-width: $size__breakpoint-alignright) {
+    .alignright { 
+        margin-right: -160px; 
+    }
+}
