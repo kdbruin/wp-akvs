@@ -8,6 +8,7 @@
 - .externalToolBuilders
 - .project
 - .settings
+- .sass-cache
 - nbproject
 - build.xml
 - composer.json

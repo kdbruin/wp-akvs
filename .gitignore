@@ -8,6 +8,9 @@ nbproject/private/
 vendor
 wp
 
+# Sass cache
+.sass-cache
+
 # Uploads, etc
 app/uploads
 app/upgrade
