@@ -48,6 +48,8 @@
     a[href*="instagram.com"]::before { content: '\f16d'; }
 
     a[href*="linkedin.com"]::before { content: '\f0e1'; }
+
+    a[href*="/feed/"]::before { content: '\f09e'; }
 }
 
 @media screen and (max-width: $size__breakpoint-menu) {
