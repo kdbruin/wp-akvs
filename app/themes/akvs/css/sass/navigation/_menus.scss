@@ -242,3 +242,14 @@
     border-top: $color__border-post-nav solid 1px;
     border-bottom: $color__border-post-nav solid 1px; 
 }
+
+.comment-navigation {
+    padding: 1em 0;
+    margin: 3em 0;
+    border-top: $color__border-post-nav solid 1px;
+    border-bottom: $color__border-post-nav solid 1px;  
+
+    i {
+	margin: 0 1em;
+    }
+}

@@ -1,6 +1,131 @@
-.comment-content a {
-	word-wrap: break-word;
+.comments-title {
+    font-weight: 900;
+    @include font-size(3.6);
 }
-.bypostauthor {
+
+.comments-area > ol {
+    padding: 0;
+    margin: 2em 0;
+    list-style-type: none;
+    
+    ol.children {
+	list-style-type: none;
+    }
+}
+
+.comment-list ol {
+    margin-left: 50px;
+}
+
+.comment-meta {
+    margin-bottom: 1em;
+}
+
+.comment-author {
+    .avatar {
+	width: 50px;
 	display: block;
+	float: left;
+	margin-right: 20px;
+    }
+
+    .fn {
+	font-weight: 900;
+	font-family: $font__comment-meta;
+	@include font-size(2.0);
+    }
+}
+
+.comment-metadata {
+    @include font-size(1.4);
+}
+
+.comment-content {
+    font-size: 90%;
+}
+
+.comment-content,
+.reply {
+    margin-left: 70px;
+}
+
+.comment-body {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: solid $color__border-post-nav 1px;
+}
+
+.bypostauthor > .comment-body {
+    position: relative;
+    padding: 1em;
+    margin-bottom: 2em;
+    background: hsl(0, 0%, 93%);
+    border: none;
+}
+
+.comment-content {
+    a {
+	word-wrap: break-word;
+    }
+
+    ol {
+	margin-left: 1.5em;
+    }
+}
+
+.reply {
+    font-weight: 600;
+    font-family: $font__comment-meta;
+    @include font-size(1.4);
+}
+
+/* Comments responsive */
+@media screen and (max-width: $size__breakpoint-menu) {    
+    .comment-list ol {
+	margin-left: 0;
+    }
+
+    .comment-content ol {
+	margin-left: 1.5em;
+    }
+
+    .comment-content,
+    .reply {
+	margin-left: 0;
+    }
+} 
+
+.comment-reply-title {
+    margin-bottom: .5em;
+    font-weight: 900;
+    @include font-size(3.0);
+}
+
+.comment-form {
+    padding-bottom: 4rem;
+    font-family: $font__comment-meta;
+    @include font-size(1.6);
+
+    textarea {
+	font-family: $font__main;
+	@include font-size(1.8);
+    }
+
+    label {
+	display: block;
+    }
+}
+
+.required {
+    color: red;
+}
+
+.comment-awaiting-moderation {
+    /* Green background color to make moderation seem less aggressive */
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    font-family: $font__comment-meta;
+    @include font-size(1.6);
+    color: $color__text-comment-mod;
+    background: $color__background-comment-mod;
 }
