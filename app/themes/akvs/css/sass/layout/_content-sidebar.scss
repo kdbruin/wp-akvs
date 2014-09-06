@@ -1,6 +1,6 @@
 .site-content {
     padding-bottom: 4em;
-    background: $color__background-main;
+    background: $color__background-main url(../images/pattern.svg) repeat;
 }
 
 .single .site-content,
@@ -33,6 +33,40 @@
     margin: 0 auto;
 }
 
+.index-box {
+    @include max-width(78);
+    padding: 1em 0 2em;
+    margin: 0 auto 2em;
+    background: $color__background-body;
+
+    blockquote.alignleft,
+    blockquote.alignright {
+        background: $color__background-body;
+        border: none;
+    }
+}
+
+@media screen and (max-width: $size__breakpoint-sidebar - 1) {
+    .site-content .widget-area {
+	width: auto;
+        @include max-width($size__site-content);
+	float: none;
+	margin: 1em auto 0;
+    }
+}
+
+@media screen and (min-width: $size__breakpoint-alignright) {
+    .index-box blockquote.alignright { 
+        padding-right: 2em;
+    }
+}
+
+@media screen and (min-width: $size__breakpoint-alignleft) {
+    .index-box blockquote.alignleft {
+        padding-left: 2em;
+    }
+}
+
 @media screen and (min-width: $size__breakpoint-large-screen) {
     .content-area {
         float: left;
@@ -55,16 +89,8 @@
     .tag-links,
     .post-navigation,
     .comments-area,
-    .paging-navigation {
+    .paging-navigation,
+    .index-box {
 	margin-right: 0;
-    }
-}
-
-@media screen and (max-width: $size__breakpoint-sidebar - 1) {
-    .site-content .widget-area {
-	width: auto;
-        @include max-width($size__site-content);
-	float: none;
-	margin: 1em auto 0;
     }
 }

@@ -6,6 +6,14 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
+    <?php if (has_post_thumbnail()) : ?>
+    <div class="single-post-thumbnail clear">
+        <div class="image-shifter">
+            <?php echo the_post_thumbnail('large-thumb'); ?>
+        </div>
+    </div>
+    <?php endif; ?>
+    
     <header class="entry-header">
         <?php
         /* translators: used between list items, there is a space after the comma */

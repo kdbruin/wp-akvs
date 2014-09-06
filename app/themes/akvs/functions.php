@@ -42,6 +42,8 @@ if ( !function_exists( 'akvs_setup' ) ) :
          * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
          */
         add_theme_support( 'post-thumbnails' );
+        add_image_size( 'large-thumb', 1060, 650, true );
+        add_image_size( 'index-thumb', 780, 250, true );
 
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus( array(
@@ -125,7 +127,7 @@ function akvs_scripts()
 
     /* General scripts */
     wp_enqueue_script( 'akvs-enquire', get_template_directory_uri() . '/js/enquire.min.js', false, '20140429', true );
-    wp_enqueue_script( 'akvs-masonry', get_template_directory_uri() . '/js/masonry-settings.js', array('masonry'), '20140903', true );
+    wp_enqueue_script( 'akvs-masonry', get_template_directory_uri() . '/js/masonry-settings.js', array( 'masonry' ), '20140903', true );
 
     /* Navigation */
     wp_enqueue_script( 'akvs-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );

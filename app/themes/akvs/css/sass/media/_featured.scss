@@ -1,0 +1,30 @@
+/* Featured Images */
+.single-post-thumbnail { 
+    background: $color__background-main url(../images/pattern.svg) repeat; 
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: $size__breakpoint-alignright) {
+    .image-shifter {
+        width: 1060px;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: $size__breakpoint-large-screen) and (max-width: $size__breakpoint-alignright) {
+    .image-shifter {
+        margin-right: 380px;
+    }
+}
+
+@media screen and (min-width: ($size__breakpoint-large-screen - 100)) and (max-width: ($size__breakpoint-large-screen - 1)) {
+    .image-shifter {
+        width: 1060px; 
+        float: right;
+    }
+}

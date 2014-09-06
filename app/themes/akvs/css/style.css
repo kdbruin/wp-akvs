@@ -658,10 +658,10 @@ a {
   margin: 0 auto; }
 
 /* Alignment responsive */
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1320px) {
   .alignleft {
     margin-left: -160px; } }
-@media screen and (min-width: 1860px) {
+@media screen and (min-width: 1820px) {
   .alignright {
     margin-right: -160px; } }
 /*--------------------------------------------------------------
@@ -1038,7 +1038,6 @@ Y.Y Footer
 .hentry {
   margin: 0 0 1.5em; }
 
-.byline,
 .updated:not(.published) {
   display: none; }
 
@@ -1055,7 +1054,7 @@ Y.Y Footer
   clear: both;
   margin: 0 0 1.5em; }
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1320px) {
   .single .entry-meta {
     width: 120px;
     margin-left: -160px;
@@ -1066,15 +1065,20 @@ Y.Y Footer
   .single .byline, .single .posted-on {
     display: block;
     margin-bottom: 1em; } }
-@media screen and (max-width: 1359px) {
-  .written-by:after {
-    content: ' '; }
+.written-by:after {
+  content: ' '; }
 
-  .posted-on:before {
-    content: ' on '; }
+.posted-on:before {
+  content: ' on '; }
 
-  .posted-on:after {
-    content: '.'; } }
+.posted-on:after {
+  content: '.'; }
+
+@media screen and (min-width: 1320px) {
+  .single .written-by:after,
+  .single .posted-on:before,
+  .single .posted-on:after {
+    content: ''; } }
 /* Blockquotes */
 blockquote {
   padding: 1em 1.5em 0;
@@ -1299,29 +1303,8 @@ object {
   background: #333;
   overflow: hidden; }
 
-.gallery-columns-2 .gallery-item {
-  max-width: 50%; }
-
-.gallery-columns-3 .gallery-item {
-  max-width: 33.33%; }
-
 .gallery-columns-4 .gallery-item {
   max-width: 25%; }
-
-.gallery-columns-5 .gallery-item {
-  max-width: 20%; }
-
-.gallery-columns-6 .gallery-item {
-  max-width: 16.66%; }
-
-.gallery-columns-7 .gallery-item {
-  max-width: 14.28%; }
-
-.gallery-columns-8 .gallery-item {
-  max-width: 12.5%; }
-
-.gallery-columns-9 .gallery-item {
-  max-width: 11.11%; }
 
 .gallery-caption {
   position: absolute;
@@ -1348,5 +1331,28 @@ object {
   display: block;
   margin: 0 auto;
   border: none; }
+
+/*--------------------------------------------------------------
+12.3 Featured Images
+--------------------------------------------------------------*/
+/* Featured Images */
+.single-post-thumbnail {
+  background: #b2b2b2 url(../images/pattern.svg) repeat; }
+  .single-post-thumbnail img {
+    display: block;
+    margin: 0 auto; }
+
+@media screen and (min-width: 1820px) {
+  .image-shifter {
+    width: 1060px;
+    float: none;
+    margin: 0 auto; } }
+@media screen and (min-width: 1540px) and (max-width: 1820px) {
+  .image-shifter {
+    margin-right: 380px; } }
+@media screen and (min-width: 1440px) and (max-width: 1539px) {
+  .image-shifter {
+    width: 1060px;
+    float: right; } }
 
 /*# sourceMappingURL=style.css.map */

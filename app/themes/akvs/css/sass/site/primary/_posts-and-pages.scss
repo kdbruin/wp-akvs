@@ -151,7 +151,6 @@
     margin: 0 0 1.5em;
 }
 
-.byline,
 .updated:not(.published){
     display: none;
 }
@@ -191,15 +190,22 @@
         }        
     }
 }
-@media screen and (max-width: ($size__breakpoint-meta - 1)){
-    .written-by:after {
-        content: ' ';
-    }
-    .posted-on:before {
-        content: ' on ';
-    }
-    .posted-on:after {
-        content: '.';
+
+.written-by:after {
+    content: ' ';
+}
+.posted-on:before {
+    content: ' on ';
+}
+.posted-on:after {
+    content: '.';
+}
+
+@media screen and (min-width: $size__breakpoint-meta) {
+    .single .written-by:after,
+    .single .posted-on:before,
+    .single .posted-on:after {
+        content: '';
     }
 }
 
