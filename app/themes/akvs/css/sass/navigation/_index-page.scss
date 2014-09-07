@@ -1,0 +1,20 @@
+.paging-navigation ul {
+    margin: 0;
+}
+
+.paging-navigation li { display: inline; }
+
+a.page-numbers,
+span.page-numbers {
+     padding: .3em .7em;
+     color: $color__text-paging;
+}
+
+a:hover.page-numbers {
+    color: $color__text-paging-current;
+}
+
+.paging-navigation .current {
+    font-weight: bold;
+    color: $color__text-paging-current;
+}

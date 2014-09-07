@@ -26,11 +26,21 @@
 .tag-links,
 .post-navigation,
 .comments-area,
-.paging-navigation {
+.paging-navigation,
+.page-header {
     position: relative;
     @include max-width($size__site-content);
     padding: 0 4rem;
     margin: 0 auto;
+}
+
+.page-header,
+.paging-navigation {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    list-style-type: none;
+    background: $color__background-body;
 }
 
 .index-box {
@@ -90,6 +100,7 @@
     .post-navigation,
     .comments-area,
     .paging-navigation,
+    .page-header,
     .index-box {
 	margin-right: 0;
     }

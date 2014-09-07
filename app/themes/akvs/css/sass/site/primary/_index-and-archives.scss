@@ -1,0 +1,26 @@
+// Index and Archive pages
+
+.sticky-post {
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+}
+
+.continue-reading {
+    margin: 0 4rem;
+    font-weight: 900;
+    @include font-size(1.8);
+
+    i {
+	margin-left: .5em;
+    }
+}
+
+.taxonomy-description {
+    padding-top: 2rem;
+    margin: 2rem 0;
+    font-family: $font__meta;
+    font-style: italic;
+    border-top: 1px solid $color__border-meta;
+    border-bottom: 1px solid $color__border-meta;
+}

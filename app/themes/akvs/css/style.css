@@ -608,6 +608,27 @@ a {
     padding-left: .5em;
     padding-right: .5em; } }
 /*--------------------------------------------------------------
+5.4 Index page navigation
+--------------------------------------------------------------*/
+.paging-navigation ul {
+  margin: 0; }
+
+.paging-navigation li {
+  display: inline; }
+
+a.page-numbers,
+span.page-numbers {
+  padding: .3em .7em;
+  color: #333; }
+
+a:hover.page-numbers {
+  color: #000; }
+
+.paging-navigation .current {
+  font-weight: bold;
+  color: #000; }
+
+/*--------------------------------------------------------------
 6.0 Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers */
@@ -1113,7 +1134,7 @@ blockquote.alignright {
 
 /* Blockquotes responsive */
 /* Optional rules that set blockquotes to full width on smaller screens */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 780px) {
   blockquote.alignleft,
   blockquote.alignright {
     width: 40%; } }
@@ -1125,9 +1146,8 @@ blockquote.alignright {
 /*--------------------------------------------------------------
 10.2 Asides
 --------------------------------------------------------------*/
-.blog .format-aside .entry-title,
-.archive .format-aside .entry-title {
-  display: none; }
+.format-aside .entry-content {
+  margin-top: 1em; }
 
 /*--------------------------------------------------------------
 10.3 Comments
@@ -1238,6 +1258,30 @@ blockquote.alignright {
   background: #84bd68; }
 
 /*--------------------------------------------------------------
+10.4 Index and archives
+--------------------------------------------------------------*/
+.sticky-post {
+  position: absolute;
+  top: 1rem;
+  right: 3rem; }
+
+.continue-reading {
+  margin: 0 4rem;
+  font-weight: 900;
+  font-size: 18px;
+  font-size: 1.8rem; }
+  .continue-reading i {
+    margin-left: .5em; }
+
+.taxonomy-description {
+  padding-top: 2rem;
+  margin: 2rem 0;
+  font-family: Lato, sans-serif;
+  font-style: italic;
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf; }
+
+/*--------------------------------------------------------------
 11.0 Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
@@ -1342,6 +1386,25 @@ object {
     display: block;
     margin: 0 auto; }
 
+.front-index-thumbnail {
+  margin-bottom: -3.2em; }
+
+@media screen and (max-width: 779px) {
+  .front-index-thumbnail {
+    margin-bottom: 0; } }
+.single-post-thumbnail img,
+.front-index-thumbnail img {
+  display: block;
+  margin: 0 auto; }
+
+.has-thumbnail {
+  position: relative;
+  margin-top: -8em; }
+
+.small-index-thumbnail {
+  margin-top: -1em;
+  margin-bottom: 1em; }
+
 @media screen and (min-width: 1820px) {
   .image-shifter {
     width: 1060px;
@@ -1350,7 +1413,7 @@ object {
 @media screen and (min-width: 1540px) and (max-width: 1820px) {
   .image-shifter {
     margin-right: 380px; } }
-@media screen and (min-width: 1440px) and (max-width: 1539px) {
+@media screen and (min-width: 1440px) and (max-width: 1819px) {
   .image-shifter {
     width: 1060px;
     float: right; } }

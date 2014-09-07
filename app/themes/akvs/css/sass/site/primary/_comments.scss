@@ -31,7 +31,7 @@
 
     .fn {
 	font-weight: 900;
-	font-family: $font__comment-meta;
+	font-family: $font__meta;
 	@include font-size(2.0);
     }
 }
@@ -75,7 +75,7 @@
 
 .reply {
     font-weight: 600;
-    font-family: $font__comment-meta;
+    font-family: $font__meta;
     @include font-size(1.4);
 }
 
@@ -103,7 +103,7 @@
 
 .comment-form {
     padding-bottom: 4rem;
-    font-family: $font__comment-meta;
+    font-family: $font__meta;
     @include font-size(1.6);
 
     textarea {
@@ -124,7 +124,7 @@
     /* Green background color to make moderation seem less aggressive */
     padding: .5rem 1rem;
     margin: 1rem 0;
-    font-family: $font__comment-meta;
+    font-family: $font__meta;
     @include font-size(1.6);
     color: $color__text-comment-mod;
     background: $color__background-comment-mod;

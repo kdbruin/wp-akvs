@@ -249,7 +249,7 @@ blockquote.alignright {
 
 /* Blockquotes responsive */
 /* Optional rules that set blockquotes to full width on smaller screens */
-@media screen and (max-width: $size__breakpoint-header) {
+@media screen and (max-width: $size__breakpoint-featured-image) {
     blockquote.alignleft,
     blockquote.alignright { width: 40%; }
 }
