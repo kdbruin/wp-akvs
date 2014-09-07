@@ -1,0 +1,22 @@
+/*
+ * CSS for the lightSlider.
+ *
+ * @package AKV Soesterkwartier
+ */
+
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+ul.featured-posts-slider {
+
+    width: 100%;
+    margin-top: 1em;
+    
+    .featured-post-slide {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    }
+}

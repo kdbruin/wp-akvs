@@ -34,24 +34,24 @@ if ( !function_exists( 'akvs_paging_nav' ) ) :
 
 	// Set up paginated links.
 	$links = paginate_links( array(
-	    'base'	 => $pagenum_link,
+	    'base'		 => $pagenum_link,
 	    'format'	 => $format,
-	    'total'	 => $GLOBALS[ 'wp_query' ]->max_num_pages,
+	    'total'		 => $GLOBALS[ 'wp_query' ]->max_num_pages,
 	    'current'	 => $paged,
 	    'mid_size'	 => 2,
 	    'add_args'	 => array_map( 'urlencode', $query_args ),
 	    'prev_text'	 => __( '&larr; Previous', 'akvs' ),
 	    'next_text'	 => __( 'Next &rarr;', 'akvs' ),
-	    'type'	 => 'list',
+	    'type'		 => 'list',
 	    ) );
 
 	if ( $links ) :
-	?>
-	<nav class="navigation paging-navigation" role="navigation">
-	    <h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'akvs' ); ?></h1>
-	    <?php echo $links; ?>
-	</nav><!-- .navigation -->
-	<?php
+	    ?>
+	    <nav class="navigation paging-navigation" role="navigation">
+	        <h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'akvs' ); ?></h1>
+		<?php echo $links; ?>
+	    </nav><!-- .navigation -->
+	    <?php
 	endif;
     }
 
@@ -175,4 +175,88 @@ function akvs_social_menu() {
 	    )
 	);
     }
+}
+
+/**
+ * Show the featured posts as aslideshow and return a list of the displayed post IDs.
+ */
+function akvs_show_featured_posts() {
+    $q_args = array(
+	'post_type'		 => 'post',
+	'post_status'		 => 'publish',
+	'posts_per_page'	 => 5,
+	'ignore_sticky_posts'	 => 1,
+	'category_name'		 => 'markup',
+	'order'			 => 'DESC',
+	'orderby'		 => 'date'
+    );
+    $feat_query = new WP_Query( $q_args );
+    $feat_posts = array();
+
+    if ( $feat_query->have_posts() ) {
+	// Enqueue the necessary stuff
+	wp_enqueue_style( 'akvs-lightSlider-style', get_template_directory_uri() . '/lightSlider/css/lightSlider.css' );
+	wp_enqueue_style( 'akvs-lightSlider-settings', get_template_directory_uri() . '/css/lightSlider-settings.css' );
+	wp_enqueue_script( 'akvs-lightSlider-script', get_template_directory_uri() . '/lightSlider/js/jquery.lightSlider.min.js', array( 'jquery' ), '20140907', true );
+	wp_enqueue_script( 'akvs-lightSlider-settings', get_template_directory_uri() . '/js/lightSlider-settings.js', array( 'akvs-lightSlider-script' ), '20140907', true );
+
+	global $post;
+	$html = '<ul id="lightSlider" class="featured-posts-slider">';
+
+	$feat_count = 0;
+	while ( $feat_query->have_posts() ) :
+	    $feat_query->the_post();
+	    $feat_count++;
+	    $feat_posts[] = get_the_ID();
+
+	    $html .= '<li><div class="featured-post-slide">';
+	    //$html .= '<h3 id="post-' . get_the_ID() . '"><a href="' . get_the_permalink() . '" rel="bookmark">' . get_the_title() . '</a></h3>';
+	    $html .= get_the_excerpt();
+	    $html .= '</div></li>';
+
+	endwhile;
+
+	$html .= '</ul>';
+	echo $html;
+    }
+    else {
+	echo 'No featured posts!';
+    }
+
+    return $feat_posts;
+}
+
+/**
+ * Show the latest posts.
+ */
+function akvs_latest_posts( $feat_posts ) {
+    // Get all posts that are not featured in the slideshow or are result posts.
+    $q_args = array(
+	'post_type'		 => 'post',
+	'post_status'		 => 'publish',
+	'posts_per_page'	 => 5,
+	'ignore_sticky_posts'	 => 1,
+	'category__not_in'	 => array( get_category_id( 'uitslagen' ) ),
+	'post__not_in'		 => $feat_posts,
+	'order'			 => 'DESC',
+	'orderby'		 => 'date'
+    );
+    $seizoen_start = get_post_meta( get_the_ID(), 'seizoen-start', true );
+    if ( !empty( $seizoen_start ) ) {
+	preg_match( '/(\d\d\d\d)-(\d\d)-(\d\d)/', $seizoen_start, $d );
+	$q_date = array(
+	    'date_query' => array(
+		array(
+		    'after'		 => array(
+			'year'	 => $d[ 1 ],
+			'month'	 => $d[ 2 ],
+			'day'	 => $d[ 3 ]
+		    ),
+		    'inclusive'	 => true,
+		)
+	    )
+	);
+	$q_args = array_merge( $q_args, $q_date );
+    }
+    $news_query = new WP_Query( $q_args );
 }
