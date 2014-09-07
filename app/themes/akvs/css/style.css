@@ -827,7 +827,7 @@ Y.Y Footer
   margin-bottom: 1em;
   font-size: 24px;
   font-size: 2.4rem;
-  border-bottom: 2px solid #fff; }
+  border-bottom: 2px solid #000; }
 
 .widget {
   margin: 0 0 4em;
@@ -938,6 +938,40 @@ Y.Y Footer
 
 .page .entry-title {
   margin-top: .7em; }
+
+.page #front-page-featured-slider {
+  margin-top: 0.7em; }
+  .page #front-page-featured-slider .featured-posts-slider {
+    display: block;
+    width: 100%;
+    margin: 0; }
+.page #front-page-latest-posts .entry-title {
+  margin: 2em 0 1em 0; }
+.page #front-page-latest-posts ul, .page #front-page-latest-posts ol {
+  padding: 0;
+  margin: -1em 0 0;
+  list-style-type: none; }
+.page #front-page-latest-posts li.latest-news-item {
+  margin: 1em 0 -0.5em 2.5em; }
+  .page #front-page-latest-posts li.latest-news-item:before {
+    display: block;
+    float: left;
+    padding-top: 2px;
+    margin-left: -2.5em;
+    font-family: "Fontawesome";
+    font-size: 14px;
+    font-size: 1.4rem;
+    content: "\f036"; }
+  .page #front-page-latest-posts li.latest-news-item a {
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+    color: #000;
+    text-decoration: none; }
+  .page #front-page-latest-posts li.latest-news-item span.date {
+    font-size: 80%;
+    margin-left: 1em; }
+.page #front-page-latest-games .entry-title {
+  margin: 2em 0 1em 0; }
 
 .entry-content a {
   text-decoration: underline; }

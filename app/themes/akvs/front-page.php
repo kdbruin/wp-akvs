@@ -9,15 +9,29 @@ get_header();
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<article id="front-page-featured-slider">
 	    <div class="entry-content">
 
-	    <?php
-	    $feat_posts = akvs_show_featured_posts();
-	    ?>
+	    <?php $feat_posts = akvs_show_featured_posts(); ?>
 
 	    </div><!-- .entry-content -->
-	</article><!-- #post-## -->
+	</article><!-- #front-page-featured-slider -->
+
+        <article id="front-page-latest-posts">
+	    <div class="entry-content">
+
+	    <?php akvs_latest_posts( $feat_posts ); ?>
+
+	    </div><!-- .entry-content -->
+	</article><!-- #front-page-latest-posts -->
+
+        <article id="front-page-latest-games">
+	    <div class="entry-content">
+
+	    <?php akvs_latest_games(); ?>
+
+	    </div><!-- .entry-content -->
+	</article><!-- #front-page-latest-games -->
     </main><!-- #main -->
 </div><!-- #primary -->
 

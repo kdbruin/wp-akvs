@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";;;;;AASA,wBAAyB;EAErB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,GAAG;EAEf,6CAAqB;IACxB,OAAO,EAAE,KAAK;IACd,eAAe,EAAE,IAAI;IACrB,MAAM,EAAE,CAAC;IACT,OAAO,EAAE,CAAC;IACV,QAAQ,EAAE,MAAM",
-"sources": ["sass/lightSlider-settings.scss"],
-"names": [],
-"file": "lightSlider-settings.css"
-}

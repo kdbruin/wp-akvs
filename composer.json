@@ -43,6 +43,7 @@
     "fancyguy/webroot-installer": "1.1.0",
     "vlucas/phpdotenv": "1.0.6",
     "wpackagist-plugin/developer": "1.2.5",
+    "wpackagist-plugin/easy-table": "1.5.2",
     "wpackagist-plugin/regenerate-thumbnails": "2.2.4",
     "wpackagist-plugin/wordpress-importer": "0.6.1",
     "kdb/akvs-plugin": "dev-master",
