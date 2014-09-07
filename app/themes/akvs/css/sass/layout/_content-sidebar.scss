@@ -29,7 +29,7 @@
 .paging-navigation,
 .page-header {
     position: relative;
-    @include max-width($size__site-content);
+    @include max-width(calculateRem($size__site-content));
     padding: 0 4rem;
     margin: 0 auto;
 }
@@ -44,7 +44,7 @@
 }
 
 .index-box {
-    @include max-width(78);
+    @include max-width(calculateRem($size__site-content));
     padding: 1em 0 2em;
     margin: 0 auto 2em;
     background: $color__background-body;
@@ -59,7 +59,7 @@
 @media screen and (max-width: $size__breakpoint-sidebar - 1) {
     .site-content .widget-area {
 	width: auto;
-        @include max-width($size__site-content);
+        @include max-width(calculateRem($size__site-content));
 	float: none;
 	margin: 1em auto 0;
     }

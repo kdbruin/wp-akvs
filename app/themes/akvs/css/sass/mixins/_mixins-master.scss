@@ -1,3 +1,8 @@
+@function calculateRem($size) {
+  $remSize: $size / 10px;
+  @return $remSize;
+}
+
 // Rem output with px fallback
 @mixin font-size($sizeValue: 1.6) {
 	font-size: ($sizeValue * 10) + px;

@@ -953,6 +953,9 @@ Y.Y Footer
   line-height: 1.3em;
   color: #000; }
 
+.page .entry-title {
+  margin-top: .7em; }
+
 .entry-content a {
   text-decoration: underline; }
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {
