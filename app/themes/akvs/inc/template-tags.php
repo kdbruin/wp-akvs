@@ -331,7 +331,7 @@ function akvs_latest_games()
     list($vanaf, $tot) = akvs_week_range( $vandaag );
     $schema     = $competitie->getTotaalSchema( $vanaf );
 
-    $html = '<h1 class="entry-title">Laatste nieuws</h1>';
+    $html = '<h1 class="entry-title">Wedstrijden deze week</h1>';
     if ( count( $schema ) )
     {
         $html .= akvs_table( 'akvs-wedstrijden' );
