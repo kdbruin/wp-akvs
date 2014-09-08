@@ -229,6 +229,29 @@ figure {
 table {
   margin: 0 0 1.5em;
   width: 100%; }
+  table.akvs-wedstrijden {
+    font-size: 90%; }
+    table.akvs-wedstrijden th {
+      font-family: Lato, sans-serif;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+      background: #333;
+      border: 1px solid #333; }
+    table.akvs-wedstrijden td {
+      border: 1px solid #ddd; }
+    table.akvs-wedstrijden th, table.akvs-wedstrijden td {
+      padding: 6px 8px; }
+      table.akvs-wedstrijden th.dash, table.akvs-wedstrijden td.dash {
+        border-left: none;
+        border-right: none; }
+      table.akvs-wedstrijden th.ploeg-thuis, table.akvs-wedstrijden td.ploeg-thuis {
+        border-right: none; }
+      table.akvs-wedstrijden th.ploeg-uit, table.akvs-wedstrijden td.ploeg-uit {
+        border-left: none; }
+    table.akvs-wedstrijden tr.alt {
+      background: #eee; }
 
 th {
   font-weight: bold; }
@@ -939,21 +962,21 @@ Y.Y Footer
 .page .entry-title {
   margin-top: .7em; }
 
-.page #front-page-featured-slider {
+.front-page #front-page-featured-slider {
   margin-top: 0.7em; }
-  .page #front-page-featured-slider .featured-posts-slider {
+  .front-page #front-page-featured-slider .featured-posts-slider {
     display: block;
     width: 100%;
     margin: 0; }
-.page #front-page-latest-posts .entry-title {
+.front-page .entry-title {
   margin: 2em 0 1em 0; }
-.page #front-page-latest-posts ul, .page #front-page-latest-posts ol {
+.front-page #front-page-latest-posts ul, .front-page #front-page-latest-posts ol {
   padding: 0;
   margin: -1em 0 0;
   list-style-type: none; }
-.page #front-page-latest-posts li.latest-news-item {
+.front-page #front-page-latest-posts li.latest-news-item {
   margin: 1em 0 -0.5em 2.5em; }
-  .page #front-page-latest-posts li.latest-news-item:before {
+  .front-page #front-page-latest-posts li.latest-news-item:before {
     display: block;
     float: left;
     padding-top: 2px;
@@ -962,16 +985,14 @@ Y.Y Footer
     font-size: 14px;
     font-size: 1.4rem;
     content: "\f036"; }
-  .page #front-page-latest-posts li.latest-news-item a {
+  .front-page #front-page-latest-posts li.latest-news-item a {
     font-weight: 700;
     font-family: Lato, sans-serif;
     color: #000;
     text-decoration: none; }
-  .page #front-page-latest-posts li.latest-news-item span.date {
+  .front-page #front-page-latest-posts li.latest-news-item span.date {
     font-size: 80%;
     margin-left: 1em; }
-.page #front-page-latest-games .entry-title {
-  margin: 2em 0 1em 0; }
 
 .entry-content a {
   text-decoration: underline; }

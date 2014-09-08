@@ -1,8 +1,47 @@
 table {
-	margin: 0 0 1.5em;
-	width: 100%;
+    margin: 0 0 1.5em;
+    width: 100%;
+
+    &.akvs-wedstrijden {
+        font-size: 90%;
+
+        th {
+            font-family: $font__heading;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            color: $color__text-table-head;
+            background: $color__background-table-head;
+            border: 1px solid $color__background-table-head;
+        }
+        
+        td {
+            border: 1px solid $color__border-table;
+        }
+
+        th, td {
+            padding: 6px 8px;
+
+            &.dash {
+                border-left: none;
+                border-right: none;
+            }
+            
+            &.ploeg-thuis {
+                border-right: none;
+            }
+            
+            &.ploeg-uit {
+                border-left: none;
+            }
+        }
+
+        tr.alt {
+            background: $color__background-table-row-alt;
+        }
+    }
 }
 
 th {
-	font-weight: bold;
+    font-weight: bold;
 }

@@ -285,7 +285,6 @@ function akvs_latest_posts( $feat_posts )
     $html = '';
     if ( $news_query->have_posts() )
     {
-        $html .= '<h1 class="entry-title">Laatste nieuws</h1>';
         $html .= '<ul class="latest-news">';
 
         while ( $news_query->have_posts() )
@@ -331,7 +330,7 @@ function akvs_latest_games()
     list($vanaf, $tot) = akvs_week_range( $vandaag );
     $schema     = $competitie->getTotaalSchema( $vanaf );
 
-    $html = '<h1 class="entry-title">Wedstrijden deze week</h1>';
+    $html = '';
     if ( count( $schema ) )
     {
         $html .= akvs_table( 'akvs-wedstrijden' );
@@ -346,9 +345,59 @@ function akvs_latest_games()
             if ( $datum > $tot )
                 break;
 
-            $count++;
             foreach ( $wedstrijden as $wedstrijd )
             {
+                $count++;
+                $html .= akvs_tr( $count );
+                $status = $wedstrijd->status();
+                $html .= akvs_td( akvs_format_ddm( $datum ), akvs_afgelast_class( $status, 'datum' ) );
+                $html .= akvs_td( $wedstrijd->atijd(), akvs_afgelast_class( $status, 'tijd' ) );
+                $html .= akvs_td( akvs_get_team_url( $wedstrijd->thuis() ), akvs_afgelast_class( $status, 'ploeg-thuis' ) );
+                $html .= akvs_td( '-', 'dash' );
+                $html .= akvs_td( akvs_get_team_url( $wedstrijd->uit() ), akvs_afgelast_class( $status, 'ploeg-uit' ) );
+                $html .= akvs_td( $wedstrijd->wsnum(), akvs_afgelast_class( $status, 'wsnum' ) );
+                $html .= '</tr>';
+            }
+        }
+        $html .= '</tbody></table>';
+    }
+    else
+    {
+        $html .= '<p>Er zijn deze week geen wedstrijden.</p>';
+    }
+
+    echo $html;
+}
+
+/**
+ * Show the latest scores.
+ */
+function akvs_latest_scores()
+{
+    $xml_file   = akvs_get_xml_meta( get_the_ID(), 'xml' );
+    $competitie = new AKVS_Competitie( $xml_file );
+    $vandaag    = date( 'Y-m-d' );
+    list($vanaf, $tot) = akvs_week_range( $vandaag );
+    $schema     = $competitie->getTotaalSchema( $vanaf );
+
+    $html = '';
+    if ( count( $schema ) )
+    {
+        $html .= akvs_table( 'akvs-wedstrijden' );
+        $html .= akvs_thead( array( 'datum', 'aanvang', 'wedstrijd@3', 'wsnum' ) );
+        $html .= akvs_tbody();
+        $count = 0;
+
+        foreach ( $schema as $datum => $wedstrijden )
+        {
+            if ( $datum < $vandaag )
+                continue;
+            if ( $datum > $tot )
+                break;
+
+            foreach ( $wedstrijden as $wedstrijd )
+            {
+                $count++;
                 $html .= akvs_tr( $count );
                 $status = $wedstrijd->status();
                 $html .= akvs_td( akvs_format_ddm( $datum ), akvs_afgelast_class( $status, 'datum' ) );

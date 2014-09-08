@@ -14,6 +14,8 @@ $color__background-caption: #e5e5e5;
 $color__background-gallery-caption: hsla(0, 0%, 0%, .8);
 $color__background-gallery-item: #333;
 $color__background-comment-mod: #84bd68;
+$color__background-table-head: #333;
+$color__background-table-row-alt: #eee;
 
 $color__menu-background-main: #313131;
 $color__menu-background-submenu: #4d4d4d;
@@ -42,6 +44,7 @@ $color__text-caption: #fff;
 $color__text-comment-mod: #fff;
 $color__text-paging: #333;
 $color__text-paging-current: #000;
+$color__text-table-head: #fff;
 
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;
@@ -54,3 +57,4 @@ $color__border-widget: #000;
 $color__border-post-nav: hsl(0, 0%, 80%);
 $color__border-blockquote: hsl(0, 0%, 80%);
 $color__border-meta: hsl(0, 0%, 75%);
+$color__border-table: #ddd;

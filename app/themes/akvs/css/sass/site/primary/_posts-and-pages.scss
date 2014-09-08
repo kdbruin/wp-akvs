@@ -11,26 +11,26 @@
     margin-top: .7em;
 }
 
-.page {
+.front-page {
     #front-page-featured-slider {
         margin-top: 0.7em;
-        
+    
         .featured-posts-slider {
             display: block;
             width: 100%;
             margin: 0;
-            
+
             .featured-post-slide {
-                
+
             }
         }
     }
 
-    #front-page-latest-posts {
-        .entry-title {
-            margin: 2em 0 1em 0;    
-        }
+    .entry-title {
+        margin: 2em 0 1em 0;    
+    }
 
+    #front-page-latest-posts {
         ul, ol {
             padding: 0;
             margin: -1em 0 0;
@@ -63,11 +63,11 @@
             }
         }
     }
-    
+
     #front-page-latest-games {
-        .entry-title {
-            margin: 2em 0 1em 0;    
-        }
+    }
+
+    #front-page-latest-scores {
     }
 }
 
