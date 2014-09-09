@@ -3,7 +3,7 @@ Theme Name: AKV Soesterkwartier
 Layout: Content-Sidebar
 */
 .page .site-content {
-  background: #fff; }
+  background: white; }
 
 .site-footer {
   clear: both;
@@ -29,7 +29,7 @@ Layout: Content-Sidebar
   padding-bottom: 1em;
   margin-bottom: 2em;
   list-style-type: none;
-  background: #fff; }
+  background: white; }
 
 .page-header {
   margin-top: 1em;

@@ -3,6 +3,7 @@ jQuery(document).ready(function($) {
 	minSlide: 1,
 	maxSlide: 1,
 	gallery: false,
+	controls: false,
 	mode: 'slide',
 	pause: 4000,
 	speed: 2000,

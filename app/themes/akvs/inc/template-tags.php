@@ -217,7 +217,8 @@ function akvs_show_featured_posts()
         wp_enqueue_script( 'akvs-lightSlider-settings', get_template_directory_uri() . '/js/lightSlider-settings.js', array( 'akvs-lightSlider-script' ), '20140907', true );
 
         global $post;
-        $html = '<div id="lightSlider" class="featured-posts-slider">';
+        $html = '<div class="featured-posts-slider-box">';
+        $html .= '<div id="lightSlider" class="featured-posts-slider">';
 
         $feat_count = 0;
         while ( $feat_query->have_posts() ) :
@@ -226,12 +227,17 @@ function akvs_show_featured_posts()
             $feat_posts[] = get_the_ID();
 
             $html .= '<div class="featured-post-slide">';
+            $html .= '<div class="slide-title">';
             $html .= '<h3 id="post-' . get_the_ID() . '"><a href="' . get_the_permalink() . '" rel="bookmark">' . get_the_title() . '</a></h3>';
+            $html .= '</div>';
+            $html .= '<div class="slide-content">';
             $html .= get_the_excerpt();
+            $html .= '</div>';
             $html .= '</div>';
 
         endwhile;
 
+        $html .= '</div>';
         $html .= '</div>';
         echo $html;
     }

@@ -68,7 +68,7 @@ html {
   box-sizing: border-box; }
 
 body {
-  background: #fff;
+  background: white;
   /* Fallback for when there is no custom background color defined. */ }
 
 article,
@@ -129,7 +129,7 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   font-family: Lato, sans-serif;
   font-weight: 900;
-  color: #000;
+  color: black;
   clear: right; }
 
 p {
@@ -145,7 +145,7 @@ address {
   margin: 0 0 1.5em; }
 
 pre {
-  background: #eee;
+  background: #eeeeee;
   font-family: "Courier 10 Pitch", Courier, monospace;
   font-size: 15px;
   font-size: 1.5rem;
@@ -161,7 +161,7 @@ code, kbd, tt, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
 
 abbr, acronym {
-  border-bottom: 1px dotted #666;
+  border-bottom: 1px dotted #666666;
   cursor: help; }
 
 mark, ins {
@@ -192,7 +192,7 @@ big {
 3.0 Elements
 --------------------------------------------------------------*/
 hr {
-  background-color: #ccc;
+  background-color: #cccccc;
   border: 0;
   height: 1px;
   margin-bottom: 1.5em; }
@@ -236,11 +236,11 @@ table {
       font-weight: 700;
       text-align: center;
       text-transform: uppercase;
-      color: #fff;
-      background: #333;
-      border: 1px solid #333; }
+      color: white;
+      background: #333333;
+      border: 1px solid #333333; }
     table.akvs-wedstrijden td {
-      border: 1px solid #ddd; }
+      border: 1px solid #dddddd; }
     table.akvs-wedstrijden th, table.akvs-wedstrijden td {
       padding: 6px 8px; }
       table.akvs-wedstrijden th.dash, table.akvs-wedstrijden td.dash {
@@ -251,7 +251,7 @@ table {
       table.akvs-wedstrijden th.ploeg-uit, table.akvs-wedstrijden td.ploeg-uit {
         border-left: none; }
     table.akvs-wedstrijden tr.alt {
-      background: #eee; }
+      background: #eeeeee; }
 
 th {
   font-weight: bold; }
@@ -275,7 +275,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
-  border-color: #ccc #ccc #bbb;
+  border-color: #cccccc #cccccc #bbbbbb;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
   -webkit-border-radius: 3px;
@@ -297,7 +297,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-  border-color: #ccc #bbb #aaa;
+  border-color: #cccccc #bbbbbb #aaaaaa;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
 
 button:focus,
@@ -308,7 +308,7 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-  border-color: #aaa #bbb #bbb;
+  border-color: #aaaaaa #bbbbbb #bbbbbb;
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
 
 input[type="checkbox"],
@@ -340,8 +340,8 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-  color: #666;
-  border: 1px solid #ccc;
+  color: #666666;
+  border: 1px solid #cccccc;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
   -webkit-border-radius: 3px;
@@ -353,7 +353,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
-  color: #111; }
+  color: #111111; }
 
 input[type="text"],
 input[type="email"],
@@ -377,10 +377,10 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-  color: #000;
+  color: black;
   text-decoration: none; }
   a:visited {
-    color: #333; }
+    color: #333333; }
   a:hover, a:focus, a:active {
     text-decoration: underline; }
 
@@ -410,7 +410,7 @@ a {
     font-size: 1.4rem;
     text-decoration: none;
     line-height: 1.3em;
-    color: #fff; }
+    color: white; }
   .main-navigation ul ul {
     position: absolute;
     left: 0;
@@ -425,7 +425,7 @@ a {
     .main-navigation ul ul a {
       width: 200px; }
   .main-navigation li:hover > a {
-    color: #fff;
+    color: white;
     background: #4d4d4d; }
   .main-navigation ul ul a:hover {
     background: #313131; }
@@ -435,13 +435,13 @@ a {
   .main-navigation .current-menu-item > a,
   .main-navigation .current_page_item > a:hover,
   .main-navigation .current-menu-item > a:hover {
-    background: #fff;
+    background: white;
     color: #313131; }
   .main-navigation .current_page_ancestor {
     background: #4d4d4d; }
   .main-navigation ul ul .current_page_parent,
   .main-navigation .current_page_parent .current_page_item > a {
-    color: #fff;
+    color: white;
     background: #313131; }
 
 /* Small menu */
@@ -459,21 +459,21 @@ a {
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.3em;
-    color: #fff; }
+    color: white; }
     .menu-toggle:before {
       display: inline-block;
       padding: 0 5px;
       vertical-align: top;
       font-family: "Fontawesome";
       font-size: 20px;
-      color: #fff;
+      color: white;
       -webkit-font-smoothing: antialiased;
       content: '\f0c9'; }
 
   .main-navigation.toggled .nav-menu {
     display: block;
     border-top: 1px solid;
-    border-top-color: #fff; }
+    border-top-color: white; }
 
   .main-navigation ul {
     display: none;
@@ -509,7 +509,7 @@ a {
   .main-navigation .current_page_item > a:hover,
   .main-navigation .current_page_item li:hover,
   .main-navigation .current_page_parent .current_page_item > a {
-    color: #fff;
+    color: white;
     background: #4d4d4d; } }
 .site-main .comment-navigation,
 .site-main .paging-navigation,
@@ -625,14 +625,14 @@ a {
 a.page-numbers,
 span.page-numbers {
   padding: .3em .7em;
-  color: #333; }
+  color: #333333; }
 
 a:hover.page-numbers {
-  color: #000; }
+  color: black; }
 
 .paging-navigation .current {
   font-weight: bold;
-  color: #000; }
+  color: black; }
 
 /*--------------------------------------------------------------
 6.0 Accessibility
@@ -744,7 +744,7 @@ X.X Header
   max-width: 75%;
   padding: 4rem;
   margin: 0 auto;
-  border: solid 1px #fff; }
+  border: solid 1px white; }
 
 .site-title {
   font-weight: 700;
@@ -761,7 +761,7 @@ X.X Header
 
 .site-title a,
 .site-description {
-  color: #fff; }
+  color: white; }
 
 /* Header responsive */
 @media screen and (max-width: 750px) {
@@ -780,7 +780,7 @@ X.X Header
   height: 54px;
   padding: 12px;
   margin-right: 20px;
-  color: #fff;
+  color: white;
   text-align: center;
   cursor: pointer; }
 
@@ -813,7 +813,7 @@ input[type="search"] {
     padding: 1rem 2rem 1rem 4rem;
     font-size: 20px;
     font-size: 2rem;
-    background-color: #fff;
+    background-color: white;
     border: 0; }
 
 .error404 .search-submit,
@@ -832,10 +832,10 @@ Y.Y Footer
   font-family: Lato, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
-  color: #fff;
+  color: white;
   background: #313131; }
   .site-footer a {
-    color: #fff; }
+    color: white; }
 
 .site-info {
   text-align: center; }
@@ -850,7 +850,7 @@ Y.Y Footer
   margin-bottom: 1em;
   font-size: 24px;
   font-size: 2.4rem;
-  border-bottom: 2px solid #000; }
+  border-bottom: 2px solid black; }
 
 .widget {
   margin: 0 0 4em;
@@ -860,7 +860,7 @@ Y.Y Footer
   /* Make sure select elements fit in widgets */ }
   .widget a {
     font-weight: 700;
-    color: #000;
+    color: black;
     text-decoration: none; }
   .widget ul, .widget ol {
     padding: 0;
@@ -883,8 +883,8 @@ Y.Y Footer
   margin: 0 auto; }
   .footer-widgets .widget-title,
   .footer-widgets .widget a {
-    color: #fff;
-    border-color: #fff; }
+    color: white;
+    border-color: white; }
   .footer-widgets .widget {
     float: left;
     width: 320px;
@@ -957,42 +957,54 @@ Y.Y Footer
   font-size: 40px;
   font-size: 4rem;
   line-height: 1.3em;
-  color: #000; }
+  color: black; }
 
 .page .entry-title {
   margin-top: .7em; }
 
-.front-page #front-page-featured-slider {
-  margin-top: 0.7em; }
-  .front-page #front-page-featured-slider .featured-posts-slider {
-    display: block;
-    width: 100%;
-    margin: 0; }
+.front-page .featured-posts-slider-box {
+  margin: 1em 0 0 0;
+  border: 1px solid #333; }
+.front-page .featured-posts-slider {
+  display: block;
+  width: 100%; }
+  .front-page .featured-posts-slider .slide-title {
+    background: #333; }
+    .front-page .featured-posts-slider .slide-title h3 {
+      font-weight: 700;
+      margin: 0 10px; }
+    .front-page .featured-posts-slider .slide-title a {
+      color: #fff;
+      text-decoration: none; }
+  .front-page .featured-posts-slider .slide-content {
+    margin: 10px; }
 .front-page .entry-title {
   margin: 2em 0 1em 0; }
-.front-page #front-page-latest-posts ul, .front-page #front-page-latest-posts ol {
+.front-page ul.latest-news {
   padding: 0;
   margin: -1em 0 0;
   list-style-type: none; }
-.front-page #front-page-latest-posts li.latest-news-item {
-  margin: 1em 0 -0.5em 2.5em; }
-  .front-page #front-page-latest-posts li.latest-news-item:before {
-    display: block;
-    float: left;
-    padding-top: 2px;
-    margin-left: -2.5em;
-    font-family: "Fontawesome";
-    font-size: 14px;
-    font-size: 1.4rem;
-    content: "\f036"; }
-  .front-page #front-page-latest-posts li.latest-news-item a {
-    font-weight: 700;
-    font-family: Lato, sans-serif;
-    color: #000;
-    text-decoration: none; }
-  .front-page #front-page-latest-posts li.latest-news-item span.date {
-    font-size: 80%;
-    margin-left: 1em; }
+  .front-page ul.latest-news li.latest-news-item {
+    margin: 1em 0 -0.5em 2.5em; }
+    .front-page ul.latest-news li.latest-news-item:before {
+      display: block;
+      float: left;
+      padding-top: 2px;
+      margin-left: -2.5em;
+      font-family: "Fontawesome";
+      font-size: 14px;
+      font-size: 1.4rem;
+      content: "\f036"; }
+    .front-page ul.latest-news li.latest-news-item a {
+      font-weight: 700;
+      font-family: Lato, sans-serif;
+      color: black;
+      text-decoration: none; }
+    .front-page ul.latest-news li.latest-news-item span.date {
+      font-size: 80%;
+      margin-left: 1em; }
+.front-page table.akvs-wedstrijden {
+  margin: 0; }
 
 .entry-content a {
   text-decoration: underline; }
@@ -1064,9 +1076,9 @@ Y.Y Footer
   font-size: 16px;
   font-size: 1.6rem; }
   .category-list a {
-    color: #333; }
+    color: #333333; }
     .category-list a:hover {
-      color: #000; }
+      color: black; }
 
 .entry-meta {
   margin-bottom: 2rem;
@@ -1295,7 +1307,7 @@ blockquote.alignright {
   font-family: Lato, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
-  color: #fff;
+  color: white;
   background: #84bd68; }
 
 /*--------------------------------------------------------------
@@ -1385,7 +1397,7 @@ object {
   float: left;
   margin-right: 3.333333333%;
   margin-bottom: 3rem;
-  background: #333;
+  background: #333333;
   overflow: hidden; }
 
 .gallery-columns-4 .gallery-item {
@@ -1402,7 +1414,7 @@ object {
   font-size: 12px;
   font-size: 1.2rem;
   line-height: 1.5;
-  color: #fff;
+  color: white;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.8);
   opacity: 0; }
