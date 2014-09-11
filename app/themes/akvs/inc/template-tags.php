@@ -202,7 +202,7 @@ function akvs_show_featured_posts()
         'post_status'         => 'publish',
         'posts_per_page'      => 5,
         'ignore_sticky_posts' => 1,
-        'category_name'       => 'markup',
+        'category_name'       => 'featured',
         'order'               => 'DESC',
         'orderby'             => 'date'
     );
