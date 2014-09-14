@@ -378,49 +378,50 @@ function akvs_latest_games()
 /**
  * Show the latest scores.
  */
-function akvs_latest_scores()
+function akvs_latest_scores_filter( $where = '' )
 {
-    $xml_file   = akvs_get_xml_meta( get_the_ID(), 'xml' );
-    $competitie = new AKVS_Competitie( $xml_file );
-    $vandaag    = date( 'Y-m-d' );
-    list($vanaf, $tot) = akvs_week_range( $vandaag );
-    $schema     = $competitie->getTotaalSchema( $vanaf );
+	// posts in the last 30 days
+	$where .= " AND post_date > '" . date('Y-m-d', strtotime('-30 days')) . "'";
+	return $where;
+}
 
-    $html = '';
-    if ( count( $schema ) )
-    {
-        $html .= akvs_table( 'akvs-wedstrijden' );
-        $html .= akvs_thead( array( 'datum', 'aanvang', 'wedstrijd@3', 'wsnum' ) );
-        $html .= akvs_tbody();
-        $count = 0;
+function akvs_latest_scores() {
+	/* create a new query for the latest uitslagen post. */
+	$q_args = array(
+		'post_type'				 => 'post',
+		'post_status'			 => 'publish',
+		'posts_per_page'		 => 1,
+		'ignore_sticky_posts'	 => 1,
+		'category_name'			 => 'uitslagen',
+		'order'					 => 'DESC',
+		'orderby'				 => 'date' );
 
-        foreach ( $schema as $datum => $wedstrijden )
-        {
-            if ( $datum < $vandaag )
-                continue;
-            if ( $datum > $tot )
-                break;
+	add_filter( 'posts_where', 'akvs_latest_scores_filter' );
+	$uitslag_query = new WP_Query( $q_args );
+	remove_filter( 'posts_where', 'akvs_latest_scores_filter' );
 
-            foreach ( $wedstrijden as $wedstrijd )
-            {
-                $count++;
-                $html .= akvs_tr( $count );
-                $status = $wedstrijd->status();
-                $html .= akvs_td( akvs_format_ddm( $datum ), akvs_afgelast_class( $status, 'datum' ) );
-                $html .= akvs_td( $wedstrijd->atijd(), akvs_afgelast_class( $status, 'tijd' ) );
-                $html .= akvs_td( akvs_get_team_url( $wedstrijd->thuis() ), akvs_afgelast_class( $status, 'ploeg-thuis' ) );
-                $html .= akvs_td( '-', 'dash' );
-                $html .= akvs_td( akvs_get_team_url( $wedstrijd->uit() ), akvs_afgelast_class( $status, 'ploeg-uit' ) );
-                $html .= akvs_td( $wedstrijd->wsnum(), akvs_afgelast_class( $status, 'wsnum' ) );
-                $html .= '</tr>';
-            }
-        }
-        $html .= '</tbody></table>';
-    }
-    else
-    {
-        $html .= '<p>Er zijn deze week geen wedstrijden.</p>';
-    }
+	$html = '';
+	if ( $uitslag_query->have_posts() ) {
+		while ( $uitslag_query->have_posts() ) {
+			$uitslag_query->the_post();
+			$html .= '<div class="entry-header">';
+			$html .= '<h1 class="entry-title">' . get_the_title() . '</h1>';
+			$html .= '</div>';
+			$html .= '<div class="entry-content">';
+			$html .= apply_filters( 'the_content', get_the_content() );
+			$html .= '</div>';
+		}
+	} else {
+		$html .= '<div class="entry-header">';
+		$html .= '<h1 class="entry-title">Laatste uitslagen</h1>';
+		$html .= '</div>';
+		$html .= '<div class="entry-content">';
+		$html .= '<p>Er zijn geen recente uitslagen.</p>';
+		$html .= '</div>';
+	}
 
     echo $html;
+
+    wp_reset_query();
+    wp_reset_postdata();
 }

@@ -2,7 +2,7 @@ table {
     margin: 0 0 1.5em;
     width: 100%;
 
-    &.akvs-wedstrijden {
+    &.akvs-wedstrijden, &.akvs-uitslagen {
         font-size: 90%;
 
         th {
@@ -33,6 +33,10 @@ table {
             
             &.ploeg-uit {
                 border-left: none;
+            }
+            
+            &.uitslag {
+                text-align: center;
             }
         }
 

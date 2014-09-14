@@ -1,26 +1,26 @@
 # General files
-composer.lock
+/composer.lock
 
 # IDE
-nbproject/private/
+/nbproject/private/
 
 # Ignore Composer installed files
-vendor
-wp
+/vendor
+/wp
 
 # Sass cache
-.sass-cache
+/.sass-cache
 
 # Uploads, etc
-app/uploads
-app/upgrade
+/app/uploads
+/app/upgrade
 
 # Plugins
-app/plugins/*
-!app/plugins/.gitkeep
+/app/plugins/*
+!/app/plugins/.gitkeep
 
 # Themes
-app/themes/*
-!app/themes/.gitkeep
-!app/themes/akvs
-!app/themes/my-akvs
+/app/themes/*
+!/app/themes/.gitkeep
+!/app/themes/akvs
+!/app/themes/my-akvs

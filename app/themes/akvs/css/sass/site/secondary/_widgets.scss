@@ -74,7 +74,7 @@
     margin-left: -2.5em;
     font-family: $font__awesome;
     @include font-size(1.4);
-} 
+}
 
 .widget_recent_entries li,
 .widget_recent_comments li,
@@ -91,6 +91,15 @@
 .widget_archive li { margin: 0 0 0 2.5em; }
 
 .widget_archive li:before { content: "\f187"; }
+
+.AKVS_ActiviteitenWidget .more-activities {
+    margin: 1em 4rem 0 4rem;
+    font-weight: 700;
+
+    i {
+        margin-left: .5em;
+    }
+}
 
 .widget_nav_menu a,
 .widget_pages a {
