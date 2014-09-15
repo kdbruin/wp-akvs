@@ -93,7 +93,8 @@
 .widget_archive li:before { content: "\f187"; }
 
 .AKVS_ActiviteitenWidget .more-activities {
-    margin: 1em 4rem 0 4rem;
+    padding: 1em 0 0;
+    margin: 0 0 .5em 2.5em;
     font-weight: 700;
 
     i {

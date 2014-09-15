@@ -68,6 +68,15 @@
 		    <?php echo __( 'Read the article<i class="fa fa-arrow-circle-o-right"></i>', 'akvs' ); ?>
 		</a>
 	    </footer><!-- .entry-footer -->
+	<?php elseif( in_category( 'uitslagen' ) ) : ?>
+	    <div class="entry-content">
+		<?php the_content( __( '', 'akvs' ) ); ?>
+	    </div>
+	    <footer class="entry-footer continue-reading">
+		<a href="<?php echo get_permalink(); ?>" title="<?php echo __('Read ', 'akvs') . get_the_title(); ?>" rel="bookmark">
+		    <?php echo __( 'Read the article<i class="fa fa-arrow-circle-o-right"></i>', 'akvs' ); ?>
+		</a>
+	    </footer><!-- .entry-footer -->
 	<?php else: ?>
 	    <div class="entry-content">
 		<?php the_excerpt(); ?>

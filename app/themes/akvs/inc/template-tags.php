@@ -305,13 +305,15 @@ function akvs_latest_posts( $feat_posts )
             $html .= '</li>';
         }
 
+		$html .= '</ul>';
+
         $nieuws_page = get_page_by_title( 'Nieuws' );
         if ( isset( $nieuws_page ) )
         {
-            $html .= '<li class="latest-news-item">';
-            $title = sprintf( esc_attr__( 'Permalink to %s', 'skeleton' ), 'Meer nieuws...' );
-            $html .= '<a href="' . get_the_permalink() . '" title="' . $title . '" rel="bookmark">Meer nieuws...</a>';
-            $html .= '</li>';
+            $html .= '<p class="more-news">';
+            $title = sprintf( esc_attr__( 'Permalink to %s', 'skeleton' ), 'Meer nieuws' );
+            $html .= '<a href="' . get_the_permalink() . '" title="' . $title . '" rel="bookmark">Meer nieuws<i class="fa fa-arrow-circle-o-right"></i></a>';
+            $html .= '</p>';
         }
     }
     else
@@ -408,7 +410,7 @@ function akvs_latest_scores() {
 			$html .= '<h1 class="entry-title">' . get_the_title() . '</h1>';
 			$html .= '</div>';
 			$html .= '<div class="entry-content">';
-			$html .= apply_filters( 'the_content', get_the_content() );
+			$html .= apply_filters( 'the_content', get_the_content( __( '', 'akvs' ) ) );
 			$html .= '</div>';
 		}
 	} else {
