@@ -24,7 +24,7 @@
       "package": {
 	"name": "simone",
         "type": "wordpress-theme",
-	"version": "1.0.9",
+	"version": "1.0.10",
         "source": {
 	  "type": "git",
 	  "url": "https://github.com/mor10/simone.git",
@@ -47,7 +47,7 @@
     "wpackagist-plugin/regenerate-thumbnails": "2.2.4",
     "wpackagist-plugin/wordpress-importer": "0.6.1",
     "kdb/akvs-plugin": "dev-master",
-    "simone": "1.0.9"
+    "simone": "1.0.10"
   },
   "extra": {
     "installer-paths": {
