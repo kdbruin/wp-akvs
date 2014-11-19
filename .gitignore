@@ -9,7 +9,7 @@
 /wp
 
 # Sass cache
-/.sass-cache
+.sass-cache/
 
 # Uploads, etc
 /app/uploads
