@@ -15,45 +15,1581 @@ msgctxt "text direction"
 msgid "ltr"
 msgstr "ltr"
 
-#: wp-login.php:841
+#: wp-includes/post.php:57
+msgctxt "add new media"
+msgid "Add New"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/post.php:55
+msgctxt "post type general name"
+msgid "Media"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:941
+msgctxt "TinyMCE menu"
+msgid "Format"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/post.php:22
+msgctxt "add new on admin bar"
+msgid "Post"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/post.php:38
+msgctxt "add new on admin bar"
+msgid "Page"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/admin-bar.php:573
+msgctxt "add new from admin bar"
+msgid "Link"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:794
+msgctxt "list style"
+msgid "Default"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:845
+msgctxt ""
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
-msgstr "<strong>WordPress is met succes bijgewerkt!</strong> Log opnieuw in om te zien wat er nieuw is."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
 
-#: wp-includes/media.php:2942
-msgid "Trash Selected"
-msgstr "Verwijder geselecteerde bestanden"
+#: wp-login.php:843
+msgctxt ""
+msgid "Registration complete. Please check your e-mail."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
 
-#: wp-includes/media.php:2943
+#: wp-login.php:839
+msgctxt ""
+msgid "Check your e-mail for the confirmation link."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:841
+msgctxt ""
+msgid "Check your e-mail for your new password."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:835
+msgctxt ""
+msgid "You are now logged out."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:837
+msgctxt ""
+msgid "User registration is currently not allowed."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:797
+msgctxt ""
+msgid "You have logged in successfully."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:831
+msgctxt ""
+msgid "Session expired. Please log in again. You will not move away from this page."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:778
+msgctxt ""
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:775 wp-login.php:779
+msgctxt ""
+msgid "http://codex.wordpress.org/Cookies"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:774
+msgctxt ""
+msgid "<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:734 wp-login.php:911
+msgctxt ""
+msgid "Lost your password?"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:734 wp-login.php:911
+msgctxt ""
+msgid "Password Lost and Found"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:726
+msgctxt ""
+msgid "A password will be e-mailed to you."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:706
+msgctxt ""
+msgid "Register For This Site"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:706
+msgctxt ""
+msgid "Registration Form"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:632
+msgctxt ""
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ &amp; )."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:627
+msgctxt ""
+msgid "Confirm new password"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:623
+msgctxt ""
+msgid "New password"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:608
+msgctxt ""
+msgid "Your password has been reset."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:616 wp-login.php:647
+msgctxt ""
+msgid "Reset Password"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:616
+msgctxt ""
+msgid "Enter your new password below."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:593
+msgctxt ""
+msgid "The passwords do not match."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-login.php:608
+msgctxt ""
+msgid "Password Reset"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:2182
+msgctxt ""
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:2142
+msgctxt ""
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:2139
+msgctxt ""
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:2137
+msgctxt ""
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:2132
+msgctxt ""
+msgid "<strong>ERROR</strong>: This username is already registered. Please choose another one."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:2129
+msgctxt ""
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:2127
+msgctxt ""
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:2000
+msgctxt ""
+msgid "Jabber / Google Talk"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:2045 wp-includes/user.php:2048
+#: wp-includes/user.php:2052 wp-includes/user.php:2063
+#: wp-includes/user.php:2079
+msgctxt ""
+msgid "Invalid key"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:1998
+msgctxt ""
+msgid "AIM"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:1999
+msgctxt ""
+msgid "Yahoo IM"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/user.php:1903
+msgctxt ""
+msgid "Invalid user ID."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/theme-compat/comments-popup.php:79 wp-login.php:715
+msgctxt ""
+msgid "E-mail"
+msgid_plural ""
+msgstr[0] "E-mailadres"
+msgstr[1] ""
+
+#: wp-includes/script-loader.php:339 wp-login.php:631
+msgctxt ""
+msgid "Strength indicator"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3032
+msgctxt ""
+msgid "No media attachments found."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3031
+msgctxt ""
+msgid "Edit Metadata"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3028
+msgctxt ""
+msgid "Add to Video Playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3027
+msgctxt ""
+msgid "Add to video playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3025
+msgctxt ""
+msgid "Insert video playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3026
+msgctxt ""
+msgid "Update video playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3024
+msgctxt ""
+msgid "&#8592; Cancel Video Playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3023
+msgctxt ""
+msgid "Edit Video Playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3022
+msgctxt ""
+msgid "Create Video Playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3018
+msgctxt ""
+msgid "Add to Audio Playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3021
+msgctxt ""
+msgid "Drag and drop to reorder videos."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3017
+msgctxt ""
+msgid "Add to audio playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3015
+msgctxt ""
+msgid "Insert audio playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3016
+msgctxt ""
+msgid "Update audio playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3014
+msgctxt ""
+msgid "&#8592; Cancel Audio Playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3013
+msgctxt ""
+msgid "Edit Audio Playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3012
+msgctxt ""
+msgid "Create Audio Playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3011
+msgctxt ""
+msgid "Drag and drop to reorder tracks."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3008
+msgctxt ""
+msgid "Add Subtitles"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3007
+msgctxt ""
+msgid "Select Poster Image"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3004
+msgctxt ""
+msgid "Replace Video"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3005
+msgctxt ""
+msgid "Add Video Source"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2999
+msgctxt ""
+msgid "Add Audio Source"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:3003
+msgctxt ""
+msgid "Video Details"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2998
+msgctxt ""
+msgid "Replace Audio"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2997
+msgctxt ""
+msgid "Audio Details"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2994
+msgctxt ""
+msgid "There has been an error cropping your image."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2990
+msgctxt ""
+msgid "Crop Image"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2991
+msgctxt ""
+msgid "Crop your image"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2992
+msgctxt ""
+msgid "Cropping&hellip;"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2989
+msgctxt ""
+msgid "Skip Cropping"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2987
+msgctxt ""
+msgid "Choose Image"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2988
+msgctxt ""
+msgid "Select and Crop"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2982
+msgctxt ""
+msgid "Replace Image"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2983 wp-includes/media.php:3000
+#: wp-includes/media.php:3006
+msgctxt ""
+msgid "Cancel Edit"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2978
+msgctxt ""
+msgid "Reverse order"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2981
+msgctxt ""
+msgid "Image Details"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2977
+msgctxt ""
+msgid "Add to Gallery"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2976
+msgctxt ""
+msgid "Add to gallery"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2973
+msgctxt ""
+msgid "&#8592; Cancel Gallery"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2974
+msgctxt ""
+msgid "Insert gallery"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2975
+msgctxt ""
+msgid "Update gallery"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2964
+msgctxt ""
+msgid "Insert from URL"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2967
+msgctxt ""
+msgid "Set Featured Image"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2968
+msgctxt ""
+msgid "Set featured image"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2971
+msgctxt ""
+msgid "Create Gallery"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2972
+msgctxt ""
+msgid "Edit Gallery"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2957
+msgctxt ""
+msgid "Filter by type"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2958
+msgctxt ""
+msgid "Search Media"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2956
+msgctxt ""
+msgid "Filter by date"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2952
+msgctxt ""
 msgid "Untrash Selected"
-msgstr "Geselecteerde bestanden terugzetten"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
 
-#: wp-includes/media-template.php:416 wp-includes/media-template.php:519
-msgid "Untrash"
-msgstr "Verwijderen ongedaan maken"
+#: wp-includes/media.php:2953
+msgctxt ""
+msgid "Delete Selected"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
 
-#: wp-includes/media.php:2939
+#: wp-includes/media.php:2951
+msgctxt ""
+msgid "Trash Selected"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2950
+msgctxt ""
+msgid "Cancel Selection"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2949
+msgctxt ""
+msgid "Bulk Select"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2948
+msgctxt ""
 msgid ""
 "You are about to trash these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
-msgstr ""
-"U staat op het punt deze items te verwijderen.\n"
-"'Annuleer' om te stoppen, 'OK' om te verwijderen."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2947
+msgctxt ""
+msgid ""
+"You are about to permanently delete these items.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2945
+msgctxt ""
+msgid "Uploaded to this post"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2946
+msgctxt ""
+msgid ""
+"You are about to permanently delete this item.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2943
+msgctxt ""
+msgid "Unattached"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2945
+msgctxt ""
+msgid "Uploaded to this page"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2942
+msgctxt ""
+msgid "Insert into post"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2942
+msgctxt ""
+msgid "Insert into page"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2939
+msgctxt ""
+msgid "All media types"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2940
+msgctxt ""
+msgid "All dates"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2938
+msgctxt ""
+msgid "All media items"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2937
+msgctxt ""
+msgid "&#8592; Return to library"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2935
+msgctxt ""
+msgid "Create a new playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2936
+msgctxt ""
+msgid "Create a new video playlist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2928
+msgctxt ""
+msgid "Upload Files"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2929
+msgctxt ""
+msgid "Upload Images"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2932
+msgctxt ""
+msgid "Media Library"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2933
+msgctxt ""
+msgid "Insert Media"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2934
+msgctxt ""
+msgid "Create a new gallery"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2925
+msgctxt ""
+msgid "Drag and drop to reorder images."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2924
+msgctxt ""
+msgid "%d selected"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2919
+msgctxt ""
+msgid "Back"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2914
+msgctxt ""
+msgid "Select"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2912
+msgctxt ""
+msgid "Add Media"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2659 wp-includes/script-loader.php:360
+#: wp-includes/script-loader.php:483
+msgctxt ""
+msgid "(no title)"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:2462
+msgctxt ""
+msgid "No editor could be selected."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:1472
+msgctxt ""
+msgid "Bitrate Mode"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:1471
+msgctxt ""
+msgid "Bitrate"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:1467
+msgctxt ""
+msgid "Genre"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media.php:1468
+msgctxt ""
+msgid "Year"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:1192 wp-includes/media.php:2941
+msgctxt ""
+msgid "No items found."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:1159
+msgctxt ""
+msgid "There are no associated subtitles."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:1146
+msgctxt ""
+msgid "Tracks (subtitles, captions, descriptions, chapters, or metadata)"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:1121
+msgctxt ""
+msgid "Poster Image"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:1052 wp-includes/media-template.php:1142
+msgctxt ""
+msgid "Loop"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:1047 wp-includes/media-template.php:1137
+msgctxt ""
+msgid "Autoplay"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:1037 wp-includes/media-template.php:1127
+msgctxt ""
+msgid "Preload"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:1040 wp-includes/media-template.php:1130
+msgctxt ""
+msgid "Metadata"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:1027 wp-includes/media-template.php:1110
+msgctxt ""
+msgid "Add alternate sources for maximum HTML5 playback:"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:966
+msgctxt ""
+msgid "Link Rel"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:970
+msgctxt ""
+msgid "Link CSS Class"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:957
+msgctxt ""
+msgid "Image CSS Class"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:953
+msgctxt ""
+msgid "Image Title Attribute"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:949
+msgctxt ""
+msgid "Advanced Options"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:914
+msgctxt ""
+msgid "Custom Size"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:867
+msgctxt ""
+msgid "Display Settings"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:863
+msgctxt ""
+msgid "Alternative Text"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:847 wp-includes/media.php:2917
+msgctxt ""
+msgid "Replace"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:846
+msgctxt ""
+msgid "Edit Original"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:824 wp-includes/media-template.php:936
+msgctxt ""
+msgid "Image URL"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:769
+msgctxt ""
+msgid "Show Images"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:803 wp-includes/media-template.php:869
+msgctxt ""
+msgid "Align"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:761
+msgctxt ""
+msgid "Show Artist Name in Tracklist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:752
+msgctxt ""
+msgid "Show Tracklist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:750
+msgctxt ""
+msgid "Show Video List"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:740
+msgctxt ""
+msgid "Playlist Settings"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:734
+msgctxt ""
+msgid "Random Order"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:720
+msgctxt ""
+msgid "Columns"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:695
+msgctxt ""
+msgid "Gallery Settings"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:677 wp-includes/media-template.php:901
+#: wp-includes/media.php:2686
+msgctxt ""
+msgid "Full Size"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:676 wp-includes/media-template.php:900
+#: wp-includes/media.php:2685
+msgctxt ""
+msgid "Large"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:675 wp-includes/media-template.php:899
+#: wp-includes/media.php:2684
+msgctxt ""
+msgid "Medium"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:674 wp-includes/media-template.php:898
+#: wp-includes/media.php:2683
+msgctxt ""
+msgid "Thumbnail"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:665 wp-includes/media-template.php:889
+msgctxt ""
+msgid "Size"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:652 wp-includes/media-template.php:827
+#: wp-includes/media-template.php:940
+msgctxt ""
+msgid "Custom URL"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:647 wp-includes/media-template.php:708
+#: wp-includes/media-template.php:932
+msgctxt ""
+msgid "Attachment Page"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:645
+msgctxt ""
+msgid "Link to Attachment Page"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:640 wp-includes/media-template.php:711
+#: wp-includes/media-template.php:929
+msgctxt ""
+msgid "Media File"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:631
+msgctxt ""
+msgid "Embed Media Player"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:638
+msgctxt ""
+msgid "Link to Media File"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:588
+msgctxt ""
+msgid "Attachment Display Settings"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:618
+msgctxt ""
+msgid "Embed or Link"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:620 wp-includes/media-template.php:698
+#: wp-includes/media-template.php:821 wp-includes/media-template.php:925
+msgctxt ""
+msgid "Link To"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:581 wp-includes/script-loader.php:505
+msgctxt ""
+msgid "Clear"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:510
+msgctxt ""
+msgid "Refresh"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:473
+msgctxt ""
+msgid "Describe this media file&hellip;"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:481 wp-includes/media.php:2961
+msgctxt ""
+msgid "Attachment Details"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:471
+msgctxt ""
+msgid "Describe this audio file&hellip;"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:469
+msgctxt ""
+msgid "Describe this video&hellip;"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:458
+msgctxt ""
+msgid "Deselect"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:465
+msgctxt ""
+msgid "Caption this image&hellip;"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:423 wp-includes/media-template.php:526
+#: wp-includes/media.php:2954
+msgctxt ""
+msgid "Delete Permanently"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:418 wp-includes/media-template.php:521
+msgctxt ""
+msgid "Untrash"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:420 wp-includes/media-template.php:523
+#: wp-includes/media.php:2944
+msgctxt ""
+msgid "Trash"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:413
+msgctxt ""
+msgid "Edit more details"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:371 wp-includes/media-template.php:550
+#: wp-includes/media.php:1463
+msgctxt ""
+msgid "Album"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:385 wp-includes/media-template.php:564
+#: wp-includes/media-template.php:798
+msgctxt ""
+msgid "Alt Text"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:370 wp-includes/media-template.php:549
+#: wp-includes/media.php:1462
+msgctxt ""
+msgid "Artist"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:339 wp-includes/media-template.php:515
+msgctxt ""
+msgid "Length:"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:223 wp-includes/media.php:2993
+msgctxt ""
+msgid "Suggested image dimensions:"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/media-template.php:316 wp-includes/media-template.php:509
+#: wp-includes/media.php:2984
+msgctxt ""
+msgid "Edit Image"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/general-template.php:540 wp-login.php:548 wp-login.php:654
+#: wp-login.php:729 wp-login.php:905
+msgctxt ""
+msgid "Register"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/general-template.php:1274 wp-includes/media.php:2857
+msgctxt ""
+msgid "%1$s %2$d"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/general-template.php:407 wp-login.php:886
+msgctxt ""
+msgid "Remember Me"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/general-template.php:408 wp-login.php:862 wp-login.php:888
+msgctxt ""
+msgid "Log In"
+msgid_plural ""
+msgstr[0] "Inloggen"
+msgstr[1] ""
+
+#: wp-includes/general-template.php:406 wp-login.php:875
+msgctxt ""
+msgid "Password"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/general-template.php:405 wp-login.php:711 wp-login.php:871
+msgctxt ""
+msgid "Username"
+msgid_plural ""
+msgstr[0] "Gebruikersnaam"
+msgstr[1] ""
+
+#: wp-includes/general-template.php:284 wp-login.php:545 wp-login.php:608
+#: wp-login.php:651 wp-login.php:733
+msgctxt ""
+msgid "Log in"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/deprecated.php:707 wp-includes/media-template.php:609
+#: wp-includes/media-template.php:655 wp-includes/media-template.php:714
+#: wp-includes/media-template.php:815 wp-includes/media-template.php:830
+#: wp-includes/media-template.php:881 wp-includes/media-template.php:943
+#: wp-includes/media-template.php:1041 wp-includes/media-template.php:1131
+#: wp-includes/script-loader.php:315
+msgctxt ""
+msgid "None"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:1385 wp-includes/media-template.php:360
+#: wp-includes/media-template.php:539 wp-includes/media.php:2911
+msgctxt ""
+msgid "URL"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:1391 wp-includes/media-template.php:963
+msgctxt ""
+msgid "Open link in a new window/tab"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:1253 wp-includes/media-template.php:324
+#: wp-includes/media-template.php:485
+msgctxt ""
+msgid "Saved."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/comment-template.php:1774 wp-includes/comment-template.php:1860
+#: wp-includes/media-template.php:578
+msgctxt ""
+msgid "Edit"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:905 wp-includes/media-template.php:592
+msgctxt ""
+msgid "Alignment"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:904 wp-includes/media-template.php:380
+#: wp-includes/media-template.php:559 wp-includes/media-template.php:792
+#: wp-includes/media-template.php:857
+msgctxt ""
+msgid "Caption"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:903 wp-includes/media-template.php:920
+msgctxt ""
+msgid "Width"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:902 wp-includes/media-template.php:920
+msgctxt ""
+msgid "Height"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:814 wp-includes/media-template.php:390
+#: wp-includes/media-template.php:569
+msgctxt ""
+msgid "Description"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:811 wp-includes/class-wp-editor.php:1388
+#: wp-includes/media-template.php:365 wp-includes/media-template.php:544
+#: wp-includes/media-template.php:775 wp-includes/revision.php:29
+msgctxt ""
+msgid "Title"
+msgid_plural ""
+msgstr[0] "Titel"
+msgstr[1] ""
+
+#: wp-includes/class-wp-editor.php:787 wp-includes/class-wp-editor.php:1423
+#: wp-includes/media.php:2915 wp-includes/script-loader.php:388
+#: wp-includes/script-loader.php:439
+msgctxt ""
+msgid "Cancel"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-customize-widgets.php:724 wp-includes/media.php:2955
+msgctxt ""
+msgid "Apply"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-customize-manager.php:1071
+#: wp-includes/class-wp-editor.php:907 wp-includes/media-template.php:603
+#: wp-includes/media-template.php:809 wp-includes/media-template.php:875
+msgctxt ""
+msgid "Center"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-customize-manager.php:1072
+#: wp-includes/class-wp-editor.php:908 wp-includes/media-template.php:606
+#: wp-includes/media-template.php:812 wp-includes/media-template.php:878
+msgctxt ""
+msgid "Right"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-customize-manager.php:1070
+#: wp-includes/class-wp-editor.php:906 wp-includes/media-template.php:600
+#: wp-includes/media-template.php:806 wp-includes/media-template.php:872
+msgctxt ""
+msgid "Left"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/class-wp-customize-control.php:591
+#: wp-includes/class-wp-customize-widgets.php:726
+#: wp-includes/media-template.php:454 wp-includes/media-template.php:1006
+#: wp-includes/media-template.php:1020 wp-includes/media-template.php:1090
+#: wp-includes/media-template.php:1102 wp-includes/media-template.php:1123
+#: wp-includes/media-template.php:1155 wp-includes/media.php:2918
+msgctxt ""
+msgid "Remove"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/admin-bar.php:730 wp-includes/class-wp-editor.php:1398
+#: wp-includes/media.php:2913
+msgctxt ""
+msgid "Search"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-includes/admin-bar.php:146 wp-login.php:775
+msgctxt ""
+msgid "https://wordpress.org/support/"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
 
 #: wp-includes/class-wp-customize-panel.php:175
 msgid "Press return or enter to open this panel"
 msgstr "Druk op return of enter om dit paneel te openen"
-
-#: wp-includes/media.php:2940
-msgid "Bulk Select"
-msgstr "Massaselectie"
-
-#: wp-includes/media.php:2941
-msgid "Cancel Selection"
-msgstr "Selectie annuleren"
-
-#: wp-includes/media.php:2944
-msgid "Delete Selected"
-msgstr "Selectie verwijderen"
 
 #: wp-includes/script-loader.php:540
 msgctxt "missing menu item navigation label"
@@ -71,10 +1607,6 @@ msgstr "<strong>FOUT</strong>: Ongeldige gebruikersnaam. <a href=\"%s\">Wachtwoo
 #: wp-includes/user.php:153
 msgid "<strong>ERROR</strong>: The password you entered for the username <strong>%1$s</strong> is incorrect. <a href=\"%2$s\">Lost your password</a>?"
 msgstr "<strong>FOUT</strong>: Het ingevoerde wachtwoord voor de gebruikersnaam <strong>%1$s</strong> is onjuist. <a href=\"%2$s\">Wachtwoord vergeten</a>?"
-
-#: wp-includes/media.php:1467
-msgid "Bitrate"
-msgstr "Bitrate"
 
 #: wp-includes/class-wp-editor.php:932
 msgid "Your browser does not support direct access to the clipboard. Please use keyboard shortcuts or your browser&#8217;s edit menu instead."
@@ -152,50 +1684,6 @@ msgstr "Geüpload naar"
 msgid "View attachment page"
 msgstr "Bijlagepagina weergeven"
 
-#: wp-includes/media-template.php:412
-msgid "Edit more details"
-msgstr "Overige details bewerken"
-
-#: wp-includes/media.php:1468
-msgid "Bitrate Mode"
-msgstr "Bitratemodus"
-
-#: wp-includes/media.php:2930
-msgid "All media types"
-msgstr "Alle media typen"
-
-#: wp-includes/media.php:2931
-msgid "All dates"
-msgstr "Alle datums"
-
-#: wp-includes/media.php:2934
-msgid "Unattached"
-msgstr "Niet gekoppeld"
-
-#: wp-includes/media.php:2938
-msgid ""
-"You are about to permanently delete these items.\n"
-"  'Cancel' to stop, 'OK' to delete."
-msgstr ""
-"U staat op het punt om deze items permanent te verwijderen.\n"
-"'Annuleren' om te stoppen, 'OK', om te verwijderen."
-
-#: wp-includes/media.php:2947
-msgid "Filter by date"
-msgstr "Op datum filteren"
-
-#: wp-includes/media.php:2948
-msgid "Filter by type"
-msgstr "Op type filteren"
-
-#: wp-includes/media.php:2949
-msgid "Search Media"
-msgstr "Media zoeken"
-
-#: wp-includes/media.php:3022
-msgid "Edit Metadata"
-msgstr "Metadata aanpassen"
-
 #: wp-includes/ms-load.php:95
 msgid "This site is no longer available."
 msgstr "Deze site is niet langer beschikbaar."
@@ -251,37 +1739,9 @@ msgstr "Zodra je opgemaakte tekst kopieert vanuit Microsoft Word, probeer deze o
 msgid "Keyboard Shortcuts"
 msgstr "Toetscombinaties"
 
-#: wp-login.php:770
-msgid "<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
-msgstr "<strong>FOUT</strong>: Cookies zijn geblokkeerd vanwege onverwachte uitvoer. Bekijk voor hulp <a href=\"%1$s\">deze documentatie</a> of probeer de <a href=\"%2$s\">support forums</a>."
-
-#: wp-login.php:771 wp-login.php:775
-msgid "http://codex.wordpress.org/Cookies"
-msgstr "http://codex.wordpress.org/Cookies"
-
-#: wp-login.php:774
-msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
-msgstr "<strong>FOUT</strong>: Cookies zijn geblokkeerd of niet ondersteund door je browser. Je moet <a href=\"%s\">cookies inschakelen</a> om WordPress te gebruiken."
-
 #: wp-includes/js/tinymce/wp-mce-help.php:132
 msgid "Add/remove code tag"
 msgstr "Code tag toevoegen/verwijderen"
-
-#: wp-includes/media-template.php:968
-msgid "Link CSS Class"
-msgstr "Link CSS class"
-
-#: wp-includes/media-template.php:748
-msgid "Show Video List"
-msgstr "Videolijst tonen"
-
-#: wp-includes/media-template.php:865
-msgid "Display Settings"
-msgstr "Weergave-instellingen"
-
-#: wp-includes/media-template.php:844
-msgid "Edit Original"
-msgstr "Origineel bewerken"
 
 #: wp-includes/class-wp-editor.php:909
 msgctxt "table cell alignment attribute"
@@ -300,76 +1760,12 @@ msgstr "Lettergrootte"
 msgid "Split table cell"
 msgstr "Tabelcellen splitsen"
 
-#: wp-includes/media-template.php:223 wp-includes/media.php:2984
-msgid "Suggested image dimensions:"
-msgstr "Voorgestelde afbeeldingdimensies:"
-
-#: wp-includes/media-template.php:912
-msgid "Custom Size"
-msgstr "Aangepaste afmetingen"
-
-#: wp-includes/media-template.php:947
-msgid "Advanced Options"
-msgstr "Geavanceerde instellingen"
-
-#: wp-includes/media-template.php:951
-msgid "Image Title Attribute"
-msgstr "Attribuut afbeeldingstitel"
-
-#: wp-includes/media-template.php:955
-msgid "Image CSS Class"
-msgstr "Afbeelding CSS class"
-
-#: wp-includes/media-template.php:370 wp-includes/media-template.php:547
-#: wp-includes/media.php:1458
-msgid "Artist"
-msgstr "Artiest"
-
-#: wp-includes/media-template.php:371 wp-includes/media-template.php:548
-#: wp-includes/media.php:1459
-msgid "Album"
-msgstr "Album"
-
-#: wp-includes/media.php:1463
-msgid "Genre"
-msgstr "Genre"
-
-#: wp-includes/media.php:1464
-msgid "Year"
-msgstr "Jaar"
-
-#: wp-includes/media.php:1465
+#: wp-includes/media.php:1469
 msgctxt "video or audio"
 msgid "Length"
-msgstr "Duur"
-
-#: wp-includes/media.php:2985
-msgid "There has been an error cropping your image."
-msgstr "Er is een fout opgetreden met het bijsnijden van je afbeelding."
-
-#: wp-includes/media.php:3004
-msgid "Edit Audio Playlist"
-msgstr "Audio afspeellijst bewerken"
-
-#: wp-includes/media.php:3005
-msgid "&#8592; Cancel Audio Playlist"
-msgstr "&#8592; Audio afspeellijst annuleren"
-
-#: wp-includes/media.php:3006
-msgid "Insert audio playlist"
-msgstr "Audio afspeellijst invoegen"
-
-#: wp-includes/media.php:3007
-msgid "Update audio playlist"
-msgstr "Audio afspeellijst bijwerken"
-
-#: wp-includes/media.php:3008
-msgid "Add to audio playlist"
-msgstr "Aan audio afspeellijst toevoegen"
-
-#: wp-includes/media.php:3009
-msgid "Add to Audio Playlist"
-msgstr "Aan audio afspeellijst toevoegen"
+msgid_plural ""
+msgstr[0] "Duur"
+msgstr[1] ""
 
 #: wp-includes/class-wp-customize-widgets.php:701
 msgctxt "Move widget"
@@ -421,22 +1817,21 @@ msgctxt "TinyMCE"
 msgid "Headings"
 msgstr "Koppen"
 
-#: wp-includes/media-template.php:1037 wp-includes/media-template.php:1127
+#: wp-includes/media-template.php:1039 wp-includes/media-template.php:1129
 msgctxt "auto preload"
 msgid "Auto"
-msgstr "Automatisch"
+msgid_plural ""
+msgstr[0] "Automatisch"
+msgstr[1] ""
 
 #: wp-includes/class-wp-customize-widgets.php:692
 msgid "Move to another area&hellip;"
 msgstr "Naar ander gebied verplaatsen&hellip;"
 
-#: wp-includes/media.php:2983
-msgid "Cropping&hellip;"
-msgstr "Bijsnijden&hellip;"
-
-#: wp-includes/media-template.php:1144
-msgid "Tracks (subtitles, captions, descriptions, chapters, or metadata)"
-msgstr "Sporen (ondertiteling, koppen, beschrijvingen, hoofdstukken of metadata)"
+#: wp-includes/general-template.php:2629
+msgctxt "admin color scheme"
+msgid "Light"
+msgstr "Licht"
 
 #: wp-includes/class-wp-editor.php:741
 msgctxt "TinyMCE"
@@ -487,8 +1882,8 @@ msgctxt "list style"
 msgid "Square"
 msgstr "Vierkant"
 
-#: wp-includes/class-wp-editor.php:794
-msgctxt "list style"
+#: wp-includes/general-template.php:2619
+msgctxt "admin color scheme"
 msgid "Default"
 msgstr "Standaard"
 
@@ -676,190 +2071,41 @@ msgctxt "TinyMCE menu"
 msgid "Table"
 msgstr "Tabel"
 
-#: wp-includes/class-wp-editor.php:941
-msgctxt "TinyMCE menu"
+#: wp-includes/taxonomy.php:119 wp-includes/taxonomy.php:120
+msgctxt "post format"
 msgid "Format"
-msgstr "Opmaak"
-
-#: wp-includes/media-template.php:1025 wp-includes/media-template.php:1108
-msgid "Add alternate sources for maximum HTML5 playback:"
-msgstr "Voeg alternatieve bronnen toe voor betere HTML5-ondersteuning:"
-
-#: wp-includes/media.php:2972
-msgid "Image Details"
-msgstr "Afbeelding details"
+msgstr "Notatie"
 
 #: wp-includes/update.php:119 wp-includes/update.php:295
 #: wp-includes/update.php:457
 msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"https://wordpress.org/support/\">support forums</a>."
 msgstr "Er is een onverwachte fout opgetreden. Er kan iets mis zijn met WordPress.org of de serverconfiguratie. Als dit probleem blijft bestaan vraag dan in het <a href=\"http://nl.forums.wordpress.org/\">forum</a> om hulp."
 
-#: wp-includes/media.php:2910
-msgid "Back"
-msgstr "Terug"
-
-#: wp-includes/media-template.php:750
-msgid "Show Tracklist"
-msgstr "Afspeellijst weergeven"
-
-#: wp-includes/media-template.php:418 wp-includes/media-template.php:521
-#: wp-includes/media.php:2935
-msgid "Trash"
-msgstr "Prullenbak"
-
-#: wp-includes/media-template.php:738
-msgid "Playlist Settings"
-msgstr "Afspeellijst instellingen"
-
 #: wp-includes/default-widgets.php:227
 msgctxt "Search widget"
 msgid "Search"
 msgstr "Zoeken"
 
-#: wp-includes/formatting.php:3602
+#: wp-includes/formatting.php:3615
+msgctxt ""
 msgid "%s, %s"
-msgstr "%s, %s"
+msgid_plural ""
+msgstr[0] "%s, %s"
+msgstr[1] ""
 
-#: wp-includes/formatting.php:3604
+#: wp-includes/formatting.php:3617
+msgctxt ""
 msgid "%s, and %s"
-msgstr "%s, en %s"
+msgid_plural ""
+msgstr[0] "%s, en %s"
+msgstr[1] ""
 
-#: wp-includes/formatting.php:3606
+#: wp-includes/formatting.php:3619
+msgctxt ""
 msgid "%s and %s"
-msgstr "%s en %s"
-
-#: wp-includes/media-template.php:759
-msgid "Show Artist Name in Tracklist"
-msgstr "Artiest weergeven in afspeellijst"
-
-#: wp-includes/media-template.php:767
-msgid "Show Images"
-msgstr "Afbeeldingen weergeven"
-
-#: wp-includes/media-template.php:1038 wp-includes/media-template.php:1128
-msgid "Metadata"
-msgstr "Metadata"
-
-#: wp-includes/media-template.php:1045 wp-includes/media-template.php:1135
-msgid "Autoplay"
-msgstr "Automatisch afspelen"
-
-#: wp-includes/media-template.php:1119
-msgid "Poster Image"
-msgstr "Posterafbeelding"
-
-#: wp-includes/media-template.php:1157
-msgid "There are no associated subtitles."
-msgstr "Geen ondertitels beschikbaar."
-
-#: wp-includes/media.php:2926
-msgid "Create a new playlist"
-msgstr "Een nieuwe afspeellijst aanmaken"
-
-#: wp-includes/media.php:2927
-msgid "Create a new video playlist"
-msgstr "Een nieuwe video afspeellijst aanmaken"
-
-#: wp-includes/media.php:2973
-msgid "Replace Image"
-msgstr "Afbeelding vervangen"
-
-#: wp-includes/media.php:2974 wp-includes/media.php:2991
-#: wp-includes/media.php:2997
-msgid "Cancel Edit"
-msgstr "Bewerken annuleren"
-
-#: wp-includes/media.php:2978
-msgid "Choose Image"
-msgstr "Afbeelding kiezen"
-
-#: wp-includes/media.php:2979
-msgid "Select and Crop"
-msgstr "Selecteren en bijsnijden"
-
-#: wp-includes/media.php:2980
-msgid "Skip Cropping"
-msgstr "Bijsnijden overslaan"
-
-#: wp-includes/media.php:2981
-msgid "Crop Image"
-msgstr "Afbeelding bijsnijden"
-
-#: wp-includes/media.php:2982
-msgid "Crop your image"
-msgstr "Afbeelding bijsnijden"
-
-#: wp-includes/media.php:2988
-msgid "Audio Details"
-msgstr "Audio details"
-
-#: wp-includes/media.php:2989
-msgid "Replace Audio"
-msgstr "Audio vervangen"
-
-#: wp-includes/media.php:2990
-msgid "Add Audio Source"
-msgstr "Audiobron toevoegen"
-
-#: wp-includes/media.php:2994
-msgid "Video Details"
-msgstr "Video details"
-
-#: wp-includes/media.php:2995
-msgid "Replace Video"
-msgstr "Video vervangen"
-
-#: wp-includes/media.php:2996
-msgid "Add Video Source"
-msgstr "Videobron toevoegen"
-
-#: wp-includes/media.php:2998
-msgid "Select Poster Image"
-msgstr "Posterafbeelding selecteren"
-
-#: wp-includes/media.php:2999
-msgid "Add Subtitles"
-msgstr "Ondertitels toevoegen"
-
-#: wp-includes/media.php:3002
-msgid "Drag and drop to reorder tracks."
-msgstr "Gebruik drag en drop om de volgorde aan te passen."
-
-#: wp-includes/media.php:3003
-msgid "Create Audio Playlist"
-msgstr "Audio afspeellijst aanmaken"
-
-#: wp-includes/media.php:3012
-msgid "Drag and drop to reorder videos."
-msgstr "Videos verslepen om te sorteren."
-
-#: wp-includes/media.php:3013
-msgid "Create Video Playlist"
-msgstr "Video afspeellijst aanmaken"
-
-#: wp-includes/media.php:3014
-msgid "Edit Video Playlist"
-msgstr "Video afspeellijst bewerken"
-
-#: wp-includes/media.php:3015
-msgid "&#8592; Cancel Video Playlist"
-msgstr "&#8592; Video afspeellijst annuleren"
-
-#: wp-includes/media.php:3016
-msgid "Insert video playlist"
-msgstr "Video afspeellijst invoegen"
-
-#: wp-includes/media.php:3017
-msgid "Update video playlist"
-msgstr "Video afspeellijst bijwerken"
-
-#: wp-includes/media.php:3018
-msgid "Add to video playlist"
-msgstr "Toevoegen aan video afspeellijst"
-
-#: wp-includes/media.php:3019
-msgid "Add to Video Playlist"
-msgstr "Toevoegen aan video afspeellijst"
+msgid_plural ""
+msgstr[0] "%s en %s"
+msgstr[1] ""
 
 #: wp-includes/nav-menu.php:322
 msgid "Invalid menu ID."
@@ -911,10 +2157,6 @@ msgstr ""
 "</ul>\n"
 "<p>Als je niet weet wat dit allemaal betekent, moet je waarschijnlijk contact opnemen met je host. Als je nog hulp nodig hebt, kan je altijd de <a href='https://wordpress.org/support/'>WordPress Support Forums</a> bezoeken.</p>\n"
 
-#: wp-login.php:629
-msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ &amp; )."
-msgstr "Hint: het wachtwoord moet minimaal zeven tekens lang zijn. Om het sterker te maken, gebruik hoofd- en kleine letters, nummers en tekens zoals ! \" ? $ % ^ &amp; )."
-
 #: wp-includes/class-wp-editor.php:830
 msgid "Insert/edit video"
 msgstr "Video invoegen/bewerken"
@@ -959,10 +2201,6 @@ msgstr "Kernwoorden"
 #: wp-login.php:100
 msgid "https://wordpress.org/"
 msgstr "https://nl.wordpress.org/"
-
-#: wp-includes/admin-bar.php:146 wp-login.php:771
-msgid "https://wordpress.org/support/"
-msgstr "https://nl.forums.wordpress.org/"
 
 #: wp-includes/admin-bar.php:154
 msgid "https://wordpress.org/support/forum/requests-and-feedback"
@@ -1119,10 +2357,6 @@ msgstr "Pagina afbreken"
 msgid "Paste as text"
 msgstr "Plakken als tekst"
 
-#: wp-includes/media-template.php:845 wp-includes/media.php:2908
-msgid "Replace"
-msgstr "Vervangen"
-
 #: wp-includes/class-wp-editor.php:862
 msgid "Find and replace"
 msgstr "Zoek en vervang"
@@ -1276,22 +2510,12 @@ msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: wp-includes/general-template.php:2619
-msgctxt "admin color scheme"
-msgid "Default"
-msgstr "Standaard"
-
-#: wp-includes/general-template.php:2629
-msgctxt "admin color scheme"
-msgid "Light"
-msgstr "Licht"
-
 #: wp-includes/general-template.php:2641
 msgctxt "admin color scheme"
 msgid "Midnight"
 msgstr "Middernacht"
 
-#: wp-includes/link-template.php:1489
+#: wp-includes/link-template.php:1491
 msgid "Use commas instead of %s to separate excluded terms."
 msgstr "Gebruik komma&#39;s in plaats van %s om terminologie uit te sluiten."
 
@@ -1345,26 +2569,6 @@ msgstr "Het is niet gelukt om de aanvraag op te slaan in een tijdelijk bestand."
 msgid "The SSL certificate for the host could not be verified."
 msgstr "Het SSL-certificaat voor de host kon niet geverifieerd worden."
 
-#: wp-includes/media-template.php:629
-msgid "Embed Media Player"
-msgstr "Mediaspeler invoegen"
-
-#: wp-includes/media-template.php:339 wp-includes/media-template.php:513
-msgid "Length:"
-msgstr "Lengte:"
-
-#: wp-includes/media-template.php:616
-msgid "Embed or Link"
-msgstr "Invoegen of linken"
-
-#: wp-includes/media-template.php:636
-msgid "Link to Media File"
-msgstr "Link naar mediabestand"
-
-#: wp-includes/media-template.php:643
-msgid "Link to Attachment Page"
-msgstr "Link naar bijlagepagina"
-
 #: wp-includes/script-loader.php:311
 msgid "Download File"
 msgstr "Bestand downloaden"
@@ -1397,19 +2601,22 @@ msgstr "Geluid aan"
 msgid "Captions/Subtitles"
 msgstr "Ondertiteling"
 
-#: wp-includes/formatting.php:2487
+#: wp-includes/formatting.php:2500
+msgctxt ""
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s week"
 msgstr[1] "%s weken"
 
-#: wp-includes/formatting.php:2492
+#: wp-includes/formatting.php:2505
+msgctxt ""
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s maand"
 msgstr[1] "%s maanden"
 
-#: wp-includes/formatting.php:2497
+#: wp-includes/formatting.php:2510
+msgctxt ""
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s jaar"
@@ -1457,10 +2664,6 @@ msgstr "(meer&hellip;)"
 msgid "Possible reason: your host may have disabled the mail() function."
 msgstr "Mogelijke oorzaak: je host heeft misschien de mail()-functie uitgeschakeld."
 
-#: wp-includes/user.php:2179
-msgid "<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contact the <a href=\"mailto:%s\">webmaster</a> !"
-msgstr "<strong>FOUT</strong>: Niet mogelijk om je te registeren&hellip;, neem contact op met de <a href=\"mailto:%s\">webmaster</a> !"
-
 #: wp-includes/post-template.php:1655
 msgctxt "post revision title extra"
 msgid "%1$s [Autosave]"
@@ -1478,10 +2681,6 @@ msgstr "Je sessie is verlopen. Je kunt opnieuw inloggen op deze pagina of naar d
 #: wp-includes/script-loader.php:444
 msgid "%1$s %2$s, %3$s @ %4$s : %5$s"
 msgstr "%1$s %2$s, %3$s @ %4$s : %5$s"
-
-#: wp-login.php:827
-msgid "Session expired. Please log in again. You will not move away from this page."
-msgstr "Sessie verlopen. Graag opnieuw inloggen. Je wordt niet weggestuurd vanaf de huidige pagina."
 
 #: wp-signup.php:654
 msgid "Have you entered your email correctly? You have entered %s, if it&#8217;s incorrect, you will not receive your email."
@@ -1559,72 +2758,15 @@ msgstr "WordPress-adres (URL)"
 msgid "Site Address (URL)"
 msgstr "Siteadres (URL)"
 
-#: wp-includes/user.php:1900
-msgid "Invalid user ID."
-msgstr "Ongeldig gebruikers ID."
-
-#: wp-includes/media-template.php:732
-msgid "Random Order"
-msgstr "Willekeurige volgorde"
-
-#: wp-includes/media-template.php:463
-msgid "Caption this image&hellip;"
-msgstr "Plaats een onderschrift&hellip;"
-
-#: wp-includes/media.php:2915
-msgid "%d selected"
-msgstr "%d geselecteerd"
-
-#: wp-includes/media.php:2955
-msgid "Insert from URL"
-msgstr "Invoegen via URL"
-
-#: wp-includes/media.php:2958
-msgid "Set Featured Image"
-msgstr "Uitgelichte afbeelding maken"
-
 #: wp-includes/default-widgets.php:197
 msgctxt "Links widget"
 msgid "Random"
 msgstr "Willekeurig"
 
-#: wp-includes/media-template.php:1190 wp-includes/media.php:2932
-msgid "No items found."
-msgstr "Niets gevonden."
-
-#: wp-includes/media.php:2968
-msgid "Add to Gallery"
-msgstr "Aan de galerij toevoegen"
-
-#: wp-includes/media.php:2969
-msgid "Reverse order"
-msgstr "Volgorde omkeren"
-
-#: wp-includes/media.php:2959
-msgid "Set featured image"
-msgstr "Stel uitgelichte afbeelding in"
-
-#: wp-includes/media-template.php:456
-msgid "Deselect"
-msgstr "Selectie opheffen"
-
 #: wp-includes/class-wp-xmlrpc-server.php:4156
 #: wp-includes/class-wp-xmlrpc-server.php:4166
 msgid "Sorry, that file cannot be edited."
 msgstr "Helaas, het bewerken van dit bestand is niet mogelijk."
-
-#: wp-includes/media.php:2937
-msgid ""
-"You are about to permanently delete this item.\n"
-"  'Cancel' to stop, 'OK' to delete."
-msgstr ""
-"Je staat op het punt dit item permanent te verwijderen.\n"
-"  'Annuleren' om te stoppen, 'OK' om te verwijderen."
-
-#: wp-includes/media-template.php:421 wp-includes/media-template.php:524
-#: wp-includes/media.php:2945
-msgid "Delete Permanently"
-msgstr "Permanent verwijderen"
 
 #: wp-includes/media-template.php:181
 msgid "Upload Limit Exceeded"
@@ -1637,10 +2779,6 @@ msgstr "Foutmeldingen negeren"
 #: wp-includes/media-template.php:260
 msgid "Error"
 msgstr "Fout"
-
-#: wp-includes/media.php:2458
-msgid "No editor could be selected."
-msgstr "Niet mogelijk om editor te selecteren."
 
 #: wp-includes/media-template.php:245
 msgid "Uploading"
@@ -1680,74 +2818,11 @@ msgid_plural "Video <span class=\"count\">(%s)</span>"
 msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Video <span class=\"count\">(%s)</span>"
 
-#: wp-includes/media.php:2933
-msgid "Insert into page"
-msgstr "In pagina invoegen"
-
-#: wp-includes/media.php:2936
-msgid "Uploaded to this page"
-msgstr "Ge&#252;pload naar deze pagina"
-
-#: wp-includes/media.php:2929
-msgid "All media items"
-msgstr "Alle mediabestanden"
-
-#: wp-includes/media.php:2936
-msgid "Uploaded to this post"
-msgstr "Ge&#252;pload naar dit bericht"
-
 #: wp-includes/post.php:2435
 msgid "Audio"
 msgstr "Audio"
 
-#: wp-includes/media.php:2928
-msgid "&#8592; Return to library"
-msgstr "&#8592; Terug naar bibliotheek"
-
-#: wp-includes/media-template.php:650 wp-includes/media-template.php:825
-#: wp-includes/media-template.php:938
-msgid "Custom URL"
-msgstr "Aangepaste URL"
-
-#: wp-includes/media-template.php:479 wp-includes/media.php:2952
-msgid "Attachment Details"
-msgstr "Bijlagedetails"
-
-#: wp-includes/media-template.php:385 wp-includes/media-template.php:562
-#: wp-includes/media-template.php:796
-msgid "Alt Text"
-msgstr "alt-tekst"
-
-#: wp-includes/media-template.php:718
-msgid "Columns"
-msgstr "Kolommen"
-
-#: wp-includes/media.php:2916
-msgid "Drag and drop to reorder images."
-msgstr "Versleep de afbeeldingen om ze te ordenen."
-
-#: wp-includes/media-template.php:674 wp-includes/media-template.php:898
-#: wp-includes/media.php:2676
-msgid "Large"
-msgstr "Groot"
-
-#: wp-includes/media-template.php:586
-msgid "Attachment Display Settings"
-msgstr "Weergave-instellingen bijlagen"
-
-#: wp-includes/media-template.php:693
-msgid "Gallery Settings"
-msgstr "Galerij-instellingen"
-
-#: wp-includes/media.php:2920
-msgid "Upload Images"
-msgstr "Afbeeldingen uploaden"
-
-#: wp-includes/media.php:2964
-msgid "&#8592; Cancel Gallery"
-msgstr "&#8592; Galerij annuleren"
-
-#: wp-includes/ms-functions.php:1967
+#: wp-includes/ms-functions.php:1969
 msgid "WordPress &rsaquo; Success"
 msgstr "WordPress &rsaquo; succes"
 
@@ -1755,25 +2830,9 @@ msgstr "WordPress &rsaquo; succes"
 msgid "Drop files anywhere to upload"
 msgstr "Je bestanden hier naartoe slepen"
 
-#: wp-includes/media.php:2919
-msgid "Upload Files"
-msgstr "Bestanden uploaden"
-
-#: wp-includes/media.php:2965
-msgid "Insert gallery"
-msgstr "Galerij invoegen"
-
 #: wp-includes/media-template.php:159 wp-includes/media-template.php:165
 msgid "Drop files to upload"
 msgstr "Sleep bestanden om te uploaden"
-
-#: wp-includes/media.php:2923
-msgid "Media Library"
-msgstr "Mediabibliotheek"
-
-#: wp-includes/media.php:2962
-msgid "Create Gallery"
-msgstr "Galerij aanmaken"
 
 #: wp-includes/ms-functions.php:943
 msgid ""
@@ -1827,37 +2886,6 @@ msgstr ""
 "\n"
 "Deze meldingen uitschakelen: %3$s"
 
-#: wp-includes/media-template.php:618 wp-includes/media-template.php:696
-#: wp-includes/media-template.php:819 wp-includes/media-template.php:923
-msgid "Link To"
-msgstr "Link naar"
-
-#: wp-includes/media-template.php:645 wp-includes/media-template.php:706
-#: wp-includes/media-template.php:930
-msgid "Attachment Page"
-msgstr "Bijlagepagina"
-
-#: wp-includes/media-template.php:638 wp-includes/media-template.php:709
-#: wp-includes/media-template.php:927
-msgid "Media File"
-msgstr "Mediabestand"
-
-#: wp-includes/media-template.php:467
-msgid "Describe this video&hellip;"
-msgstr "Omschrijf deze video&hellip;"
-
-#: wp-includes/media-template.php:469
-msgid "Describe this audio file&hellip;"
-msgstr "Omschrijf dit audiobestand&hellip;"
-
-#: wp-includes/media-template.php:471
-msgid "Describe this media file&hellip;"
-msgstr "Omschrijf dit mediabestand&hellip;"
-
-#: wp-includes/media.php:2966
-msgid "Update gallery"
-msgstr "Galerij bijwerken"
-
 #: wp-includes/ms-functions.php:186
 msgid "The requested user does not exist."
 msgstr "De opgevraagde gebruiker bestaat niet."
@@ -1865,10 +2893,6 @@ msgstr "De opgevraagde gebruiker bestaat niet."
 #: wp-includes/ms-functions.php:506
 msgid "Please enter a valid email address."
 msgstr "Geef een geldig e-mailadres op."
-
-#: wp-includes/user.php:2129
-msgid "<strong>ERROR</strong>: This username is already registered. Please choose another one."
-msgstr "<strong>FOUT</strong>: Deze gebruikersnaam is al geregistreerd. Kies een andere gebruikersnaam."
 
 #: wp-includes/class-wp-image-editor-gd.php:87
 #: wp-includes/class-wp-image-editor-imagick.php:120
@@ -1908,15 +2932,15 @@ msgstr "Spiegelen afbeelding mislukt."
 msgid "Image Editor Save Failed"
 msgstr "Opslaan afbeelding mislukt"
 
-#: wp-includes/post.php:55
-msgctxt "post type general name"
+#: wp-includes/post.php:56
+msgctxt "add new from admin bar"
 msgid "Media"
 msgstr "Media"
 
-#: wp-includes/post.php:57
-msgctxt "add new media"
+#: wp-includes/post.php:1624
+msgctxt "page"
 msgid "Add New"
-msgstr "Nieuwe toevoegen"
+msgstr "Nieuwe pagina"
 
 #: wp-includes/post.php:59
 msgid "View Attachment Page"
@@ -1925,26 +2949,6 @@ msgstr "Bijlagepagina tonen"
 #: wp-includes/post.php:3210
 msgid "Whoops, the provided date is invalid."
 msgstr "Oeps, de aangeleverde data is ongeldig."
-
-#: wp-includes/media.php:2924
-msgid "Insert Media"
-msgstr "Media toevoegen"
-
-#: wp-includes/media.php:2925
-msgid "Create a new gallery"
-msgstr "Een nieuwe galerij aanmaken"
-
-#: wp-includes/media.php:2933
-msgid "Insert into post"
-msgstr "Invoegen in bericht"
-
-#: wp-includes/media.php:2967
-msgid "Add to gallery"
-msgstr "Aan galerij toevoegen"
-
-#: wp-includes/media-template.php:579 wp-includes/script-loader.php:505
-msgid "Clear"
-msgstr "Wissen"
 
 #: wp-includes/script-loader.php:507
 msgid "Select Color"
@@ -2027,10 +3031,6 @@ msgstr "Helaas, je hebt onvoldoende rechten om berichten te bewerken."
 #: wp-includes/class-wp-xmlrpc-server.php:3924
 msgid "Sorry, revisions are disabled."
 msgstr "Helaas, revisies zijn uitgeschakeld."
-
-#: wp-includes/media-template.php:861
-msgid "Alternative Text"
-msgstr "Alternatieve tekst"
 
 #: wp-includes/media-template.php:189
 msgctxt "Uploader: Drop files here - or - Select Files"
@@ -2240,15 +3240,6 @@ msgstr "Berichtenpagina"
 msgid "Upload"
 msgstr "Uploaden"
 
-#: wp-includes/class-wp-customize-control.php:591
-#: wp-includes/class-wp-customize-widgets.php:726
-#: wp-includes/media-template.php:452 wp-includes/media-template.php:1004
-#: wp-includes/media-template.php:1018 wp-includes/media-template.php:1088
-#: wp-includes/media-template.php:1100 wp-includes/media-template.php:1121
-#: wp-includes/media-template.php:1153 wp-includes/media.php:2909
-msgid "Remove"
-msgstr "Verwijderen"
-
 #: wp-includes/script-loader.php:393
 msgid "Allowed Files"
 msgstr "Toegestane bestanden"
@@ -2351,10 +3342,6 @@ msgid_plural "Your theme supports %s menus. Select which menu appears in each lo
 msgstr[0] "Je thema ondersteunt %s menu. Selecteer welk menu je wilt gebruiken."
 msgstr[1] "Je thema ondersteunt %s menu&#39;s. Selecteer welk menu je wilt gebruiken op elke locatie."
 
-#: wp-includes/media-template.php:508
-msgid "Refresh"
-msgstr "Verversen"
-
 #: wp-includes/class-wp-customize-manager.php:1139
 msgid "Static Front Page"
 msgstr "Statische startpagina"
@@ -2385,10 +3372,12 @@ msgstr "Ondertitel"
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Selecteren &mdash;"
 
-#: wp-includes/formatting.php:2589 wp-includes/script-loader.php:370
+#: wp-includes/formatting.php:2602 wp-includes/script-loader.php:370
 msgctxt "word count: words or characters?"
 msgid "words"
-msgstr "woorden"
+msgid_plural ""
+msgstr[0] "woorden"
+msgstr[1] ""
 
 #: wp-includes/class-wp-xmlrpc-server.php:1168
 #: wp-includes/class-wp-xmlrpc-server.php:4747
@@ -2490,10 +3479,12 @@ msgstr "Helaas, een van de geselecteerde taxonomie&#235;n wordt niet ondersteunt
 msgid "Sorry, you are not allowed to stick this post."
 msgstr "Helaas, je hebt geen toestemming om dit bericht sticky te maken."
 
-#: wp-includes/formatting.php:62 wp-includes/formatting.php:3842
+#: wp-includes/formatting.php:62 wp-includes/formatting.php:3855
 msgctxt "opening curly double quote"
 msgid "&#8220;"
-msgstr "&#8220;"
+msgid_plural ""
+msgstr[0] "&#8220;"
+msgstr[1] ""
 
 #: wp-includes/formatting.php:64
 msgctxt "closing curly double quote"
@@ -2639,7 +3630,7 @@ msgstr "Bezoek de <a href=\"http://codex.wordpress.org/Debugging_in_WordPress\">
 msgid "Feedback"
 msgstr "Terugkoppeling"
 
-#: wp-includes/ms-functions.php:1466
+#: wp-includes/ms-functions.php:1468
 msgid ""
 "Dear User,\n"
 "\n"
@@ -2705,28 +3696,23 @@ msgstr "E-mail"
 msgid "Users"
 msgstr "Gebruikers"
 
-#: wp-includes/class-wp-editor.php:1188 wp-includes/media.php:2907
+#: wp-includes/class-wp-editor.php:1188 wp-includes/media.php:2916
 #: wp-includes/script-loader.php:358 wp-includes/script-loader.php:449
+msgctxt ""
 msgid "Update"
-msgstr "Bijwerken"
+msgid_plural ""
+msgstr[0] "Bijwerken"
+msgstr[1] ""
 
 #: wp-includes/admin-bar.php:368
 msgid "Sites"
 msgstr "Websites"
-
-#: wp-includes/theme-compat/comments-popup.php:79 wp-login.php:711
-msgid "E-mail"
-msgstr "E-mail"
 
 #: wp-includes/comment-template.php:2083
 #: wp-includes/theme-compat/comments-popup.php:74
 #: wp-includes/theme-compat/comments.php:77
 msgid "Name"
 msgstr "Naam"
-
-#: wp-includes/general-template.php:405 wp-login.php:707 wp-login.php:867
-msgid "Username"
-msgstr "Gebruikersnaam"
 
 #: wp-includes/admin-bar.php:315 wp-includes/admin-bar.php:362
 #: wp-includes/admin-bar.php:418 wp-includes/deprecated.php:2854
@@ -2742,16 +3728,6 @@ msgstr "Vals aan het spelen?"
 #: wp-includes/admin-bar.php:380 wp-includes/admin-bar.php:658
 msgid "Themes"
 msgstr "Thema&#39;s"
-
-#: wp-includes/general-template.php:408 wp-login.php:858 wp-login.php:884
-msgid "Log In"
-msgstr "Inloggen"
-
-#: wp-includes/class-wp-editor.php:811 wp-includes/class-wp-editor.php:1388
-#: wp-includes/media-template.php:365 wp-includes/media-template.php:542
-#: wp-includes/media-template.php:773 wp-includes/revision.php:29
-msgid "Title"
-msgstr "Titel"
 
 #: wp-includes/script-loader.php:453
 msgid "Public"
@@ -2794,9 +3770,12 @@ msgstr "Documentatie"
 msgid "Support Forums"
 msgstr "Ondersteuningsforums"
 
-#: wp-includes/formatting.php:2584 wp-includes/general-template.php:2547
+#: wp-includes/formatting.php:2597 wp-includes/general-template.php:2547
+msgctxt ""
 msgid "&hellip;"
-msgstr "&hellip;"
+msgid_plural ""
+msgstr[0] "&hellip;"
+msgstr[1] ""
 
 #: wp-includes/functions.php:3137
 msgid "Database Error"
@@ -2854,7 +3833,7 @@ msgstr "Linknotificaties toestaan van andere blogs (pingbacks en trackbacks)"
 msgid "Use <code>WP_User->ID</code> instead."
 msgstr "Gebruik: <code>WP_User->ID</code>."
 
-#: wp-includes/ms-functions.php:1967
+#: wp-includes/ms-functions.php:1969
 msgid "You have been added to this site. Please visit the <a href=\"%s\">homepage</a> or <a href=\"%s\">log in</a> using your username and password."
 msgstr "Je bent toegevoegd aan deze site. Bezoek de <a href=\"%s\">homepagina</a> of <a href=\"%s\">log in</a> met je gebruikersnaam en wachtwoord."
 
@@ -2875,27 +3854,25 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Blauw"
 
-#: wp-includes/formatting.php:3403
+#: wp-includes/formatting.php:3416
+msgctxt ""
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
-msgstr "De opgegeven tijdzone is niet geldig. Een geldige tijdzone selecteren."
+msgid_plural ""
+msgstr[0] "De opgegeven tijdzone is niet geldig. Een geldige tijdzone selecteren."
+msgstr[1] ""
 
-#: wp-includes/post.php:22
-msgctxt "add new on admin bar"
+#: wp-includes/post.php:1623
+msgctxt "post type singular name"
 msgid "Post"
 msgstr "Bericht"
 
-#: wp-includes/post.php:38
-msgctxt "add new on admin bar"
+#: wp-includes/post.php:1623
+msgctxt "post type singular name"
 msgid "Page"
 msgstr "Pagina"
 
-#: wp-includes/post.php:56
-msgctxt "add new from admin bar"
-msgid "Media"
-msgstr "Media"
-
-#: wp-includes/admin-bar.php:573
-msgctxt "add new from admin bar"
+#: wp-includes/post-formats.php:96
+msgctxt "Post format"
 msgid "Link"
 msgstr "Link"
 
@@ -2904,7 +3881,7 @@ msgctxt "add new from admin bar"
 msgid "User"
 msgstr "Gebruiker"
 
-#: wp-includes/pluggable.php:1067
+#: wp-includes/pluggable.php:1073
 msgid "You should specify a nonce action to be verified by using the first parameter."
 msgstr "Je moet een nonce-actie specificeren die kan worden geverifieerd door gebruik te maken van de eerste parameter."
 
@@ -3008,10 +3985,6 @@ msgstr "Pingback:"
 msgid "Poster"
 msgstr "Schrijver"
 
-#: wp-includes/media-template.php:1035 wp-includes/media-template.php:1125
-msgid "Preload"
-msgstr "Preload"
-
 #: wp-includes/class-http.php:221
 msgid "Destination directory for file streaming does not exist or is not writable."
 msgstr "De doelmap voor het streamen van bestanden bestaat niet of er kan niet naar worden geschreven."
@@ -3020,10 +3993,10 @@ msgstr "De doelmap voor het streamen van bestanden bestaat niet of er kan niet n
 msgid "There are no HTTP transports available which can complete the requested request."
 msgstr "Er zijn geen HTTP verzoeken beschikbaar welke het gevraagde vereiste kan voltooien."
 
-#: wp-includes/taxonomy.php:119 wp-includes/taxonomy.php:120
-msgctxt "post format"
-msgid "Format"
-msgstr "Notatie"
+#: wp-includes/comment.php:536
+msgctxt "adjective"
+msgid "Spam"
+msgstr "Spam"
 
 #: wp-includes/class-wp-editor.php:1383
 msgid "Enter the destination URL"
@@ -3065,7 +4038,7 @@ msgstr "(Dit bericht is toegevoegd in versie %s.)"
 msgid "Sorry, you cannot publish this post."
 msgstr "Je kunt dit bericht niet publiceren."
 
-#: wp-includes/pluggable.php:1412
+#: wp-includes/pluggable.php:1418
 msgid "Permalink: %s"
 msgstr "Permalink: %s"
 
@@ -3101,13 +4074,9 @@ msgstr "Audio"
 msgid "Invalid post format"
 msgstr "Ongeldige berichtsnotatie"
 
-#: wp-includes/pluggable.php:1404 wp-includes/pluggable.php:1533
+#: wp-includes/pluggable.php:1410 wp-includes/pluggable.php:1539
 msgid "Whois  : http://whois.arin.net/rest/ip/%s"
 msgstr "Whois : http://whois.arin.net/rest/ip/%s"
-
-#: wp-includes/class-wp-editor.php:1391 wp-includes/media-template.php:961
-msgid "Open link in a new window/tab"
-msgstr "Open link in een nieuw venster/tab"
 
 #: wp-includes/class-wp-editor.php:1411
 msgid "No search term specified. Showing recent items."
@@ -3135,11 +4104,6 @@ msgstr "Chat"
 msgctxt "Post format"
 msgid "Gallery"
 msgstr "Galerij"
-
-#: wp-includes/post-formats.php:96
-msgctxt "Post format"
-msgid "Link"
-msgstr "Link"
 
 #: wp-includes/post-formats.php:97
 msgctxt "Post format"
@@ -3228,33 +4192,9 @@ msgstr "Thumbnailbreedte"
 msgid "No matches found."
 msgstr "Geen overeenkomsten gevonden."
 
-#: wp-login.php:620
-msgid "New password"
-msgstr "Nieuw wachtwoord"
-
-#: wp-login.php:624
-msgid "Confirm new password"
-msgstr "Nieuw wachtwoord bevestigen"
-
 #: wp-login.php:364
 msgid "To reset your password, visit the following address:"
 msgstr "Ga naar dit adres om je wachtwoord opnieuw in te stellen:"
-
-#: wp-login.php:613 wp-login.php:643
-msgid "Reset Password"
-msgstr "Wachtwoord opnieuw instellen"
-
-#: wp-login.php:590
-msgid "The passwords do not match."
-msgstr "De wachtwoorden komen niet overeen."
-
-#: wp-login.php:605
-msgid "Password Reset"
-msgstr "Wachtwoord opnieuw instellen"
-
-#: wp-login.php:605
-msgid "Your password has been reset."
-msgstr "Je wachtwoord is opnieuw ingesteld."
 
 #: wp-login.php:360
 msgid "Someone requested that the password be reset for the following account:"
@@ -3263,10 +4203,6 @@ msgstr "Iemand heeft verzocht om het wachtwoord van het volgende account opnieuw
 #: wp-login.php:363
 msgid "If this was a mistake, just ignore this email and nothing will happen."
 msgstr "Als dit een vergissing was, kun je deze e-mail negeren en zal er niets gebeuren."
-
-#: wp-login.php:613
-msgid "Enter your new password below."
-msgstr "Voer hieronder je nieuwe wachtwoord in."
 
 #: wp-includes/post-formats.php:70
 msgid "Invalid post"
@@ -3332,7 +4268,7 @@ msgstr "[%1$s] %2$s activeren"
 msgid "Your server is running PHP version %1$s but WordPress %2$s requires at least %3$s."
 msgstr "Op deze server draait PHP-versie %1$s, maar WordPress %2$s vereist minimaal PHP-versie %3$s."
 
-#: wp-includes/pluggable.php:1514
+#: wp-includes/pluggable.php:1520
 msgid "A new trackback on the post \"%s\" is waiting for your approval"
 msgstr "Een nieuwe trackback op het bericht \"%s\", wacht op je goedkeuring"
 
@@ -3374,23 +4310,23 @@ msgstr "alles"
 msgid "Custom Menu"
 msgstr "Aangepast menu"
 
-#: wp-includes/pluggable.php:1389
+#: wp-includes/pluggable.php:1395
 msgid "New pingback on your post \"%s\""
 msgstr "Nieuwe pingback op je bericht \"%s\""
 
-#: wp-includes/pluggable.php:1521
+#: wp-includes/pluggable.php:1527
 msgid "A new pingback on the post \"%s\" is waiting for your approval"
 msgstr "Een nieuwe pingback op het bericht \"%s\" wacht op toelating"
 
-#: wp-includes/pluggable.php:1528
+#: wp-includes/pluggable.php:1534
 msgid "A new comment on the post \"%s\" is waiting for your approval"
 msgstr "Een nieuwe reactie op het bericht \"%s\" wacht op toelating"
 
-#: wp-includes/pluggable.php:1379
+#: wp-includes/pluggable.php:1385
 msgid "New trackback on your post \"%s\""
 msgstr "Nieuwe trackback op je bericht \"%s\""
 
-#: wp-includes/pluggable.php:1399
+#: wp-includes/pluggable.php:1405
 msgid "New comment on your post \"%s\""
 msgstr "Nieuwe reactie op je bericht \"%s\""
 
@@ -3666,16 +4602,6 @@ msgctxt "post type general name"
 msgid "Pages"
 msgstr "Pagina&#39;s"
 
-#: wp-includes/post.php:1623
-msgctxt "post type singular name"
-msgid "Page"
-msgstr "Pagina"
-
-#: wp-includes/post.php:1623
-msgctxt "post type singular name"
-msgid "Post"
-msgstr "Bericht"
-
 #: wp-includes/ms-default-constants.php:127
 msgid "The constant <code>VHOST</code> <strong>is deprecated</strong>. Use the boolean constant <code>SUBDOMAIN_INSTALL</code> in wp-config.php to enable a subdomain configuration. Use is_subdomain_install() to check whether a subdomain configuration is enabled."
 msgstr "De constante <code>VHOST</code> <strong>is niet langer in gebruik</strong>. Gebruik de boolean-constante <code>SUBDOMAIN_INSTALL</code> in wp-config.php om de subdomeinconfiguratie in te schakelen. Gebruik subdomain_install() om te controleren of een subdomeinconfiguratie ingeschakeld is."
@@ -3683,10 +4609,6 @@ msgstr "De constante <code>VHOST</code> <strong>is niet langer in gebruik</stron
 #: wp-includes/ms-default-constants.php:129
 msgid "<strong>Conflicting values for the constants VHOST and SUBDOMAIN_INSTALL.</strong> The value of SUBDOMAIN_INSTALL will be assumed to be your subdomain configuration setting."
 msgstr "<strong>Conflicterende waarden voor de constanten VHOST en SUBDOMAIN_INSTALL.</strong> De waarde van SUBDOMAIN_INSTALL zal worden overgenomen voor de subdomeinconfiguratie-instelling."
-
-#: wp-includes/user.php:2126
-msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
-msgstr "<strong>FOUT</strong>: Deze gebruikersnaam is ongeldig omdat er illegale tekens in voorkomen. Vul een geldige gebruikersnaam in."
 
 #: wp-includes/comment-template.php:2091
 msgid "Required fields are marked %s"
@@ -3782,7 +4704,7 @@ msgstr "Nieuwe website registratie: %s"
 msgid "Sorry, site names may not contain the character &#8220;_&#8221;!"
 msgstr "Helaas, websitenamen mogen geen &#8220;_&#8221; karakters bevatten!"
 
-#: wp-includes/ms-functions.php:1523
+#: wp-includes/ms-functions.php:1525
 msgid "New %1$s Site: %2$s"
 msgstr "Nieuw %1$s website: %2$s"
 
@@ -3828,7 +4750,7 @@ msgstr "Helaas, deze website is gereserveerd!"
 msgid "That site is currently reserved but may be available in a couple days."
 msgstr "Deze site is momenteel gereserveerd, maar komt wellicht binnenkort beschikbaar."
 
-#: wp-includes/pluggable.php:1639
+#: wp-includes/pluggable.php:1645
 msgid "New user registration on your site %s:"
 msgstr "Nieuwe gebruiker geregistreerd op je site %s:"
 
@@ -3869,27 +4791,36 @@ msgstr "De menunaam <strong>%s</strong> conflicteert met een andere menunaam. Pr
 msgid "The given object ID is not that of a menu item."
 msgstr "Het opgegeven object ID is niet van een menu-item."
 
-#: wp-includes/formatting.php:3261
+#: wp-includes/formatting.php:3274
+msgctxt ""
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
-msgstr "Het ingevulde e-mailadres is ongeldig. Een geldig e-mailadres invoeren."
+msgid_plural ""
+msgstr[0] "Het ingevulde e-mailadres is ongeldig. Een geldig e-mailadres invoeren."
+msgstr[1] ""
 
-#: wp-includes/formatting.php:3348
+#: wp-includes/formatting.php:3361
+msgctxt ""
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
-msgstr "Het ingevulde WordPress-adres is geen geldige URL. Voer een geldige URL in."
+msgid_plural ""
+msgstr[0] "Het ingevulde WordPress-adres is geen geldige URL. Voer een geldige URL in."
+msgstr[1] ""
 
-#: wp-includes/formatting.php:3358
+#: wp-includes/formatting.php:3371
+msgctxt ""
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
-msgstr "Het ingevulde siteadres is geen geldige URL. Voer een geldige URL in."
+msgid_plural ""
+msgstr[0] "Het ingevulde siteadres is geen geldige URL. Voer een geldige URL in."
+msgstr[1] ""
 
 #: wp-includes/taxonomy.php:2491
 msgid "A term with the name provided already exists with this parent."
 msgstr "Deze term met dit hoofd is al eerder toegevoegd en bestaat al."
 
-#: wp-includes/ms-functions.php:1965
+#: wp-includes/ms-functions.php:1967
 msgid "An error occurred adding you to this site. Back to the <a href=\"%s\">homepage</a>."
 msgstr "Er is een fout opgetreden bij het toevoegen van jou op deze site. Ga terug naar de <a href=\"%s\">startpagina</a>."
 
-#: wp-includes/ms-functions.php:1881
+#: wp-includes/ms-functions.php:1883
 msgid "This file is too big. Files must be less than %d KB in size."
 msgstr "Dit bestand is te groot. Bestanden moeten kleiner dan %d KB zijn."
 
@@ -4006,7 +4937,7 @@ msgstr ""
 "Je staat op het punt dit menu permanent te verwijderen.\n"
 " 'Annuleer' om te stoppen, 'OK' om te verwijderen."
 
-#: wp-includes/link-template.php:3116
+#: wp-includes/link-template.php:3118
 msgid "This is the short link."
 msgstr "Dit is een verkorte link."
 
@@ -4519,19 +5450,22 @@ msgstr "Reacties op: %s"
 msgid "Protected Comments: Please enter your password to view comments."
 msgstr "Beveiligde reacties: geef je wachtwoord om de reacties te bekijken."
 
-#: wp-includes/formatting.php:2472
+#: wp-includes/formatting.php:2485
+msgctxt ""
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minuut"
 msgstr[1] "%s minuten"
 
-#: wp-includes/formatting.php:2477
+#: wp-includes/formatting.php:2490
+msgctxt ""
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s uur"
 msgstr[1] "%s uur"
 
-#: wp-includes/formatting.php:2482
+#: wp-includes/formatting.php:2495
+msgctxt ""
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s dag"
@@ -4569,7 +5503,7 @@ msgstr "WordPress foutmelding"
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "Weet je zeker dat je wilt <a href='%s'>uitloggen</a>?"
 
-#: wp-includes/functions.php:2324 wp-includes/ms-functions.php:1912
+#: wp-includes/functions.php:2324 wp-includes/ms-functions.php:1914
 msgid "Please try again."
 msgstr "Opnieuw proberen."
 
@@ -4609,23 +5543,9 @@ msgstr "UTC"
 msgid "Manual Offsets"
 msgstr "Handmatige compensatie"
 
-#: wp-includes/general-template.php:284 wp-login.php:545 wp-login.php:605
-#: wp-login.php:647 wp-login.php:729
-msgid "Log in"
-msgstr "Inloggen"
-
 #: wp-includes/general-template.php:286
 msgid "Log out"
 msgstr "Uitloggen"
-
-#: wp-includes/general-template.php:407 wp-login.php:882
-msgid "Remember Me"
-msgstr "Deze gegevens onthouden"
-
-#: wp-includes/general-template.php:540 wp-login.php:548 wp-login.php:650
-#: wp-login.php:725 wp-login.php:901
-msgid "Register"
-msgstr "Registreren"
 
 #: wp-includes/general-template.php:544
 msgid "Site Admin"
@@ -4638,10 +5558,6 @@ msgstr "Zoekresultaten %1$s %2$s"
 #: wp-includes/general-template.php:832
 msgid "Page not found"
 msgstr "Pagina niet gevonden"
-
-#: wp-includes/general-template.php:1274 wp-includes/media.php:2848
-msgid "%1$s %2$d"
-msgstr "%1$s %2$d"
 
 #: wp-includes/general-template.php:1480
 msgctxt "calendar caption"
@@ -5082,14 +5998,6 @@ msgstr "Lijst"
 msgid "Constrain proportions"
 msgstr "Afmetingen beperken"
 
-#: wp-includes/media-template.php:1050 wp-includes/media-template.php:1140
-msgid "Loop"
-msgstr "Lus"
-
-#: wp-includes/media-template.php:801 wp-includes/media-template.php:867
-msgid "Align"
-msgstr "Uitlijnen"
-
 #: wp-includes/admin-bar.php:684
 msgid "Background"
 msgstr "Achtergrond"
@@ -5106,17 +6014,9 @@ msgstr "Mute"
 msgid "Insert More Tag"
 msgstr "Meer-tag invoegen"
 
-#: wp-includes/media.php:2963
-msgid "Edit Gallery"
-msgstr "Galerij bewerken"
-
 #: wp-includes/class-wp-editor.php:821
 msgid "Source"
 msgstr "Bron"
-
-#: wp-includes/media-template.php:964
-msgid "Link Rel"
-msgstr "Link relatie"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:106
 msgid "Rather than reaching for your mouse to click on the toolbar, use these access keys. Windows and Linux use Ctrl + letter. Macintosh uses Command + letter."
@@ -5167,15 +6067,15 @@ msgstr "Citeren"
 msgid "Insert Page Break tag"
 msgstr "Pagina-afbreken tag invoegen"
 
-#: wp-includes/link-template.php:671
+#: wp-includes/link-template.php:673
 msgid "Comments Feed"
 msgstr "Reactiefeed"
 
-#: wp-includes/link-template.php:1609 wp-includes/link-template.php:1841
+#: wp-includes/link-template.php:1611 wp-includes/link-template.php:1843
 msgid "Previous Post"
 msgstr "Vorige bericht"
 
-#: wp-includes/link-template.php:1609 wp-includes/link-template.php:1841
+#: wp-includes/link-template.php:1611 wp-includes/link-template.php:1843
 msgid "Next Post"
 msgstr "Volgende bericht"
 
@@ -5183,11 +6083,11 @@ msgstr "Volgende bericht"
 msgid "Last Post"
 msgstr "Laatste bericht"
 
-#: wp-includes/link-template.php:2260
+#: wp-includes/link-template.php:2262
 msgid "Newer Comments &raquo;"
 msgstr "Nieuwere reacties &raquo;"
 
-#: wp-includes/link-template.php:2304
+#: wp-includes/link-template.php:2306
 msgid "&laquo; Older Comments"
 msgstr "&laquo; Oudere reacties"
 
@@ -5291,11 +6191,11 @@ msgstr "Deze gebruikersnaam is al geactiveerd."
 msgid "New User Registration: %s"
 msgstr "Nieuwe gebruikersregistratie: %s"
 
-#: wp-includes/ms-functions.php:1601
+#: wp-includes/ms-functions.php:1603
 msgid "New %1$s User: %2$s"
 msgstr "Nieuwe %1$s gebruiker: %2$s"
 
-#: wp-includes/ms-functions.php:2119
+#: wp-includes/ms-functions.php:2121
 msgid ""
 "Dear User,\n"
 "\n"
@@ -5327,116 +6227,116 @@ msgstr ""
 msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
 msgstr "<strong>MISLUKT</strong>: Ongeldige gebruikersnaam of e-mailadres."
 
-#: wp-includes/pluggable.php:1401 wp-includes/pluggable.php:1530
+#: wp-includes/pluggable.php:1407 wp-includes/pluggable.php:1536
 msgid "Author : %1$s (IP: %2$s , %3$s)"
 msgstr "Auteur : %1$s (IP: %2$s , %3$s)"
 
-#: wp-includes/pluggable.php:1402 wp-includes/pluggable.php:1531
+#: wp-includes/pluggable.php:1408 wp-includes/pluggable.php:1537
 msgid "E-mail : %s"
 msgstr "E-mail : %s"
 
-#: wp-includes/pluggable.php:1382 wp-includes/pluggable.php:1392
-#: wp-includes/pluggable.php:1403 wp-includes/pluggable.php:1517
-#: wp-includes/pluggable.php:1524 wp-includes/pluggable.php:1532
+#: wp-includes/pluggable.php:1388 wp-includes/pluggable.php:1398
+#: wp-includes/pluggable.php:1409 wp-includes/pluggable.php:1523
+#: wp-includes/pluggable.php:1530 wp-includes/pluggable.php:1538
 msgid "URL    : %s"
 msgstr "URL    : %s"
 
-#: wp-includes/pluggable.php:1405 wp-includes/pluggable.php:1534
+#: wp-includes/pluggable.php:1411 wp-includes/pluggable.php:1540
 msgid "Comment: "
 msgstr "Reactie: "
 
-#: wp-includes/pluggable.php:1406
+#: wp-includes/pluggable.php:1412
 msgid "You can see all comments on this post here: "
 msgstr "Je kunt alle reacties op dit bericht hier bekijken:"
 
-#: wp-includes/pluggable.php:1408
+#: wp-includes/pluggable.php:1414
 msgid "[%1$s] Comment: \"%2$s\""
 msgstr "[%1$s] Reactie: \"%2$s\""
 
-#: wp-includes/pluggable.php:1381 wp-includes/pluggable.php:1391
+#: wp-includes/pluggable.php:1387 wp-includes/pluggable.php:1397
 msgid "Website: %1$s (IP: %2$s , %3$s)"
 msgstr "Site: %1$s (IP: %2$s , %3$s)"
 
-#: wp-includes/pluggable.php:1383 wp-includes/pluggable.php:1393
+#: wp-includes/pluggable.php:1389 wp-includes/pluggable.php:1399
 msgid "Excerpt: "
 msgstr "Samenvatting: "
 
-#: wp-includes/pluggable.php:1384
+#: wp-includes/pluggable.php:1390
 msgid "You can see all trackbacks on this post here: "
 msgstr "Je kunt alle trackbacks bij dit bericht hier bekijken:"
 
-#: wp-includes/pluggable.php:1386
+#: wp-includes/pluggable.php:1392
 msgid "[%1$s] Trackback: \"%2$s\""
 msgstr "[%1$s] Trackback: \"%2$s\""
 
-#: wp-includes/pluggable.php:1394
+#: wp-includes/pluggable.php:1400
 msgid "You can see all pingbacks on this post here: "
 msgstr "Je kunt alle pingbacks op dit bericht hier bekijken: "
 
-#: wp-includes/pluggable.php:1396
+#: wp-includes/pluggable.php:1402
 msgid "[%1$s] Pingback: \"%2$s\""
 msgstr "[%1$s] Pingback: \"%2$s\""
 
-#: wp-includes/pluggable.php:1416 wp-includes/pluggable.php:1540
+#: wp-includes/pluggable.php:1422 wp-includes/pluggable.php:1546
 msgid "Trash it: %s"
 msgstr "Naar de prullenbak: %s"
 
-#: wp-includes/pluggable.php:1418 wp-includes/pluggable.php:1542
+#: wp-includes/pluggable.php:1424 wp-includes/pluggable.php:1548
 msgid "Delete it: %s"
 msgstr "Verwijderen: %s"
 
-#: wp-includes/pluggable.php:1419 wp-includes/pluggable.php:1543
+#: wp-includes/pluggable.php:1425 wp-includes/pluggable.php:1549
 msgid "Spam it: %s"
 msgstr "Markeren als spam: %s"
 
-#: wp-includes/pluggable.php:1516 wp-includes/pluggable.php:1523
+#: wp-includes/pluggable.php:1522 wp-includes/pluggable.php:1529
 msgid "Website : %1$s (IP: %2$s , %3$s)"
 msgstr "Site : %1$s (IP: %2$s , %3$s)"
 
-#: wp-includes/pluggable.php:1518
+#: wp-includes/pluggable.php:1524
 msgid "Trackback excerpt: "
 msgstr "Trackback samenvatting:"
 
-#: wp-includes/pluggable.php:1525
+#: wp-includes/pluggable.php:1531
 msgid "Pingback excerpt: "
 msgstr "Pingback samenvatting:"
 
-#: wp-includes/pluggable.php:1538
+#: wp-includes/pluggable.php:1544
 msgid "Approve it: %s"
 msgstr "Toelaten: %s"
 
-#: wp-includes/pluggable.php:1545
+#: wp-includes/pluggable.php:1551
 msgid "Currently %s comment is waiting for approval. Please visit the moderation panel:"
 msgid_plural "Currently %s comments are waiting for approval. Please visit the moderation panel:"
 msgstr[0] "Er wacht %s reactie op goedkeuring. Ga naar het beheerscherm:"
 msgstr[1] "Er wachten %s reacties op toelating. Ga naar het moderatie scherm:"
 
-#: wp-includes/pluggable.php:1549
+#: wp-includes/pluggable.php:1555
 msgid "[%1$s] Please moderate: \"%2$s\""
 msgstr "[%1$s] Modereer: \"%2$s\""
 
-#: wp-includes/pluggable.php:1612
+#: wp-includes/pluggable.php:1618
 msgid "Password Lost and Changed for user: %s"
 msgstr "Wachtwoord kwijt en gewijzigd voor gebruiker: %s"
 
-#: wp-includes/pluggable.php:1616
+#: wp-includes/pluggable.php:1622
 msgid "[%s] Password Lost/Changed"
 msgstr "[%s] Wachtwoord kwijt/gewijzigd"
 
-#: wp-includes/pluggable.php:1640 wp-includes/pluggable.php:1648
+#: wp-includes/pluggable.php:1646 wp-includes/pluggable.php:1654
 #: wp-login.php:362
 msgid "Username: %s"
 msgstr "Gebruikersnaam: %s"
 
-#: wp-includes/pluggable.php:1643
+#: wp-includes/pluggable.php:1649
 msgid "[%s] New User Registration"
 msgstr "[%s] Registratie nieuwe gebruiker"
 
-#: wp-includes/pluggable.php:1649
+#: wp-includes/pluggable.php:1655
 msgid "Password: %s"
 msgstr "Wachtwoord: %s"
 
-#: wp-includes/pluggable.php:1652
+#: wp-includes/pluggable.php:1658
 msgid "[%s] Your username and password"
 msgstr "[%s] Je gebruikersnaam en wachtwoord"
 
@@ -5574,18 +6474,6 @@ msgstr "Je hebt geen rechten om concepten te bekijken."
 #: wp-includes/user.php:1674
 msgid "Cannot create a user with an empty login name."
 msgstr "Niet mogelijk om een gebruiker zonder gebruikersnaam aan te maken."
-
-#: wp-includes/user.php:1995
-msgid "AIM"
-msgstr "AIM"
-
-#: wp-includes/user.php:1996
-msgid "Yahoo IM"
-msgstr "Yahoo IM"
-
-#: wp-includes/user.php:1997
-msgid "Jabber / Google Talk"
-msgstr "Jabber / Google Talk:"
 
 #: wp-includes/default-widgets.php:1036 wp-includes/rss.php:899
 msgid "An error has occurred, which probably means the feed is down. Try again later."
@@ -5852,20 +6740,6 @@ msgstr "[%s] Wachtwoord resetten"
 msgid "The e-mail could not be sent."
 msgstr "De e-mail kan niet worden verzonden."
 
-#: wp-includes/user.php:2042 wp-includes/user.php:2045
-#: wp-includes/user.php:2049 wp-includes/user.php:2060
-#: wp-includes/user.php:2076
-msgid "Invalid key"
-msgstr "Ongeldige sleutel"
-
-#: wp-includes/user.php:2134
-msgid "<strong>ERROR</strong>: Please type your e-mail address."
-msgstr "<strong>MISLUKT</strong>: Voer je e-mailadres in."
-
-#: wp-includes/user.php:2136
-msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
-msgstr "<strong>MISLUKT</strong>: Het e-mailadres is onjuist."
-
 #: wp-login.php:500
 msgid "Sorry, that key does not appear to be valid."
 msgstr "Helaas, deze sleutel lijkt ongeldig te zijn."
@@ -5889,50 +6763,6 @@ msgstr "Ben je de weg kwijt?"
 #: wp-login.php:218
 msgid "&larr; Back to %s"
 msgstr "&larr; Terug naar %s"
-
-#: wp-login.php:702
-msgid "Registration Form"
-msgstr "Registratieformulier"
-
-#: wp-login.php:702
-msgid "Register For This Site"
-msgstr "Registreer je voor deze site"
-
-#: wp-login.php:722
-msgid "A password will be e-mailed to you."
-msgstr "Je ontvangt een wachtwoord per e-mail."
-
-#: wp-login.php:730 wp-login.php:907
-msgid "Password Lost and Found"
-msgstr "Wachtwoord kwijt en gevonden"
-
-#: wp-login.php:730 wp-login.php:907
-msgid "Lost your password?"
-msgstr "Wachtwoord vergeten?"
-
-#: wp-login.php:793
-msgid "You have logged in successfully."
-msgstr "Je bent succesvol ingelogd."
-
-#: wp-login.php:831
-msgid "You are now logged out."
-msgstr "Je bent nu uitgelogd."
-
-#: wp-login.php:833
-msgid "User registration is currently not allowed."
-msgstr "Gebruikersregistratie is momenteel niet toegestaan."
-
-#: wp-login.php:835
-msgid "Check your e-mail for the confirmation link."
-msgstr "Controleer je e-mail voor de bevestigingslink."
-
-#: wp-login.php:837
-msgid "Check your e-mail for your new password."
-msgstr "Controleer je e-mail voor je nieuwe wachtwoord."
-
-#: wp-login.php:839
-msgid "Registration complete. Please check your e-mail."
-msgstr "Registratie afgerond. Controleer je e-mail."
 
 #: wp-mail.php:34
 msgid "Slow down cowboy, no need to check for new mails so often!"
@@ -6018,25 +6848,9 @@ msgstr "Gebruikersregistratie is gedeactiveerd."
 msgid "Help"
 msgstr "Help"
 
-#: wp-includes/class-wp-editor.php:903 wp-includes/media-template.php:918
-msgid "Width"
-msgstr "Breedte"
-
-#: wp-includes/user.php:2124
-msgid "<strong>ERROR</strong>: Please enter a username."
-msgstr "<strong>MISLUKT</strong>: voer een gebruikersnaam in."
-
-#: wp-includes/user.php:2139
-msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
-msgstr "<strong>MISLUKT</strong>: Dit e-mailadres is al geregistreerd. Kies een ander."
-
 #: wp-includes/widgets.php:67
 msgid "There are no options for this widget."
 msgstr "Er zijn geen opties voor deze widget."
-
-#: wp-includes/script-loader.php:339 wp-login.php:628
-msgid "Strength indicator"
-msgstr "Sterkte-indicator"
 
 #: wp-includes/script-loader.php:340
 msgid "Very weak"
@@ -6054,11 +6868,6 @@ msgstr "Sterk"
 msgid "Edit Category"
 msgstr "Categorie bewerken"
 
-#: wp-includes/post.php:1624
-msgctxt "page"
-msgid "Add New"
-msgstr "Nieuwe pagina"
-
 #: wp-includes/class-wp-xmlrpc-server.php:479
 msgid "Allow people to post comments on new articles"
 msgstr "Sta toe dat bezoekers kunnen reageren op nieuwe artikelen"
@@ -6070,10 +6879,6 @@ msgstr "Datumnotatie"
 #: wp-includes/class-wp-xmlrpc-server.php:434
 msgid "Time Format"
 msgstr "Tijdnotatie"
-
-#: wp-includes/class-wp-editor.php:902 wp-includes/media-template.php:918
-msgid "Height"
-msgstr "Hoogte"
 
 #: wp-includes/class-wp-customize-control.php:479
 #: wp-includes/class-wp-customize-control.php:810
@@ -6148,11 +6953,11 @@ msgstr "Helaas, je kunt niet meer reageren op dit bericht."
 msgid "Sorry, you must be logged in to post a comment."
 msgstr "Helaas, je moet ingelogd zijn om een reactie te geven."
 
-#: wp-includes/link-template.php:2108 wp-includes/link-template.php:2151
+#: wp-includes/link-template.php:2110 wp-includes/link-template.php:2153
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Vorige pagina"
 
-#: wp-includes/link-template.php:2029 wp-includes/link-template.php:2152
+#: wp-includes/link-template.php:2031 wp-includes/link-template.php:2154
 msgid "Next Page &raquo;"
 msgstr "Volgende pagina &raquo;"
 
@@ -6180,8 +6985,8 @@ msgstr "1 reactie"
 msgid "% Comments"
 msgstr "% reacties"
 
-#: wp-includes/link-template.php:948 wp-includes/link-template.php:1214
-#: wp-includes/link-template.php:1316 wp-includes/link-template.php:1377
+#: wp-includes/link-template.php:950 wp-includes/link-template.php:1216
+#: wp-includes/link-template.php:1318 wp-includes/link-template.php:1379
 msgid "Edit This"
 msgstr "Bewerken"
 
@@ -6372,11 +7177,6 @@ msgstr "Laat een reactie achter bij %s"
 msgid "Author"
 msgstr "Auteur"
 
-#: wp-includes/class-wp-editor.php:1385 wp-includes/media-template.php:360
-#: wp-includes/media-template.php:537 wp-includes/media.php:2902
-msgid "URL"
-msgstr "URL"
-
 #: wp-includes/comment-template.php:888 wp-includes/comment-template.php:2103
 msgctxt "noun"
 msgid "Comment"
@@ -6386,23 +7186,10 @@ msgstr "Reactie"
 msgid "Are you sure you want to do this?"
 msgstr "Weet je zeker dat je dit wilt doen?"
 
-#: wp-includes/comment-template.php:1774 wp-includes/comment-template.php:1860
-#: wp-includes/media-template.php:576
-msgid "Edit"
-msgstr "Bewerken"
-
-#: wp-includes/media.php:3023
-msgid "No media attachments found."
-msgstr "Geen media bijlagen gevonden."
-
 #: wp-includes/class-wp-editor.php:783
 #: wp-includes/js/tinymce/wp-mce-help.php:112
 msgid "Undo"
 msgstr "Ongedaan maken"
-
-#: wp-includes/class-wp-customize-widgets.php:724 wp-includes/media.php:2946
-msgid "Apply"
-msgstr "Uitvoeren"
 
 #: wp-includes/theme-compat/comments-popup.php:33
 msgid "Comments"
@@ -6424,11 +7211,6 @@ msgstr "Revisies"
 msgctxt "adjective"
 msgid "Approved"
 msgstr "Toegelaten"
-
-#: wp-includes/comment.php:536
-msgctxt "adjective"
-msgid "Spam"
-msgstr "Spam"
 
 #: wp-includes/taxonomy.php:89
 msgid "Link Categories"
@@ -6462,20 +7244,6 @@ msgstr "Categorie&#235;n"
 #: wp-includes/class-wp-editor.php:820
 msgid "Advanced"
 msgstr "Geavanceerd"
-
-#: wp-includes/class-wp-editor.php:814 wp-includes/media-template.php:390
-#: wp-includes/media-template.php:567
-msgid "Description"
-msgstr "Beschrijving"
-
-#: wp-includes/deprecated.php:707 wp-includes/media-template.php:607
-#: wp-includes/media-template.php:653 wp-includes/media-template.php:712
-#: wp-includes/media-template.php:813 wp-includes/media-template.php:828
-#: wp-includes/media-template.php:879 wp-includes/media-template.php:941
-#: wp-includes/media-template.php:1039 wp-includes/media-template.php:1129
-#: wp-includes/script-loader.php:315
-msgid "None"
-msgstr "Geen"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1722
 #: wp-includes/class-wp-xmlrpc-server.php:1811
@@ -6535,12 +7303,6 @@ msgstr "Voorbeeld"
 msgid "Recent Comments"
 msgstr "Recente reacties"
 
-#: wp-includes/class-wp-editor.php:787 wp-includes/class-wp-editor.php:1423
-#: wp-includes/media.php:2906 wp-includes/script-loader.php:388
-#: wp-includes/script-loader.php:439
-msgid "Cancel"
-msgstr "Annuleren"
-
 #: wp-includes/revision.php:30
 msgid "Content"
 msgstr "Inhoud"
@@ -6594,19 +7356,10 @@ msgstr "Sidebar"
 msgid "Archives"
 msgstr "Archief"
 
-#: wp-includes/general-template.php:406 wp-login.php:871
-msgid "Password"
-msgstr "Wachtwoord"
-
 #: wp-includes/class-wp-editor.php:784
 #: wp-includes/js/tinymce/wp-mce-help.php:112
 msgid "Redo"
 msgstr "Opnieuw"
-
-#: wp-includes/media-template.php:672 wp-includes/media-template.php:896
-#: wp-includes/media.php:2674
-msgid "Thumbnail"
-msgstr "Thumbnail"
 
 #: wp-includes/deprecated.php:3230
 msgid "File &#8220;%s&#8221; doesn&#8217;t exist?"
@@ -6619,66 +7372,6 @@ msgstr "De GD afbeeldingenbibliotheek is niet ge&#239;nstalleerd."
 #: wp-includes/deprecated.php:3240
 msgid "File &#8220;%s&#8221; is not an image."
 msgstr "Bestand &#8220;%s&#8221; is geen afbeelding."
-
-#: wp-includes/media.php:2903
-msgid "Add Media"
-msgstr "Media toevoegen"
-
-#: wp-includes/class-wp-editor.php:1253 wp-includes/media-template.php:324
-#: wp-includes/media-template.php:483
-msgid "Saved."
-msgstr "Opgeslagen."
-
-#: wp-includes/class-wp-customize-manager.php:1070
-#: wp-includes/class-wp-editor.php:906 wp-includes/media-template.php:598
-#: wp-includes/media-template.php:804 wp-includes/media-template.php:870
-msgid "Left"
-msgstr "Links"
-
-#: wp-includes/class-wp-customize-manager.php:1071
-#: wp-includes/class-wp-editor.php:907 wp-includes/media-template.php:601
-#: wp-includes/media-template.php:807 wp-includes/media-template.php:873
-msgid "Center"
-msgstr "Gecentreerd"
-
-#: wp-includes/class-wp-customize-manager.php:1072
-#: wp-includes/class-wp-editor.php:908 wp-includes/media-template.php:604
-#: wp-includes/media-template.php:810 wp-includes/media-template.php:876
-msgid "Right"
-msgstr "Rechts"
-
-#: wp-includes/media-template.php:673 wp-includes/media-template.php:897
-#: wp-includes/media.php:2675
-msgid "Medium"
-msgstr "Gemiddeld"
-
-#: wp-includes/media-template.php:675 wp-includes/media-template.php:899
-#: wp-includes/media.php:2677
-msgid "Full Size"
-msgstr "Volledige grootte"
-
-#: wp-includes/media-template.php:663 wp-includes/media-template.php:887
-msgid "Size"
-msgstr "Afmeting"
-
-#: wp-includes/class-wp-editor.php:905 wp-includes/media-template.php:590
-msgid "Alignment"
-msgstr "Uitlijning"
-
-#: wp-includes/class-wp-editor.php:904 wp-includes/media-template.php:380
-#: wp-includes/media-template.php:557 wp-includes/media-template.php:790
-#: wp-includes/media-template.php:855
-msgid "Caption"
-msgstr "Onderschrift"
-
-#: wp-includes/media-template.php:316 wp-includes/media-template.php:507
-#: wp-includes/media.php:2975
-msgid "Edit Image"
-msgstr "Afbeelding bewerken"
-
-#: wp-includes/media-template.php:822 wp-includes/media-template.php:934
-msgid "Image URL"
-msgstr "URL"
 
 #: wp-includes/script-loader.php:450
 msgid "Save as Pending"
@@ -6717,11 +7410,6 @@ msgstr "Alle categorie&#235;n"
 msgid "Dismiss"
 msgstr "Afbreken"
 
-#: wp-includes/admin-bar.php:730 wp-includes/class-wp-editor.php:1398
-#: wp-includes/media.php:2904
-msgid "Search"
-msgstr "Zoeken"
-
 #: wp-includes/post.php:2434
 msgid "Images"
 msgstr "Afbeeldingen"
@@ -6738,7 +7426,7 @@ msgstr "Links"
 msgid "Uncategorized"
 msgstr "Geen categorie"
 
-#: wp-includes/pluggable.php:1641
+#: wp-includes/pluggable.php:1647
 msgid "E-mail: %s"
 msgstr "E-mailadres: %s"
 
@@ -6753,10 +7441,6 @@ msgstr "Pagina&#39;s"
 msgid "Close"
 msgstr "Sluiten"
 
-#: wp-includes/media.php:2905
-msgid "Select"
-msgstr "Selecteren"
-
 #: wp-includes/post.php:1627
 msgid "New Page"
 msgstr "Nieuwe pagina"
@@ -6768,11 +7452,6 @@ msgstr "Media bewerken"
 #: wp-includes/admin-bar.php:426 wp-includes/post.php:1627
 msgid "New Post"
 msgstr "Nieuw bericht"
-
-#: wp-includes/media.php:2650 wp-includes/script-loader.php:360
-#: wp-includes/script-loader.php:483
-msgid "(no title)"
-msgstr "(geen titel)"
 
 #: wp-activate.php:73
 msgid "Activation Key Required"

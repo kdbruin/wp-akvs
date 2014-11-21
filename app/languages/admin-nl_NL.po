@@ -10,6 +10,88 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Administration\n"
 
+#: wp-admin/includes/post.php:1481
+msgctxt ""
+msgid "Saving revision..."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/includes/post.php:1482
+msgctxt ""
+msgid "Your latest changes were saved as a revision."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/includes/post.php:1286
+msgctxt ""
+msgid "Remove featured image"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/includes/post.php:1442
+msgctxt ""
+msgid "This content is currently locked."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/includes/post.php:1444
+msgctxt ""
+msgid "If you take over, %s will be blocked from continuing to edit."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/includes/post.php:1467
+msgctxt ""
+msgid "Take over"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/includes/post.php:1203 wp-admin/includes/post.php:1225
+msgctxt ""
+msgid "Permalink:"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/includes/misc.php:816 wp-admin/includes/post.php:1645
+#: wp-admin/widgets.php:306
+msgctxt ""
+msgid "Error while saving."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/includes/ajax-actions.php:1505 wp-admin/includes/post.php:205
+#: wp-admin/includes/post.php:1586 wp-admin/includes/post.php:1590
+#: wp-admin/press-this.php:33 wp-admin/upload.php:110
+msgctxt ""
+msgid "You are not allowed to edit this post."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/comment.php:68 wp-admin/comment.php:221
+#: wp-admin/includes/post.php:1388
+msgctxt ""
+msgid "Go back"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/async-upload.php:56 wp-admin/edit-tags.php:247
+#: wp-admin/includes/post.php:1651 wp-admin/post.php:154
+msgctxt ""
+msgid "You are not allowed to edit this item."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
 #: wp-admin/credits.php:182
 msgid "Release Lead"
 msgstr "Release Manager"
@@ -38,67 +120,112 @@ msgstr "Het is ook mogelijk individuele items te verwijderen en om het uitgebrei
 msgid "Thank you for updating! WordPress %s brings you a smoother writing and management experience."
 msgstr "Bedankt voor het bijwerken! WordPress %s brengt een nog betere schrijfmodus en beheerervaring met zich mee."
 
-#: wp-admin/about.php:57
+#: wp-admin/about.php:65
+msgctxt ""
 msgid "Manage your media with style"
-msgstr "Media met stijl beheren"
+msgid_plural ""
+msgstr[0] "Media met stijl beheren"
+msgstr[1] ""
 
-#: wp-admin/about.php:58
+#: wp-admin/about.php:66
+msgctxt ""
 msgid "Explore your uploads in a beautiful, endless grid. A new details preview makes viewing and editing any amount of media in sequence a snap."
-msgstr "Ontdek je uploads in een mooi en eindeloos raster. Een nieuw detail voorbeeld maak het bekijken en bewerken van elke type media zeer eenvoudig."
+msgid_plural ""
+msgstr[0] "Ontdek je uploads in een mooi en eindeloos raster. Een nieuw detail voorbeeld maak het bekijken en bewerken van elke type media zeer eenvoudig."
+msgstr[1] ""
 
-#: wp-admin/about.php:84
+#: wp-admin/about.php:92
+msgctxt ""
 msgid "Working with embeds has never been easier"
-msgstr "Werken met embeds is nog nooit zo eenvoudig geweest"
+msgid_plural ""
+msgstr[0] "Werken met embeds is nog nooit zo eenvoudig geweest"
+msgstr[1] ""
 
-#: wp-admin/about.php:85
+#: wp-admin/about.php:93
+msgctxt ""
 msgid "Paste in a YouTube URL on a new line, and watch it magically become an embedded video. Now try it with a tweet. Oh yeah &#8212; embedding has become a visual experience. The editor shows a true preview of your embedded content, saving you time and giving you confidence."
-msgstr "Plak een YouTube URL op een nieuwe regel en bekijk hoe het automatisch een geïntegreerde video wordt. Probeer het ook eens met een tweet. Inderdaad, integreren is een visuele ervaring geworden. De bewerker toont een daadwerkelijk voorbeeld van de geïntegreerde inhoud, wat veel tijd bespaard en vertrouwen geeft."
-
-#: wp-admin/about.php:86
-msgid "We&#8217;ve expanded the services supported by default, too &#8212; you can embed videos from CollegeHumor, playlists from YouTube, and talks from TED. <a href=\"http://codex.wordpress.org/Embeds\">Check out all of the embeds</a> that WordPress supports."
-msgstr "We hebben de standaard services uitgebreid zodat je nu ook video&#39;s van CollegeHumor, playlists van YouTube en talks van TED kan toevoegen. <a href=\"http://codex.wordpress.org/Embeds\">Bekijk alle mogelijkheden</a> die WordPress ondersteunt."
+msgid_plural ""
+msgstr[0] "Plak een YouTube URL op een nieuwe regel en bekijk hoe het automatisch een geïntegreerde video wordt. Probeer het ook eens met een tweet. Inderdaad, integreren is een visuele ervaring geworden. De bewerker toont een daadwerkelijk voorbeeld van de geïntegreerde inhoud, wat veel tijd bespaard en vertrouwen geeft."
+msgstr[1] ""
 
 #: wp-admin/about.php:94
+msgctxt ""
+msgid "We&#8217;ve expanded the services supported by default, too &#8212; you can embed videos from CollegeHumor, playlists from YouTube, and talks from TED. <a href=\"http://codex.wordpress.org/Embeds\">Check out all of the embeds</a> that WordPress supports."
+msgid_plural ""
+msgstr[0] "We hebben de standaard services uitgebreid zodat je nu ook video&#39;s van CollegeHumor, playlists van YouTube en talks van TED kan toevoegen. <a href=\"http://codex.wordpress.org/Embeds\">Bekijk alle mogelijkheden</a> die WordPress ondersteunt."
+msgstr[1] ""
+
+#: wp-admin/about.php:102
+msgctxt ""
 msgid "Focus on your content"
-msgstr "Focus op de inhoud"
+msgid_plural ""
+msgstr[0] "Focus op de inhoud"
+msgstr[1] ""
 
-#: wp-admin/about.php:95
+#: wp-admin/about.php:103
+msgctxt ""
 msgid "Writing and editing is smoother and more immersive with an editor that expands to fit your content as you write, and keeps the formatting tools available at all times."
-msgstr "Schrijven en bewerken is eenvoudiger en beter geworden met de tekstbewerker die zich aanpast op de inhoud die jij wil schrijven. De formateringsopties blijven ten alle tijden beschikbaar."
+msgid_plural ""
+msgstr[0] "Schrijven en bewerken is eenvoudiger en beter geworden met de tekstbewerker die zich aanpast op de inhoud die jij wil schrijven. De formateringsopties blijven ten alle tijden beschikbaar."
+msgstr[1] ""
 
-#: wp-admin/about.php:121
+#: wp-admin/about.php:129
+msgctxt ""
 msgid "Finding the right plugin"
-msgstr "De juiste plugin vinden"
+msgid_plural ""
+msgstr[0] "De juiste plugin vinden"
+msgstr[1] ""
 
-#: wp-admin/about.php:122
+#: wp-admin/about.php:130
+msgctxt ""
 msgid "There are more than 30,000 free and open source plugins in the WordPress plugin directory. WordPress 4.0 makes it easier to find the right one for your needs, with new metrics, improved search, and a more visual browsing experience."
-msgstr "Er zijn meer dan 30.000 gratis en open source plugins beschikbaar in de WordPress plugin directorie. WordPress 4.0 maakt het nog eenvoudiger om de meest geschikte plugin te vinden door het gebruiken van nieuwe metrieken, verbeterde zoekmogelijkheden een een visuele browser ervaring."
+msgid_plural ""
+msgstr[0] "Er zijn meer dan 30.000 gratis en open source plugins beschikbaar in de WordPress plugin directorie. WordPress 4.0 maakt het nog eenvoudiger om de meest geschikte plugin te vinden door het gebruiken van nieuwe metrieken, verbeterde zoekmogelijkheden een een visuele browser ervaring."
+msgstr[1] ""
 
-#: wp-admin/about.php:123
+#: wp-admin/about.php:131
+msgctxt ""
 msgid "Browse plugins"
-msgstr "Plugins bekijken"
+msgid_plural ""
+msgstr[0] "Plugins bekijken"
+msgstr[1] ""
 
-#: wp-admin/about.php:135
+#: wp-admin/about.php:143
+msgctxt ""
 msgid "Customizer API"
-msgstr "Customizer API"
+msgid_plural ""
+msgstr[0] "Customizer API"
+msgstr[1] ""
 
-#: wp-admin/about.php:136
+#: wp-admin/about.php:144
+msgctxt ""
 msgid "Contexts, panels, and a wider array of controls are now supported in the customizer."
-msgstr "Contextschermen, panelen en een breed scala aan onderdelen worden nu ondersteund via de customizer."
-
-#: wp-admin/about.php:139
-msgid "Query Ordering"
-msgstr "Queryvolgorde"
-
-#: wp-admin/about.php:142
-msgid "Developers have more flexibility creating %1$s clauses through %2$s."
-msgstr "Ontwikkelaars hebben meer mogelijkheden gekregen met %1$s voor %2$s."
+msgid_plural ""
+msgstr[0] "Contextschermen, panelen en een breed scala aan onderdelen worden nu ondersteund via de customizer."
+msgstr[1] ""
 
 #: wp-admin/about.php:147
-msgid "Updated libraries: TinyMCE&nbsp;4.1.3, jQuery&nbsp;1.11.1, MediaElement&nbsp;2.15."
-msgstr "Bijgewerkte bibliotheken: TinyMCE&nbsp;4.1.3, jQuery&nbsp;1.11.1, MediaElement&nbsp;2.15."
+msgctxt ""
+msgid "Query Ordering"
+msgid_plural ""
+msgstr[0] "Queryvolgorde"
+msgstr[1] ""
 
-#: wp-admin/plugin-install.php:59
+#: wp-admin/about.php:150
+msgctxt ""
+msgid "Developers have more flexibility creating %1$s clauses through %2$s."
+msgid_plural ""
+msgstr[0] "Ontwikkelaars hebben meer mogelijkheden gekregen met %1$s voor %2$s."
+msgstr[1] ""
+
+#: wp-admin/about.php:155
+msgctxt ""
+msgid "Updated libraries: TinyMCE&nbsp;4.1.3, jQuery&nbsp;1.11.1, MediaElement&nbsp;2.15."
+msgid_plural ""
+msgstr[0] "Bijgewerkte bibliotheken: TinyMCE&nbsp;4.1.3, jQuery&nbsp;1.11.1, MediaElement&nbsp;2.15."
+msgstr[1] ""
+
+#: wp-admin/plugin-install.php:78
 msgid "If you just want to get an idea of what&#8217;s available, you can browse Featured and Popular plugins by using the links in the upper left of the screen. These sections rotate regularly."
 msgstr "Als je inspiratie wilt wat beschikbaar is, kun je door uitgelichte en populaire plugins bladeren met gebruik van de links aan de linkerbovenkant van het scherm. Deze secties roteren."
 
@@ -106,14 +233,14 @@ msgstr "Als je inspiratie wilt wat beschikbaar is, kun je door uitgelichte en po
 msgid "All the files you&#8217;ve uploaded are listed in the Media Library, with the most recent uploads listed first."
 msgstr "Alle bestanden die je hebt ge&#252;pload bevinden zich in de mediabibliotheek, met de laatste uploads als eerste getoond."
 
-#: wp-admin/plugin-install.php:29
+#: wp-admin/plugin-install.php:48
 msgid "Add Plugins"
 msgstr "Plugins toevoegen"
 
-#: wp-admin/plugin-install.php:82
-msgctxt "plugins"
+#: wp-admin/theme-install.php:126
+msgctxt "themes"
 msgid "Browse"
-msgstr "Doorzoeken"
+msgstr "Bladeren"
 
 #: wp-admin/includes/translation-install.php:23
 msgid "Invalid translation type."
@@ -152,19 +279,19 @@ msgstr[1] "Prullenbak (%s)"
 msgid "Welcome to the famous five-minute WordPress installation process! Just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "Welkom bij het bekende vijf minuten installatieproces van WordPress! Vul gewoon de informatie hieronder in en je bent klaar om het meeste krachtige en uitbreidbare publicatieplatform van de wereld te gebruiken."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:470
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:472
 msgid "<strong>Untested</strong> with your version of WordPress"
 msgstr "<strong>Niet getest</strong> met de huidige versie van WordPress"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:472
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:474
 msgid "<strong>Incompatible</strong> with your version of WordPress"
 msgstr "<strong>Niet ondersteund</strong> met de huidige versie van WordPress"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:474
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:476
 msgid "<strong>Compatible</strong> with your version of WordPress"
 msgstr "<strong>Compatibel</strong> met je huidige versie van WordPress"
 
-#: wp-admin/includes/plugin-install.php:459
+#: wp-admin/includes/plugin-install.php:464
 msgid "%d star"
 msgid_plural "%d stars"
 msgstr[0] "%d ster"
@@ -254,34 +381,34 @@ msgctxt "Plugin Installer"
 msgid "Beta Testing"
 msgstr "Beta testen"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:336
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:338
 msgctxt "Plugin installer group title"
 msgid "Performance"
 msgstr "Performance"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:337
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:339
 msgctxt "Plugin installer group title"
 msgid "Social"
 msgstr "Sociaal"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:338
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:340
 msgctxt "Plugin installer group title"
 msgid "Tools"
 msgstr "Tools"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:392
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:394
 msgid "Install %s now"
 msgstr "Nu %s installeren"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:399
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:401
 msgid "Update %s now"
 msgstr "Nu %s bijwerken"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:414
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:416
 msgid "More Details"
 msgstr "Meer details"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:465
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:467
 msgid "%s download"
 msgid_plural "%s downloads"
 msgstr[0] "%s gedownload"
@@ -311,23 +438,23 @@ msgstr ""
 "UPDATE LOG\n"
 "=========="
 
-#: wp-admin/includes/plugin-install.php:350
+#: wp-admin/includes/plugin-install.php:355
 msgctxt "Plugin installer section title"
 msgid "Reviews"
 msgstr "Reviews"
 
-#: wp-admin/includes/plugin-install.php:442
-#: wp-admin/includes/plugin-install.php:490
+#: wp-admin/includes/plugin-install.php:447
+#: wp-admin/includes/plugin-install.php:495
 msgid "Donate to this plugin &#187;"
 msgstr "Doneren aan deze plugin &#187;"
 
-#: wp-admin/includes/plugin-install.php:458
+#: wp-admin/includes/plugin-install.php:463
 msgid "Click to see reviews that provided a rating of %d star"
 msgid_plural "Click to see reviews that provided a rating of %d stars"
 msgstr[0] "Klik om de reviews te zien die een classificatie van %d ster geven"
 msgstr[1] "Klik om de reviews te zien die een classificatie van %d sterren geven"
 
-#: wp-admin/includes/plugin-install.php:470
+#: wp-admin/includes/plugin-install.php:475
 msgid "Contributors"
 msgstr "Contributors"
 
@@ -394,11 +521,6 @@ msgstr "Je kunt de afbeelding bewerken voor de thumbnail. Je kunt bijvoorbeeld e
 #: wp-admin/includes/media.php:2691
 msgid "Displayed on attachment pages."
 msgstr "Weergeven op bijlage pagina&#39;s."
-
-#: wp-admin/theme-install.php:126
-msgctxt "themes"
-msgid "Browse"
-msgstr "Bladeren"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:246
 msgid "All comment types"
@@ -542,7 +664,7 @@ msgstr "Bedankt voor het gebruik maken van <a href=\"%s\">WordPress</a>."
 #: wp-admin/options-discussion.php:27 wp-admin/options-general.php:80
 #: wp-admin/options-media.php:35 wp-admin/options-permalink.php:46
 #: wp-admin/options-reading.php:72 wp-admin/options-writing.php:52
-#: wp-admin/plugin-editor.php:142 wp-admin/plugin-install.php:67
+#: wp-admin/plugin-editor.php:142 wp-admin/plugin-install.php:86
 #: wp-admin/plugins.php:360 wp-admin/revision.php:120
 #: wp-admin/theme-editor.php:43 wp-admin/theme-install.php:104
 #: wp-admin/themes.php:86 wp-admin/tools.php:29 wp-admin/update-core.php:490
@@ -1067,14 +1189,6 @@ msgstr "Foutcode: %s"
 msgid "ERROR: %s"
 msgstr "FOUT: %s"
 
-#: wp-admin/includes/post.php:1436
-msgid "This content is currently locked."
-msgstr "De inhoud is op dit moment geblokkeerd."
-
-#: wp-admin/includes/post.php:1438
-msgid "If you take over, %s will be blocked from continuing to edit."
-msgstr "Als je overneemt, zal %s geblokkeerd worden om verder te wijzigen."
-
 #: wp-admin/update-core.php:50
 msgid "If you need to re-install version %s, you can do so here or download the package and re-install manually:"
 msgstr "Als je versie %s opnieuw moet installeren, kan je dat hier doen of het pakket downloaden en handmatig opnieuw installeren:"
@@ -1590,14 +1704,6 @@ msgstr "Audioformaat:"
 msgid "Audio Codec:"
 msgstr "Audiocodec:"
 
-#: wp-admin/includes/post.php:1475
-msgid "Saving revision..."
-msgstr "Revisie opslaan..."
-
-#: wp-admin/includes/post.php:1476
-msgid "Your latest changes were saved as a revision."
-msgstr "De meest recente wijzigingen zijn opgeslagen als een revisie."
-
 #: wp-admin/nav-menus.php:494
 msgid "This screen is used for managing your custom navigation menus."
 msgstr "Dit scherm wordt gebruikt om de aangepaste menu navigatie te beheren."
@@ -1795,10 +1901,6 @@ msgstr "Concept gecre&#235;erd op %1$s om %2$s"
 #: wp-admin/includes/misc.php:730
 msgid "%s has taken over and is currently editing."
 msgstr "%s is het bericht nu aan het bewerken."
-
-#: wp-admin/includes/post.php:1461
-msgid "Take over"
-msgstr "Overnemen"
 
 #: wp-admin/post.php:254
 msgid "You cannot move this item to the Trash. %s is currently editing."
@@ -2045,6 +2147,11 @@ msgstr "ID #%1$s: %2$s <strong>Je hebt onvoldoende rechten om deze gebruiker te 
 msgid "Please select an option."
 msgstr "Selecteer een optie."
 
+#: wp-admin/includes/nav-menu.php:312 wp-admin/includes/nav-menu.php:784
+msgctxt "nav menu home label"
+msgid "Home"
+msgstr "Home"
+
 #: wp-admin/includes/ms.php:282
 msgid "<strong>ERROR</strong>: The email address is already used."
 msgstr "<strong>FOUT</strong>: Dit e-mailadres is al in gebruik."
@@ -2170,15 +2277,15 @@ msgstr "Blokkeer zoekmachines deze site te indexeren"
 msgid "It is up to search engines to honor this request."
 msgstr "Het is aan de zoekmachines of ze gehoor geven aan dit verzoek."
 
-#: wp-admin/plugin-install.php:58
+#: wp-admin/plugin-install.php:77
 msgid "If you know what you&#8217;re looking for, Search is your best bet. The Search screen has options to search the WordPress.org Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag."
 msgstr "Als je weet waar je precies naar op zoek bent dan is Zoeken je best optie. Het Zoek scherm heeft opties om in de WordPress.org Plugin lijst op een specifieke term, auteur of tag te zoeken. Je kunt de lijst ook doorzoeken via de populaire tags. Tags betekent in deze context dat meerdere plugins die tag toegevoegd hebben."
 
-#: wp-admin/plugin-install.php:60
+#: wp-admin/plugin-install.php:79
 msgid "You can also browse a user&#8217;s favorite plugins, by using the Favorites link in the upper left of the screen and entering their WordPress.org username."
 msgstr "Door een WordPress.org gebruikersnaam in te geven, kun je door de favoriete plugins van een gebruiker bladeren. Klik hiervoor op de Favorietenlink in de linkerbovenkant van het scherm."
 
-#: wp-admin/plugin-install.php:61
+#: wp-admin/plugin-install.php:80
 msgid "If you want to install a plugin that you&#8217;ve downloaded elsewhere, click the Upload link in the upper left. You will be prompted to upload the .zip package, and once uploaded, you can activate the new plugin."
 msgstr "Bij het installeren van een plugin welke vanaf een andere locatie is gedownload, klik de Uploadlink linksbovenin. Upload een .zipbestand en zodra deze is uitgepakt op de server kan deze worden geactiveerd."
 
@@ -2387,7 +2494,7 @@ msgstr "Als je geen header afbeelding wilt tonen op je site, klik dan op de &#82
 msgid "You attempted to edit an item that isn&#8217;t an attachment. Please go back and try again."
 msgstr "Je hebt geprobeerd een item te bewerken dat geen bijlage is. Ga terug en probeer opnieuw."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:405
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:407
 msgctxt "plugin"
 msgid "Installed"
 msgstr "Ge&#239;nstalleerd"
@@ -2526,6 +2633,12 @@ msgstr "Over"
 msgid "No results found."
 msgstr "Geen resultaten gevonden."
 
+#: wp-admin/includes/class-wp-comments-list-table.php:306
+#: wp-admin/includes/class-wp-comments-list-table.php:600
+msgctxt "column name"
+msgid "Comment"
+msgstr "Reactie"
+
 #: wp-admin/edit-comments.php:209 wp-admin/edit-comments.php:215
 #: wp-admin/includes/class-wp-comments-list-table.php:475
 #: wp-admin/includes/dashboard.php:554
@@ -2535,6 +2648,12 @@ msgstr "Reactie bewerken"
 #: wp-admin/edit-form-advanced.php:461
 msgid "Enter title here"
 msgstr "Titel hier invoeren"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:197
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:296
+msgctxt "site"
+msgid "Spam"
+msgstr "Spam"
 
 #: wp-admin/edit-link-form.php:29 wp-admin/includes/meta-boxes.php:883
 msgid "Target"
@@ -2554,9 +2673,9 @@ msgid "Restore"
 msgstr "Herstellen"
 
 #: wp-admin/includes/class-wp-media-list-table.php:398
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:461
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:463
 #: wp-admin/includes/class-wp-posts-list-table.php:734
-#: wp-admin/includes/plugin-install.php:429 wp-admin/includes/revision.php:173
+#: wp-admin/includes/plugin-install.php:434 wp-admin/includes/revision.php:173
 msgid "%s ago"
 msgstr "%s geleden"
 
@@ -2580,7 +2699,7 @@ msgid "Collapse Sidebar"
 msgstr "Sidebar inklappen"
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:381
-#: wp-admin/includes/plugin-install.php:424
+#: wp-admin/includes/plugin-install.php:429
 msgid "Version:"
 msgstr "Versie:"
 
@@ -2778,8 +2897,8 @@ msgctxt "start of week"
 msgid "1"
 msgstr "1"
 
-#: wp-admin/includes/screen.php:1049
-msgctxt "Welcome panel"
+#: wp-admin/install.php:215
+msgctxt "Howdy"
 msgid "Welcome"
 msgstr "Welkom"
 
@@ -2804,10 +2923,10 @@ msgstr "Voorgestelde hoogte is <strong>%1$d pixels</strong>."
 msgid "Images should be at least <strong>%1$d pixels</strong> tall."
 msgstr "Afbeeldingen moeten minstens <strong>%1$d pixels</strong> hoog zijn."
 
-#: wp-admin/install.php:215
-msgctxt "Howdy"
-msgid "Welcome"
-msgstr "Welkom"
+#: wp-admin/plugins.php:340
+msgctxt "plugins per page (screen options)"
+msgid "Plugins"
+msgstr "Plugins"
 
 #: wp-admin/custom-header.php:583
 msgid "Suggested width is <strong>%1$d pixels</strong>."
@@ -3191,32 +3310,32 @@ msgstr "Om deze pagina automatisch database problemen te laten repareren, voeg d
 msgid "No comments awaiting moderation."
 msgstr "Geen reactie in afwachting van moderatie."
 
-#: wp-admin/includes/plugin-install.php:349
+#: wp-admin/includes/plugin-install.php:354
 msgctxt "Plugin installer section title"
 msgid "Changelog"
 msgstr "Changelog"
 
-#: wp-admin/includes/plugin-install.php:351
+#: wp-admin/includes/plugin-install.php:356
 msgctxt "Plugin installer section title"
 msgid "Other Notes"
 msgstr "Overige notities"
 
-#: wp-admin/includes/plugin-install.php:347
+#: wp-admin/includes/plugin-install.php:352
 msgctxt "Plugin installer section title"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: wp-admin/includes/plugin-install.php:346
+#: wp-admin/includes/plugin-install.php:351
 msgctxt "Plugin installer section title"
 msgid "Installation"
 msgstr "Installatie"
 
-#: wp-admin/includes/plugin-install.php:345
+#: wp-admin/includes/plugin-install.php:350
 msgctxt "Plugin installer section title"
 msgid "Description"
 msgstr "Omschrijving"
 
-#: wp-admin/includes/plugin-install.php:348
+#: wp-admin/includes/plugin-install.php:353
 msgctxt "Plugin installer section title"
 msgid "Screenshots"
 msgstr "Schermafbeeldingen"
@@ -3237,7 +3356,7 @@ msgstr ""
 "Je gaat deze link verwijderen '%s'\n"
 "'Annuleren' om te stoppen, 'OK' om te verwijderen."
 
-#: wp-admin/includes/plugin-install.php:440
+#: wp-admin/includes/plugin-install.php:445
 msgid "Plugin Homepage &#187;"
 msgstr "Plugin homepage &#187;"
 
@@ -3296,7 +3415,7 @@ msgstr "Verwerking van de afbeelding niet mogelijk. Ga terug en probeer opnieuw.
 
 #: wp-admin/maint/repair.php:63
 msgid "The %1$s table is not okay. It is reporting the following error: %2$s. WordPress will attempt to repair this table&hellip;"
-msgstr "De %1$s tabel is niet correct. Het geeft de volgende foutmelding: %2$s. WordPress zal proberen deze tabel te repareren&hellip;"
+msgstr "De %1$s tabel is niet correct. Het geeft de volgende foutmelding: %2$s. WordPress zal proberen deze tabel te repareren&hellip;\n"
 
 #: wp-admin/edit-form-advanced.php:132
 msgid "There is an autosave of this post that is more recent than the version below. <a href=\"%s\">View the autosave</a>"
@@ -3338,23 +3457,29 @@ msgstr "Meewerkende ontwikkelaar"
 msgid "Show Toolbar when viewing site"
 msgstr "Toon toolbar tijdens bekijken van de site"
 
-#: wp-admin/about.php:186
+#: wp-admin/about.php:194
+msgctxt ""
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Versie %1$s</strong> was gericht op een beveiligingsprobleem en een bepaalde %2$s bug."
 msgstr[1] "<strong>Versie %1$s</strong> was gericht op een beveiligingsprobleem en bepaalde %2$s bugs."
 
-#: wp-admin/about.php:193
+#: wp-admin/about.php:48 wp-admin/about.php:201
+msgctxt ""
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
-msgstr "Voor meer informatie, bezoek de  <a href=\"%s\">versie opmerkingen</a>."
+msgid_plural ""
+msgstr[0] "Voor meer informatie, bezoek de  <a href=\"%s\">versie opmerkingen</a>."
+msgstr[1] ""
 
-#: wp-admin/about.php:190
+#: wp-admin/about.php:46 wp-admin/about.php:198
+msgctxt ""
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Versie%1$s</strong> was gericht op enkele beveiligingsproblemen en herstelde %2$s bug."
 msgstr[1] "<strong>Versie %1$s</strong> was gericht op enkele beveiligingsproblemen en herstelde %2$s bugs."
 
-#: wp-admin/about.php:182
+#: wp-admin/about.php:190
+msgctxt ""
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Versie %1$s</strong> bevat %2$s bugfix."
@@ -3364,7 +3489,8 @@ msgstr[1] "<strong>Versie %1$s</strong> bevat %2$s bugfixes."
 msgid "Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab in the upper corner."
 msgstr "Welkom bij het WordPress Dashboard! Dit is het scherm dat wordt getoond zodra een gebruiker inlogt op de website. Dit geeft je toegang tot alle beheerfuncties van WordPress. Bij elk scherm zijn helpschermen beschikbaar door te klikken op de Helptab in de rechterbovenhoek."
 
-#: wp-admin/about.php:175
+#: wp-admin/about.php:45 wp-admin/about.php:183
+msgctxt ""
 msgid "Maintenance and Security Release"
 msgid_plural "Maintenance and Security Releases"
 msgstr[0] "Onderhouds- en veiligheidsversie"
@@ -3374,19 +3500,22 @@ msgstr[1] "Onderhouds- en veiligheidsversies"
 msgid "What&#8217;s New"
 msgstr "Wat is nieuw"
 
-#: wp-admin/about.php:174
+#: wp-admin/about.php:182
+msgctxt ""
 msgid "Security Release"
 msgid_plural "Security Releases"
 msgstr[0] "Beveiligingsversie"
 msgstr[1] "Beveiligingsversies"
 
-#: wp-admin/about.php:173
+#: wp-admin/about.php:181
+msgctxt ""
 msgid "Maintenance Release"
 msgid_plural "Maintenance Releases"
 msgstr[0] "Onderhoudsversie"
 msgstr[1] "Onderhoudsversies"
 
-#: wp-admin/about.php:178
+#: wp-admin/about.php:186
+msgctxt ""
 msgid "<strong>Version %1$s</strong> addressed a security issue."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
 msgstr[0] "<strong>Versie %1$s</strong>  bevat beveiligingskwestie."
@@ -3396,9 +3525,12 @@ msgstr[1] "<strong>Versie %1$s</strong>  bevatten beveiligingskwesties."
 msgid "This screen allows you to choose your default permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Dit scherm stelt je in staat om de standaard permalinkstructuur te wijzigen. Je kan uit de diverse mogelijkheden kiezen of een eigen structuur gebruiken."
 
-#: wp-admin/about.php:156
+#: wp-admin/about.php:164
+msgctxt ""
 msgid "Return to Updates"
-msgstr "Terug naar updates"
+msgid_plural ""
+msgstr[0] "Terug naar updates"
+msgstr[1] ""
 
 #: wp-admin/includes/update-core.php:1139 wp-admin/update-core.php:422
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
@@ -3492,7 +3624,7 @@ msgstr "Dit scherm geeft je toegang naar al je berichten. Je kunt de weergave va
 msgid "You can also edit or move multiple posts to the trash at once. Select the posts you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
 msgstr "Je kunt ook meerdere berichten tegelijk bewerken of verplaatsen. Selecteer de berichten door de aanvinkboxen te klikken, selecteer vervolgens de actie die je wilt uitvoeren via het Acties menu en klik Toepassen."
 
-#: wp-admin/plugin-install.php:56
+#: wp-admin/plugin-install.php:75
 msgid "Adding Plugins"
 msgstr "Plugins toevoegen"
 
@@ -3508,7 +3640,7 @@ msgstr "Je kunt dit scherm op een aantal manieren wijzigen:"
 msgid "Adding Themes"
 msgstr "Thema's toevoegen"
 
-#: wp-admin/plugin-install.php:52
+#: wp-admin/plugin-install.php:71
 msgid "Plugins hook into WordPress to extend its functionality with custom features. Plugins are developed independently from the core WordPress application by thousands of developers all over the world. All plugins in the official <a href=\"%s\" target=\"_blank\">WordPress.org Plugin Directory</a> are compatible with the license WordPress uses. You can find new plugins to install by searching or browsing the Directory right here in your own Plugins section."
 msgstr "Plugins in WordPress maken dat de functionaliteiten uitgebreid kunnen worden met aangepaste functies. Plugins worden ontwikkeld (los van de WordPress-kern-ontwikkelaars) door duizenden ontwikkelaars over de hele wereld.  Alle plugins in de offici&#235;le <a href=\"%s\" target=\"_blank\">WordPress.org Plugin Bibliotheek</a> zijn compatibel met de licentie die WordPress gebruikt. Je kunt nieuwe plugins vinden om te installeren via hier in je eigen plugin sectie te zoeken."
 
@@ -3696,13 +3828,19 @@ msgstr "Het direct insluiten van de wp-admin/includes/template.php voor het gebr
 msgid "Welcome to WordPress %s"
 msgstr "Welkom bij WordPress %s"
 
-#: wp-admin/about.php:160
+#: wp-admin/about.php:168
+msgctxt ""
 msgid "Go to Dashboard &rarr; Home"
-msgstr "Ga naar Dashboard &rarr; Home"
+msgid_plural ""
+msgstr[0] "Ga naar Dashboard &rarr; Home"
+msgstr[1] ""
 
-#: wp-admin/about.php:156
+#: wp-admin/about.php:164
+msgctxt ""
 msgid "Return to Dashboard &rarr; Updates"
-msgstr "Terugkeren naar het Dashboard &rarr; Updates"
+msgid_plural ""
+msgstr[0] "Terugkeren naar het Dashboard &rarr; Updates"
+msgstr[1] ""
 
 #: wp-admin/credits.php:112
 msgid "WordPress is created by a worldwide team of passionate individuals."
@@ -3712,9 +3850,12 @@ msgstr "WordPress is gemaakt door een wereldwijd team van enthousiaste en gepass
 msgid "Core Developers"
 msgstr "Hoofdontwikkelaars"
 
-#: wp-admin/about.php:131
+#: wp-admin/about.php:139
+msgctxt ""
 msgid "Under the Hood"
-msgstr "Andere verbeteringen:"
+msgid_plural ""
+msgstr[0] "Andere verbeteringen:"
+msgstr[1] ""
 
 #: wp-admin/includes/dashboard.php:1285 wp-admin/includes/dashboard.php:1287
 msgid "Customize Your Site"
@@ -3880,7 +4021,7 @@ msgstr "Je kunt het volgende gebruiken om je dashboardscherm aan te passen. Dit 
 #: wp-admin/options-general.php:73 wp-admin/options-media.php:28
 #: wp-admin/options-permalink.php:20 wp-admin/options-reading.php:55
 #: wp-admin/options-writing.php:20 wp-admin/plugin-editor.php:128
-#: wp-admin/plugin-install.php:50 wp-admin/plugins.php:344
+#: wp-admin/plugin-install.php:69 wp-admin/plugins.php:344
 #: wp-admin/revision.php:114 wp-admin/theme-editor.php:25
 #: wp-admin/theme-install.php:87 wp-admin/themes.php:49
 #: wp-admin/update-core.php:470 wp-admin/upload.php:33 wp-admin/upload.php:198
@@ -3942,7 +4083,9 @@ msgstr "Je hebt onvoldoende rechten om instellingen van deze site te beheren."
 #: wp-admin/menu.php:184
 msgctxt "plugin editor"
 msgid "Editor"
-msgstr "Bewerker"
+msgid_plural ""
+msgstr[0] "Bewerker"
+msgstr[1] ""
 
 #: wp-admin/menu.php:179
 msgid "Installed Plugins"
@@ -3966,7 +4109,7 @@ msgid "Version %s"
 msgstr "Versie: %s"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:387
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:380
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:382
 #: wp-admin/includes/class-wp-plugins-list-table.php:519
 #: wp-admin/includes/class-wp-theme-install-list-table.php:272
 #: wp-admin/includes/class-wp-theme-install-list-table.php:374
@@ -4025,9 +4168,8 @@ msgstr "Bestaande gebruiker toevoegen"
 msgid "Role"
 msgstr "Rol"
 
-#: wp-admin/includes/class-wp-ms-users-list-table.php:98
-#: wp-admin/includes/class-wp-users-list-table.php:156
-msgctxt "users"
+#: wp-admin/includes/class-wp-posts-list-table.php:167
+msgctxt "posts"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Alles <span class=\"count\">(%s)</span>"
@@ -4044,7 +4186,7 @@ msgstr[1] "Alles <span class=\"count\">(%s)</span>"
 #: wp-admin/options-discussion.php:25 wp-admin/options-general.php:78
 #: wp-admin/options-media.php:33 wp-admin/options-permalink.php:43
 #: wp-admin/options-reading.php:70 wp-admin/options-writing.php:50
-#: wp-admin/plugin-editor.php:139 wp-admin/plugin-install.php:65
+#: wp-admin/plugin-editor.php:139 wp-admin/plugin-install.php:84
 #: wp-admin/plugins.php:358 wp-admin/revision.php:118
 #: wp-admin/theme-editor.php:38 wp-admin/theme-install.php:102
 #: wp-admin/themes.php:84 wp-admin/tools.php:27 wp-admin/update-core.php:488
@@ -4058,11 +4200,6 @@ msgstr "Voor meer informatie:"
 msgctxt "user"
 msgid "Add New"
 msgstr "Nieuwe toevoegen"
-
-#: wp-admin/menu.php:167
-msgctxt "theme editor"
-msgid "Editor"
-msgstr "Bewerker"
 
 #: wp-admin/includes/class-wp-links-list-table.php:58
 #: wp-admin/includes/class-wp-links-list-table.php:155
@@ -4230,13 +4367,9 @@ msgstr "[%s] Jouw website- of bloguitnodiging"
 #: wp-admin/themes.php:251
 msgctxt "theme name"
 msgid "Name"
-msgstr "Naam"
-
-#: wp-admin/edit-link-form.php:94
-#: wp-admin/includes/class-wp-links-list-table.php:91
-msgctxt "link name"
-msgid "Name"
-msgstr "Naam"
+msgid_plural ""
+msgstr[0] "Naam"
+msgstr[1] ""
 
 #: wp-admin/credits.php:192
 msgid "Icon Design"
@@ -4270,9 +4403,12 @@ msgstr "Belangrijke ontwikkelaar"
 msgid "Guest Committer"
 msgstr "Gast ontwikkelaar"
 
-#: wp-admin/about.php:146 wp-admin/credits.php:191
+#: wp-admin/about.php:154 wp-admin/credits.php:191
+msgctxt ""
 msgid "External Libraries"
-msgstr "Externe bibliotheken"
+msgid_plural ""
+msgstr[0] "Externe bibliotheken"
+msgstr[1] ""
 
 #: wp-admin/press-this.php:652
 msgid "Add:"
@@ -4526,7 +4662,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Links_Add_New_Screen\" target=\"_bl
 msgid "<a href=\"http://codex.wordpress.org/Settings_Reading_Screen\" target=\"_blank\">Documentation on Reading Settings</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Settings_Reading_Screen\" target=\"_blank\">Documentatie over leesinstelingen</a>"
 
-#: wp-admin/plugin-install.php:66
+#: wp-admin/plugin-install.php:85
 msgid "<a href=\"http://codex.wordpress.org/Plugins_Add_New_Screen\" target=\"_blank\">Documentation on Installing Plugins</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Plugins_Add_New_Screen\" target=\"_blank\">Documentatie over het installeren van plugins</a>"
 
@@ -5076,11 +5212,6 @@ msgstr "Opslagruimte "
 #: wp-admin/includes/dashboard.php:342 wp-admin/includes/ms.php:675
 msgid "Create a New Site"
 msgstr "Een nieuwe site aanmaken"
-
-#: wp-admin/plugins.php:340
-msgctxt "plugins per page (screen options)"
-msgid "Plugins"
-msgstr "Plugins"
 
 #: wp-admin/upload.php:194
 msgctxt "items per page (screen options)"
@@ -5695,10 +5826,10 @@ msgctxt "Taxonomy Parent"
 msgid "Parent"
 msgstr "Hoofd"
 
-#: wp-admin/edit-form-comment.php:90
-msgctxt "adjective"
+#: wp-admin/includes/template.php:1633
+msgctxt "post state"
 msgid "Pending"
-msgstr "Wachtend"
+msgstr "Wachtend op toelating"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:223
 msgctxt "comment"
@@ -5728,11 +5859,6 @@ msgstr "+ %s"
 #: wp-admin/update-core.php:276 wp-admin/update-core.php:324
 msgid "You have version %1$s installed. Update to %2$s."
 msgstr "Je hebt versie %1$s ge&#239;nstalleerd. Naar versie %2$s bijwerken."
-
-#: wp-admin/includes/nav-menu.php:312 wp-admin/includes/nav-menu.php:784
-msgctxt "nav menu home label"
-msgid "Home"
-msgstr "Home"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:252
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:295
@@ -5764,12 +5890,6 @@ msgstr "Geregistreerd"
 msgctxt "verb; site"
 msgid "Archive"
 msgstr "Archiveren"
-
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:197
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:296
-msgctxt "site"
-msgid "Spam"
-msgstr "Spam"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:228
 #: wp-admin/includes/class-wp-comments-list-table.php:461
@@ -6083,16 +6203,16 @@ msgstr "Tagtemplate"
 msgid "Page saved."
 msgstr "Pagina opgeslagen."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:405
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:407
 msgid "This plugin is already installed and is up to date"
 msgstr "Deze plugin is al ge&#239;nstalleerd en is volledig bijgewerkt."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:414
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:416
 #: wp-admin/includes/class-wp-plugins-list-table.php:527
 msgid "More information about %s"
 msgstr "Meer informatie over %s"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:399
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:401
 #: wp-admin/update-core.php:40
 msgid "Update Now"
 msgstr "Nu bijwerken"
@@ -6108,10 +6228,6 @@ msgstr "Belangrijk:"
 #: wp-admin/user-edit.php:194
 msgid "This user has super admin privileges."
 msgstr "Deze gebuiker heeft beheerrechten."
-
-#: wp-admin/includes/post.php:1280
-msgid "Remove featured image"
-msgstr "Uitgelichte afbeelding verwijderen"
 
 #: wp-admin/edit-form-advanced.php:196
 msgid "Featured Image"
@@ -6352,9 +6468,12 @@ msgid_plural "Must-Use <span class=\"count\">(%s)</span>"
 msgstr[0] "Beslist-gebruik <span class=\"count\">(%s)</span>"
 msgstr[1] "Beslist-gebruik <span class=\"count\">(%s)</span>"
 
-#: wp-admin/about.php:160
+#: wp-admin/about.php:168
+msgctxt ""
 msgid "Go to Dashboard"
-msgstr "Naar het dashboard"
+msgid_plural ""
+msgstr[0] "Naar het dashboard"
+msgstr[1] ""
 
 #: wp-admin/nav-menus.php:330 wp-admin/nav-menus.php:340
 msgid "Please enter a valid menu name."
@@ -7594,11 +7713,6 @@ msgstr "Je hebt op dit moment blijkbaar geen plugins beschikbaar."
 msgid "You attempted to edit an item that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Je probeerde iets te bewerken dat niet bestaat. Misschien is het verwijderd?"
 
-#: wp-admin/async-upload.php:56 wp-admin/edit-tags.php:247
-#: wp-admin/includes/post.php:1645 wp-admin/post.php:154
-msgid "You are not allowed to edit this item."
-msgstr "Je hebt geen toestemming om dit item te bewerken."
-
 #: wp-admin/post.php:157
 msgid "You can&#8217;t edit this item because it is in the Trash. Please restore it and try again."
 msgstr "Niet mogelijk om dit item te bewerken omdat het in de prullenbak zit. Herstel het item en probeer het opnieuw."
@@ -7777,7 +7891,7 @@ msgid "Installing Plugin: %s"
 msgstr "Plugin %s wordt ge&#239;nstalleerd."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:74
-#: wp-admin/plugin-install.php:85 wp-admin/update.php:134
+#: wp-admin/plugin-install.php:104 wp-admin/update.php:134
 msgid "Upload Plugin"
 msgstr "Plugin uploaden"
 
@@ -8063,11 +8177,6 @@ msgstr "Widget opslaan"
 #: wp-admin/widgets.php:302
 msgid "Changes saved."
 msgstr "Wijzigingen opgeslagen."
-
-#: wp-admin/includes/misc.php:816 wp-admin/includes/post.php:1639
-#: wp-admin/widgets.php:306
-msgid "Error while saving."
-msgstr "Fout tijdens het opslaan."
 
 #: wp-admin/widgets.php:307
 msgid "Error in displaying the widget settings form."
@@ -8528,13 +8637,6 @@ msgid "Mine <span class=\"count\">(%s)</span>"
 msgid_plural "Mine <span class=\"count\">(%s)</span>"
 msgstr[0] "Mijn <span class=\"count\">(%s)</span>"
 msgstr[1] "Mijn <span class=\"count\">(%s)</span> "
-
-#: wp-admin/includes/class-wp-posts-list-table.php:167
-msgctxt "posts"
-msgid "All <span class=\"count\">(%s)</span>"
-msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] "Alles <span class=\"count\">(%s)</span>"
-msgstr[1] "Alles <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/class-wp-links-list-table.php:75
 #: wp-admin/includes/class-wp-posts-list-table.php:226
@@ -9746,10 +9848,10 @@ msgstr "Wanneer je een plugin als zip format hebt, kun je deze installeren door 
 msgid "Plugin zip file"
 msgstr "Plugin zip bestanden"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:392
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:394
 #: wp-admin/includes/class-wp-theme-install-list-table.php:249
 #: wp-admin/includes/plugin-install.php:203
-#: wp-admin/includes/plugin-install.php:523
+#: wp-admin/includes/plugin-install.php:528
 #: wp-admin/includes/theme-install.php:143
 msgid "Install Now"
 msgstr "Nu installeren"
@@ -9759,72 +9861,72 @@ msgid "No plugins match your request."
 msgstr "Geen plugins gevonden die overeenkomen met je criteria."
 
 #: wp-admin/includes/ajax-actions.php:2623
-#: wp-admin/includes/plugin-install.php:448
+#: wp-admin/includes/plugin-install.php:453
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
 msgstr[0] "(Gebaseerd op %s waardering)"
 msgstr[1] "(Gebaseerd op %s waarderingen)"
 
-#: wp-admin/includes/plugin-install.php:373 wp-admin/update.php:106
+#: wp-admin/includes/plugin-install.php:378 wp-admin/update.php:106
 msgid "Plugin Install"
 msgstr "Plugin installeren"
 
-#: wp-admin/includes/plugin-install.php:528
+#: wp-admin/includes/plugin-install.php:533
 msgid "Install Update Now"
 msgstr "Nieuwe versie nu installeren"
 
-#: wp-admin/includes/plugin-install.php:532
+#: wp-admin/includes/plugin-install.php:537
 msgid "Newer Version (%s) Installed"
 msgstr "Nieuwe versie (%s) ge&#239;nstalleerd"
 
-#: wp-admin/includes/plugin-install.php:535
+#: wp-admin/includes/plugin-install.php:540
 msgid "Latest Version Installed"
 msgstr "Meest recente versie ge&#239;nstalleerd"
 
-#: wp-admin/includes/plugin-install.php:426
+#: wp-admin/includes/plugin-install.php:431
 msgid "Author:"
 msgstr "Auteur:"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:460
-#: wp-admin/includes/plugin-install.php:428
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:462
+#: wp-admin/includes/plugin-install.php:433
 msgid "Last Updated:"
 msgstr "Laatst bijgewerkt:"
 
-#: wp-admin/includes/plugin-install.php:432
+#: wp-admin/includes/plugin-install.php:437
 msgid "Requires WordPress Version:"
 msgstr "Vereist WordPress versie:"
 
-#: wp-admin/includes/plugin-install.php:432
+#: wp-admin/includes/plugin-install.php:437
 msgid "%s or higher"
 msgstr "%s of hoger"
 
-#: wp-admin/includes/plugin-install.php:434
+#: wp-admin/includes/plugin-install.php:439
 msgid "Compatible up to:"
 msgstr "Compatible tot:"
 
-#: wp-admin/includes/plugin-install.php:436
+#: wp-admin/includes/plugin-install.php:441
 msgid "Downloaded:"
 msgstr "Gedownload:"
 
-#: wp-admin/includes/plugin-install.php:436
+#: wp-admin/includes/plugin-install.php:441
 msgid "%s time"
 msgid_plural "%s times"
 msgstr[0] "%s keer"
 msgstr[1] "%s keer"
 
-#: wp-admin/includes/plugin-install.php:438
+#: wp-admin/includes/plugin-install.php:443
 msgid "WordPress.org Plugin Page &#187;"
 msgstr "WordPress.org plugin pagina"
 
-#: wp-admin/includes/plugin-install.php:446
+#: wp-admin/includes/plugin-install.php:451
 msgid "Average Rating"
 msgstr "Gemiddelde waardering"
 
-#: wp-admin/includes/plugin-install.php:497
+#: wp-admin/includes/plugin-install.php:502
 msgid "<strong>Warning:</strong> This plugin has <strong>not been tested</strong> with your current version of WordPress."
 msgstr "<strong>Waarschuwing:</strong> Deze plugin is <strong>niet getest</strong> met je huidige versie van WordPress."
 
-#: wp-admin/includes/plugin-install.php:499
+#: wp-admin/includes/plugin-install.php:504
 msgid "<strong>Warning:</strong> This plugin has <strong>not been marked as compatible</strong> with your version of WordPress."
 msgstr "<strong>Waarschuwing:</strong> Deze plugin is <strong>(nog) niet gemarkeerd als compatibel</strong> met je huidige versie van WordPress."
 
@@ -9883,10 +9985,6 @@ msgstr "Klik om dit deel van de permalink te bewerken"
 #: wp-admin/includes/post.php:1199
 msgid "Temporary permalink. Click to edit this part."
 msgstr "Tijdelijke permalink. Klik om deze te bewerken."
-
-#: wp-admin/includes/post.php:1203 wp-admin/includes/post.php:1219
-msgid "Permalink:"
-msgstr "Permalink:"
 
 #: wp-admin/includes/post.php:1205
 msgid "Change Permalinks"
@@ -9958,12 +10056,6 @@ msgstr "Bestand"
 msgctxt "column name"
 msgid "Date"
 msgstr "Datum"
-
-#: wp-admin/includes/class-wp-comments-list-table.php:306
-#: wp-admin/includes/class-wp-comments-list-table.php:600
-msgctxt "column name"
-msgid "Comment"
-msgstr "Reactie"
 
 #: wp-admin/includes/class-wp-links-list-table.php:94
 msgid "Relationship"
@@ -10114,11 +10206,6 @@ msgstr "Thema's installeren"
 msgid "Manage Themes"
 msgstr "Thema's beheren"
 
-#: wp-admin/includes/template.php:1633
-msgctxt "post state"
-msgid "Pending"
-msgstr "Wachtend op toelating"
-
 #: wp-admin/includes/screen.php:972
 msgid "Enable accessibility mode"
 msgstr "Activeer toegankelijkheidsmodus"
@@ -10175,12 +10262,6 @@ msgstr "Iemand"
 msgid "You are not allowed to edit this page."
 msgstr "Je hebt geen toestemming om deze pagina te bewerken."
 
-#: wp-admin/includes/ajax-actions.php:1505 wp-admin/includes/post.php:205
-#: wp-admin/includes/post.php:1580 wp-admin/includes/post.php:1584
-#: wp-admin/press-this.php:33 wp-admin/upload.php:110
-msgid "You are not allowed to edit this post."
-msgstr "Je hebt geen toestemming om dit bericht te bewerken."
-
 #: wp-admin/includes/ajax-actions.php:1511
 msgid "Saving is disabled: %s is currently editing this page."
 msgstr "Autosave uitgeschakeld: %s bewerkt deze pagina momenteel."
@@ -10236,11 +10317,6 @@ msgstr "Reactie bewerken"
 #: wp-admin/edit-comments.php:164
 msgid "Oops, no comment with this ID."
 msgstr "Geen reactie met dit ID."
-
-#: wp-admin/comment.php:68 wp-admin/comment.php:221
-#: wp-admin/includes/post.php:1382
-msgid "Go back"
-msgstr "Ga terug"
 
 #: wp-admin/comment.php:223 wp-admin/edit-comments.php:167
 #: wp-admin/includes/comment.php:37
