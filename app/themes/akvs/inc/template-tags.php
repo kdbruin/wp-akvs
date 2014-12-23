@@ -212,8 +212,8 @@ function akvs_show_featured_posts()
     if ( $feat_query->have_posts() )
     {
         // Enqueue the necessary stuff
-        wp_enqueue_style( 'akvs-lightSlider-style', get_template_directory_uri() . '/lightSlider/css/lightSlider.css' );
-        wp_enqueue_script( 'akvs-lightSlider-script', get_template_directory_uri() . '/lightSlider/js/jquery.lightSlider.min.js', array( 'jquery' ), '20140907', true );
+        wp_enqueue_style( 'akvs-lightSlider-style', get_template_directory_uri() . '/libs/lightSlider/css/lightSlider.css' );
+        wp_enqueue_script( 'akvs-lightSlider-script', get_template_directory_uri() . '/libs/lightSlider/js/jquery.lightSlider.min.js', array( 'jquery' ), '20140907', true );
         wp_enqueue_script( 'akvs-lightSlider-settings', get_template_directory_uri() . '/js/lightSlider-settings.js', array( 'akvs-lightSlider-script' ), '20140907', true );
 
         global $post;

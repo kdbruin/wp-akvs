@@ -1,0 +1,10 @@
+{
+  "name": "akvs",
+  "version": "0.1",
+  "directory": "components/",
+  "dependencies": {
+    "superfish": "~1.7.4",
+    "enquire": "~2.1.2",
+    "lightslider": "~1.1.1"
+  }
+}

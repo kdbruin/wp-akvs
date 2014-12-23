@@ -1,7 +1,6 @@
 jQuery(document).ready(function($) {
     $("#lightSlider").lightSlider({
-	minSlide: 1,
-	maxSlide: 1,
+	item: 1,
 	gallery: false,
 	controls: false,
 	mode: 'slide',

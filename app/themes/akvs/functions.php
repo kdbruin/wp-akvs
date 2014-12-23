@@ -122,12 +122,12 @@ function akvs_scripts() {
     wp_enqueue_style( 'akvs-fontawesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' );
 
     /* Menu */
-    wp_enqueue_script( 'akvs-superfish', get_template_directory_uri() . '/js/superfish.min.js', array( 'jquery' ), '20140328', true );
+    wp_enqueue_script( 'akvs-superfish', get_template_directory_uri() . '/libs/superfish/superfish.min.js', array( 'jquery' ), '20140328', true );
     wp_enqueue_script( 'akvs-superfish-settings', get_template_directory_uri() . '/js/superfish-settings.js', array( 'akvs-superfish' ), '20140328', true );
     wp_enqueue_script( 'akvs-hide-search', get_template_directory_uri() . '/js/hide-search.js', array(), '20140903', true );
 
     /* General scripts */
-    wp_enqueue_script( 'akvs-enquire', get_template_directory_uri() . '/js/enquire.min.js', false, '20140429', true );
+    wp_enqueue_script( 'akvs-enquire', get_template_directory_uri() . '/libs/enquire/enquire.min.js', false, '20140429', true );
     wp_enqueue_script( 'akvs-masonry', get_template_directory_uri() . '/js/masonry-settings.js', array( 'masonry' ), '20140903', true );
 
     /* Navigation */
