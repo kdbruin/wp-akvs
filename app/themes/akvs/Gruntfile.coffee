@@ -2,6 +2,13 @@ module.exports = (grunt) ->
 
   grunt.initConfig
 
+    # Compile SASS files
+    compass:
+      dist:
+        options:
+          sassDir: 'css/sass',
+          cssDir: 'css'
+
     # Copy Font Awesome files to /fonts directory
     copy:
       enquire:
@@ -29,9 +36,11 @@ module.exports = (grunt) ->
   # Build theme
   grunt.registerTask 'build', [
     'copy'
+    'compass'
   ]
 
   # Load grunt modules
+  grunt.loadNpmTasks('grunt-contrib-compass')
   grunt.loadNpmTasks('grunt-contrib-concat')
   grunt.loadNpmTasks('grunt-contrib-copy')
   grunt.loadNpmTasks('grunt-contrib-uglify')

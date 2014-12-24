@@ -29,5 +29,7 @@ bower_components/
 /app/themes/*
 !/app/themes/.gitkeep
 !/app/themes/akvs
+/app/themes/akvs/css/content-*.css*
+/app/themes/akvs/css/style.css*
 /app/themes/akvs/libs
 !/app/themes/my-akvs
