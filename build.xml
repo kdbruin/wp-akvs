@@ -5,6 +5,24 @@
     <property name="path" value="/usr/local/www/sites/AKV-Soesterkwartier"/>
     <property name="exclude" value=".rsync-excludes"/>
 
+    <target name="npm-install">
+	<exec dir="./app/themes/akvs" executable="npm" failonerror="true">
+		<arg value="install"/>
+	</exec>
+	</target>
+
+    <target name="bower-install">
+	<exec dir="./app/themes/akvs" executable="./node_modules/.bin/bower" failonerror="true">
+		<arg value="install"/>
+	</exec>
+	</target>
+
+    <target name="grunt-build">
+	<exec dir="./app/themes/akvs" executable="./node_modules/.bin/grunt" failonerror="true">
+		<arg value="build"/>
+	</exec>
+	</target>
+
     <target name="deploy">
         <exec dir="." executable="rsync" failonerror="true">
             <arg value="--verbose"/>
@@ -29,4 +47,9 @@
 		</exec>
 	</target>
 
+	<target name="build" depends="composer-update,npm-install,bower-install,grunt-build">
+	</target>
+
+	<target name="build-deploy" depends="build,deploy">
+	</target>
 </project>
