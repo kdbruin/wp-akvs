@@ -45,6 +45,7 @@
     "wpackagist-plugin/developer": "1.2.5",
     "wpackagist-plugin/easy-table": "1.5.2",
     "wpackagist-plugin/regenerate-thumbnails": "2.2.4",
+    "wpackagist-plugin/tabby-responsive-tabs": "1.2.1",
     "wpackagist-plugin/wordpress-importer": "0.6.1",
     "kdb/akvs-plugin": "dev-master",
     "simone": "2.0.2.1"
