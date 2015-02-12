@@ -24,7 +24,7 @@
       "package": {
 	"name": "simone",
         "type": "wordpress-theme",
-	"version": "2.0.2.1",
+	"version": "2.0.3",
         "source": {
 	  "type": "git",
 	  "url": "https://github.com/mor10/simone.git",
@@ -48,7 +48,7 @@
     "wpackagist-plugin/tabby-responsive-tabs": "1.2.1",
     "wpackagist-plugin/wordpress-importer": "0.6.1",
     "kdb/akvs-plugin": "dev-master",
-    "simone": "2.0.2.1"
+    "simone": "2.0.3"
   },
   "extra": {
     "installer-paths": {

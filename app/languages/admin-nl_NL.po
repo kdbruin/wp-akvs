@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-12-18 10:43:08+0000\n"
+"PO-Revision-Date: 2015-01-23 08:38:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -50,13 +50,13 @@ msgstr "Als je je zorgen maakt of je wel bent uitgelogd op een andere computer, 
 msgid "Introducing Twenty&nbsp;Fifteen"
 msgstr "Introductie van Twenty&nbsp;Fifteen"
 
+#: wp-admin/about.php:53
+msgid "Twenty Fifteen has flawless language support, with help from <a href=\"%s\">Google&#8217;s Noto font family</a>."
+msgstr "Twenty Fifteen heeft naadloze taalondersteuning met help van <a href=\"%s\">Google&#8217;s Noto font family</a>."
+
 #: wp-admin/about.php:52
 msgid "Our newest default theme, Twenty Fifteen, is a blog-focused theme designed for clarity."
 msgstr "Het nieuwste standaard thema, Twenty Fifteen, is een blog-gefocust thema wat ontworpen is voor helderheid."
-
-#: wp-admin/about.php:53
-msgid "Twenty Fifteen has flawless language support, with help from <a href=\"%s\">Google&#8217;s Noto font family</a>."
-msgstr "Twenty Fifteen heeft naadloze taalondersteuning met hulp van <a href=\"%s\">Google&#8217;s Noto font family</a>."
 
 #: wp-admin/about.php:54
 msgid "The straightforward typography is readable on any screen size."
@@ -389,13 +389,13 @@ msgstr "Release-manager"
 msgid "Use the arrow buttons at the top of the dialog, or the left and right arrow keys on your keyboard, to navigate between media items quickly."
 msgstr "Gebruik de pijltjesknoppen bovenin het dialoogvenster of de linker en rechter pijltjesknop op je toetsenbord om eenvoudig door de media onderdelen te bladeren."
 
+#: wp-admin/upload.php:37
+msgid "To delete media items, click the Bulk Select button at the top of the screen. Select any items you wish to delete, then click the Delete Selected button. Clicking the Cancel Selection button takes you back to viewing your media."
+msgstr "Om media onderdelen te verwijderen klik je op de bulk selectieknop bovenin het scherm. Media items selecteren die je wil verwijderen en klik daarna op de Geselecteerde items verwijderen knop. Klikken op de Selectie annuleren knop om terug te keer naar het bekijken van je media."
+
 #: wp-admin/upload.php:36 wp-admin/upload.php:202
 msgid "You can view your media in a simple visual grid or a list with columns. Switch between these views using the icons to the left above the media."
 msgstr "Media kan bekeken worden in een eenvoudige visuele raster of een lijst met kolommen. Wissel tussen deze weergave via de iconen linksboven."
-
-#: wp-admin/upload.php:37
-msgid "To delete media items, click the Bulk Select button at the top of the screen. Select any items you wish to delete, then click the Delete Selected button. Clicking the Cancel Selection button takes you back to viewing your media."
-msgstr "Om media onderdelen te verwijderen klik je op de bulk selectieknop bovenin het scherm. Selecteer de media items die je wil verwijderen en klik daarna op de Geselecteerde items verwijderen knop. Klikken op de Selectie annuleren knop om terug te keer naar het bekijken van je media."
 
 #: wp-admin/upload.php:44
 msgid "Clicking an item will display an Attachment Details dialog, which allows you to preview media and make quick edits. Any changes you make to the attachment details will be automatically saved."
@@ -1050,16 +1050,6 @@ msgstr "Nieuwe versie beschikbaar"
 msgid "Add New Theme"
 msgstr "Nieuw thema toevoegen"
 
-#: wp-admin/themes.php:106
-msgid ""
-"Are you sure you want to delete this theme?\n"
-"\n"
-"Click 'Cancel' to go back, 'OK' to confirm the delete."
-msgstr ""
-"Weet je zeker dat je dit thema wilt verwijderen?\n"
-"\n"
-"Klik 'Annuleer' om terug te gaan, 'OK' om te verwijderen."
-
 #: wp-admin/widgets.php:441
 msgid "Add Widget"
 msgstr "Widget toevoegen"
@@ -1083,6 +1073,16 @@ msgstr "<strong>Scherminstellingen</strong> - Gebruik de scherminstellingen tab 
 #: wp-admin/post.php:114
 msgid "Unable to submit this form, please refresh and try again."
 msgstr "Niet mogelijk om dit formulier te versturen. Ververs het scherm en probeer opnieuw."
+
+#: wp-admin/themes.php:106
+msgid ""
+"Are you sure you want to delete this theme?\n"
+"\n"
+"Click 'Cancel' to go back, 'OK' to confirm the delete."
+msgstr ""
+"Weet je zeker dat je dit thema wilt verwijderen?\n"
+"\n"
+"Klik op 'Annuleren' om terug te gaan, 'OK' om te verwijderen."
 
 #: wp-admin/themes.php:351
 msgid "Show previous theme"
@@ -1194,8 +1194,8 @@ msgid "Your site at %1$s experienced a critical failure while trying to update W
 msgstr "Je website op %1$s liep tegen een kritieke fout aan toen WordPress probeerde bij te werken naar versie %2$s."
 
 #: wp-admin/includes/class-wp-upgrader.php:2024
-#: wp-admin/includes/update-core.php:817 wp-admin/includes/update-core.php:892
-#: wp-admin/includes/update-core.php:915
+#: wp-admin/includes/update-core.php:818 wp-admin/includes/update-core.php:893
+#: wp-admin/includes/update-core.php:916
 msgid "The update cannot be installed because we will be unable to copy some files. This is usually due to inconsistent file permissions."
 msgstr "De update kon niet worden geïnstalleerd omdat we sommige bestanden niet konden kopiëren. Dit komt meestal door inconsistente bestandsrechten."
 
@@ -1349,7 +1349,7 @@ msgstr "Bijwerken thema: %s"
 msgid "Updating plugin: %s"
 msgstr "Bijwerken plugin: %s"
 
-#: wp-admin/includes/update-core.php:948
+#: wp-admin/includes/update-core.php:949
 msgid "There is not enough free disk space to complete the update."
 msgstr "Er is onvoldoende schijfruimte om de update te voltooien."
 
@@ -1401,7 +1401,7 @@ msgstr "Het wachtwoord wordt niet opgeslagen op de server."
 msgid "The username you provided has invalid characters."
 msgstr "De opgegeven gebruikersnaam bevat ongeldige tekens."
 
-#: wp-admin/includes/update-core.php:905
+#: wp-admin/includes/update-core.php:906
 msgid "Copying the required files&#8230;"
 msgstr "Vereiste bestanden kopiëren&#8230;"
 
@@ -1450,7 +1450,7 @@ msgstr "De vertaalbestanden missen of <code>.po</code> of <code>.mo</code> besta
 msgid "Attempting to roll back to previous version."
 msgstr "Poging wordt ondernomen om installatie terug te draaien naar de vorige versie."
 
-#: wp-admin/includes/update-core.php:845
+#: wp-admin/includes/update-core.php:846
 msgid "Preparing to install the latest version&#8230;"
 msgstr "Voorbereidingen gestart om installatie te starten naar de laatste versie&#8230;"
 
@@ -1476,13 +1476,13 @@ msgstr "Je thema biedt geen ondersteuning voor menu's, maar je kan ze gebruiken 
 msgid "Your passwords do not match. Please try again."
 msgstr "De wachtwoorden komen niet overeen. Probeer opnieuw."
 
-#: wp-admin/install.php:263
-msgid "Sorry, that isn&#8217;t a valid email address. Email addresses look like <code>username@example.com</code>."
-msgstr "Sorry, dat is geen geldig e-mailadres. E-mailadressen zien eruit als <code>username@example.com</code>."
-
 #: wp-admin/includes/class-wp-upgrader.php:1939
 msgid "Due to an error during updating, WordPress has rolled back to your previous version."
 msgstr "Vanwege een fout tijdens het bijwerken, heeft WordPress de vorige versie hersteld."
+
+#: wp-admin/install.php:263
+msgid "Sorry, that isn&#8217;t a valid email address. Email addresses look like <code>username@example.com</code>."
+msgstr "Dit is geen geldig e-mailadres. E-mailadressen zien als volgt uit: <code>gebruikersnaam@voorbeeld.nl</code>."
 
 #: wp-admin/edit-form-comment.php:96
 msgid "IP address:"
@@ -1664,7 +1664,7 @@ msgstr "We slaan dit artikel voor alle zekerheid ook op in je browser."
 
 #: wp-admin/includes/revision.php:370
 msgid "Sorry, something went wrong. The requested comparison could not be loaded."
-msgstr "Sorry, er ging helaas iets mis. De gewenste vergelijking kan niet getoond worden."
+msgstr "Er ging helaas iets mis. De gewenste vergelijking kan niet getoond worden."
 
 #: wp-admin/custom-background.php:381
 msgctxt "Background Attachment"
@@ -2211,13 +2211,13 @@ msgstr "Kies een achtergrondafbeelding"
 msgid "Choose a Custom Header"
 msgstr "Kies een aangepaste header"
 
-#: wp-admin/custom-header.php:190
-msgid "In the Header Text section of this page, you can choose whether to display this text or hide it. You can also choose a color for the text by clicking the Select Color button and either typing in a legitimate HTML hex value, e.g. &#8220;#ff0000&#8221; for red, or by choosing a color using the color picker."
-msgstr "Je kunt kiezen of je de headertekst wilt tonen of verbergen. Je kunt ook een tekstkleur kiezen door op de Selecteer een kleurknop te klikken waarna een kleurenpicker tevoorschijn komt. Een andere manier om een kleur te selecteren is de legitieme waarde in te geven zoals &#8220;#ff0000&#8221; voor rood."
-
 #: wp-admin/custom-background.php:153
 msgid "You can also choose a background color by clicking the Select Color button and either typing in a legitimate HTML hex value, e.g. &#8220;#ff0000&#8221; for red, or by choosing a color using the color picker."
 msgstr "Je kunt ook een achtergrondkleur kiezen door op de &#39;Selecteer een kleur&#39; knop te klikken waarna een kleurenpicker tevoorschijn komt. Een andere manier om een kleur te selecteren is de geldige waarde in te geven zoals &#8220;#ff0000&#8221; voor rood."
+
+#: wp-admin/custom-header.php:190
+msgid "In the Header Text section of this page, you can choose whether to display this text or hide it. You can also choose a color for the text by clicking the Select Color button and either typing in a legitimate HTML hex value, e.g. &#8220;#ff0000&#8221; for red, or by choosing a color using the color picker."
+msgstr "Je kunt kiezen of je de headertekst wilt tonen of verbergen. Je kunt ook een tekstkleur kiezen door op de 'Een kleurknop selecteren' te klikken waarna een kleurenpicker tevoorschijn komt. Een andere manier om een kleur te selecteren is de legitieme waarde in te geven zoals &#8220;#ff0000&#8221; voor rood."
 
 #: wp-admin/options-reading.php:65
 msgid "You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to &#8220;Discourage search engines from indexing this site&#8221; and click the Save Changes button at the bottom of the screen. Note that your privacy is not complete; your site is still visible on the web."
@@ -2265,7 +2265,7 @@ msgstr "Gebruikt: %1$s%% van %2$s"
 
 #: wp-admin/users.php:220
 msgid "Please select an option."
-msgstr "Selecteer een optie."
+msgstr "Een optie selecteren."
 
 #: wp-admin/includes/ms.php:321
 msgid "<strong>ERROR</strong>: The email address is already used."
@@ -2342,7 +2342,7 @@ msgstr "Onderstaand moet je de database verbindingsgegevens invullen. Als je nie
 msgid "Settings saved and theme activated. <a href=\"%s\">Visit site</a>"
 msgstr "Instellingen opgeslagen en thema geactiveerd. <a href=\"%s\">Bezoek site</a>"
 
-#: wp-admin/includes/update-core.php:1174 wp-admin/update-core.php:431
+#: wp-admin/includes/update-core.php:1175 wp-admin/update-core.php:431
 msgid "Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href=\"%2$s\">here</a>."
 msgstr "Welkom bij WordPress %1$s. Je wordt doorverwezen naar het &#39;Over&#39; WordPress scherm. Zo niet, klik <a href=\"%2$s\">hier</a>."
 
@@ -2412,13 +2412,13 @@ msgstr "Een &#8220;Over mij&#8221; pagina toevoegen"
 msgid "Get Started"
 msgstr "Aan de slag"
 
-#: wp-admin/setup-config.php:300
-msgid "Sorry, but I can&#8217;t write the <code>wp-config.php</code> file."
-msgstr "Helaas, niet mogelijk om  <code>wp-config.php</code> op te slaan."
-
 #: wp-admin/setup-config.php:307
 msgid "After you&#8217;ve done that, click &#8220;Run the install.&#8221;"
 msgstr "Klik vervolgens &#8220;Starten met installeren.&#8221;"
+
+#: wp-admin/setup-config.php:300
+msgid "Sorry, but I can&#8217;t write the <code>wp-config.php</code> file."
+msgstr "Niet mogelijk om  <code>wp-config.php</code> op te slaan."
 
 #: wp-admin/plugin-install.php:77
 msgid "If you know what you&#8217;re looking for, Search is your best bet. The Search screen has options to search the WordPress.org Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag."
@@ -2476,14 +2476,6 @@ msgstr "Help tabblad"
 msgid "Type of search"
 msgstr "Zoektype"
 
-#: wp-admin/includes/media.php:2624
-msgid "Sorry, you have used all of your storage quota of %s MB."
-msgstr "Helaas, je hebt al je opslag gebruikt van %s MB."
-
-#: wp-admin/includes/ms.php:407
-msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
-msgstr "Sorry, je hebt je toegewezen ruimte opgebruikt. Verwijder een aantal bestanden om meer bestanden te kunnen uploaden."
-
 #: wp-admin/options-reading.php:50
 msgid "The <a href=\"http://codex.wordpress.org/Glossary#Character_set\">character encoding</a> of your site (UTF-8 is recommended)"
 msgstr "De <a href=\"http://codex.wordpress.org/Glossary#Character_set\">karakter encoding</a> van de site  (UTF-8 wordt aanbevolen)"
@@ -2491,6 +2483,14 @@ msgstr "De <a href=\"http://codex.wordpress.org/Glossary#Character_set\">karakte
 #: wp-admin/plugin-editor.php:133 wp-admin/theme-editor.php:30
 msgid "In the editing area the Tab key enters a tab character. To move below this area by pressing Tab, press the Esc key followed by the Tab key."
 msgstr "In de bewerkmodus werkt de tab-knop (van het toetsenbord) als tab karakter. Om dit aan te passen is het mogelijk om eerste de Esc-knop te de gebruiken gevolgd door de tab-knop."
+
+#: wp-admin/includes/media.php:2624
+msgid "Sorry, you have used all of your storage quota of %s MB."
+msgstr "Je hebt al je opslag gebruikt van %s MB."
+
+#: wp-admin/includes/ms.php:407
+msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
+msgstr "Je hebt je toegewezen ruimte opgebruikt. Verwijder een aantal bestanden om meer bestanden te kunnen uploaden."
 
 #: wp-admin/includes/upgrade.php:181
 msgid ""
@@ -2565,7 +2565,7 @@ msgstr ""
 
 #: wp-admin/custom-header.php:585
 msgid "You can select an image to be shown at the top of your site by uploading from your computer or choosing from your media library. After selecting an image you will be able to crop it."
-msgstr "Selecteer een afbeelding om aan de bovenkant van je sitete tonen.  Upload een afbeelding van de computer of kies een afbeelding uit de mediabibliotheek. Na selectie kan de afbeelding worden bewerkt."
+msgstr "Een afbeelding selecteren om aan de bovenkant van je site te tonen.  Een afbeelding van de computer uploaden of kies een afbeelding uit de mediabibliotheek. Na selectie kan de afbeelding worden bewerkt."
 
 #: wp-admin/custom-header.php:179
 msgid "You can set a custom image header for your site. Simply upload the image and crop it, and the new header will go live immediately. Alternatively, you can use an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button."
@@ -3027,10 +3027,6 @@ msgstr "Je hebt onvoldoende rechten om deze site te verwijderen."
 msgid "Thank you for using %s, your site has been deleted. Happy trails to you until we meet again."
 msgstr "Bedankt voor het gebruik van %s, je site is verwijderd. Hopelijk tot een volgende keer."
 
-#: wp-admin/ms-delete-site.php:24
-msgid "I'm sorry, the link you clicked is stale. Please select another option."
-msgstr "Helaas, de link waarop je hebt geklikt is verouderd. Selecteer een andere optie."
-
 #: wp-admin/ms-delete-site.php:45
 msgid ""
 "Dear User,\n"
@@ -3084,6 +3080,10 @@ msgstr "Mijn website permanent verwijderen"
 #: wp-admin/ms-delete-site.php:71
 msgid "Delete My Site"
 msgstr "Mijn website verwijderen"
+
+#: wp-admin/ms-delete-site.php:24
+msgid "I'm sorry, the link you clicked is stale. Please select another option."
+msgstr "De link waarop je hebt geklikt is verouderd. Een andere optie selecteren."
 
 #: wp-admin/includes/ms.php:32
 msgid "Not enough space to upload. %1$s KB needed."
@@ -3390,7 +3390,7 @@ msgstr "Wanneer je meerdere WordPress installaties wil gebruiken in een database
 
 #: wp-admin/setup-config.php:49
 msgid "Sorry, I need a wp-config-sample.php file to work from. Please re-upload this file from your WordPress installation."
-msgstr "Helaas, ik heb een wp-config-sample.php nodig om vanuit te werken. Graag deze opnieuw uploaden vanuit je WordPress installatie."
+msgstr "WordPress heeft een wp-config-sample.php nodig om vanuit te werken. Graag deze opnieuw uploaden vanuit je WordPress installatie."
 
 #: wp-admin/maint/repair.php:30
 msgid "To allow use of this page to automatically repair database problems, please add the following line to your <code>wp-config.php</code> file. Once this line is added to your config, reload this page."
@@ -3471,10 +3471,6 @@ msgstr "De plugin genereerde %d tekens van <strong>onverwachte uitvoer</strong> 
 msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
 msgstr "Als je dit thema bijwerkt raken alle wijzigingen die je hebt gemaakt verloren. Klik op 'Annuleren' om te stoppen of op 'OK' om bij te werken."
 
-#: wp-admin/includes/image-edit.php:196
-msgid "There are unsaved changes that will be lost. 'OK' to continue, 'Cancel' to return to the Image Editor."
-msgstr "Er zijn niet bewaarde wijzigingen die verloren zullen gaan. 'OK' om verder te gaan, 'Annuleer' om terug te keren naar de Afbeeldingseditor."
-
 #: wp-admin/import.php:23
 msgid "In previous versions of WordPress, all importers were built-in. They have been turned into plugins since most people only use them once or infrequently."
 msgstr "In voorgaande versies van WordPress, alle importeerders waren ingebouwd. Het zijn nu plugins, omdat meeste mensen ze niet vaak of eenmalig gebruiken."
@@ -3490,6 +3486,10 @@ msgstr "Publiceren via e-mail instellingen geeft je de mogelijkheid je WordPress
 #: wp-admin/update-core.php:46
 msgid "You are using a development version of WordPress. You can update to the latest nightly build automatically or download the nightly build and install it manually:"
 msgstr "Je gebruikt een ontwikkelversie van WordPress. Je kan automatisch updaten naar de laatste nightly build of de nightly build downloaden en handmatig installeren."
+
+#: wp-admin/includes/image-edit.php:196
+msgid "There are unsaved changes that will be lost. 'OK' to continue, 'Cancel' to return to the Image Editor."
+msgstr "Er zijn niet bewaarde wijzigingen die verloren zullen gaan. 'OK' om verder te gaan, 'Annuleren' om terug te keren naar de afbeeldingseditor."
 
 #: wp-admin/custom-header.php:812 wp-admin/custom-header.php:936
 #: wp-admin/custom-header.php:1248
@@ -3609,7 +3609,7 @@ msgstr[1] "<strong>Versie %1$s</strong> lost enkele beveilingsproblemen op."
 msgid "This screen allows you to choose your default permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Dit scherm stelt je in staat om de standaard permalinkstructuur te wijzigen. Je kan uit de diverse mogelijkheden kiezen of een eigen structuur gebruiken."
 
-#: wp-admin/includes/update-core.php:1175 wp-admin/update-core.php:432
+#: wp-admin/includes/update-core.php:1176 wp-admin/update-core.php:432
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Welkom bij WordPress %1$s. <a href=\"%2$s\">Meer leren</a>."
 
@@ -3656,10 +3656,6 @@ msgstr "Auteurs kunnen publiceren en hun eigen berichten beheren, en kunnen ook 
 #: wp-admin/edit.php:173
 msgid "This screen provides access to all of your posts. You can customize the display of this screen to suit your workflow."
 msgstr "Dit scherm geeft je toegang naar al je berichten. Je kunt de weergave van dit scherm aanpassen."
-
-#: wp-admin/edit.php:203
-msgid "You can also edit or move multiple posts to the trash at once. Select the posts you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
-msgstr "Je kunt ook meerdere berichten tegelijk bewerken of verplaatsen. Selecteer de berichten door de aanvinkboxen te klikken, selecteer vervolgens de actie die je wilt uitvoeren via het Acties menu en klik Toepassen."
 
 #: wp-admin/plugin-install.php:75
 msgid "Adding Plugins"
@@ -3721,6 +3717,10 @@ msgstr "Plugins in WordPress maken dat de functionaliteiten uitgebreid kunnen wo
 msgid "How to Update"
 msgstr "Hoe bijwerken"
 
+#: wp-admin/edit.php:203
+msgid "You can also edit or move multiple posts to the trash at once. Select the posts you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
+msgstr "Je kunt ook meerdere berichten tegelijk bewerken of verplaatsen. De berichten selecteren door op de selectievakjes te klikken, selecteer vervolgens de actie die je wilt uitvoeren via het Acties menu en klik Toepassen."
+
 #: wp-admin/themes.php:69
 msgid "Adding Themes"
 msgstr "Thema's toevoegen"
@@ -3781,10 +3781,6 @@ msgstr "Inactieve sidebar (niet gebruikt)"
 msgid "This sidebar is no longer available and does not show anywhere on your site. Remove each of the widgets below to fully remove this inactive sidebar."
 msgstr "Deze sidebar is niet langer beschikbaar en wordt nergens getoond op je site. Verwijder elke onderstaande wiget om de inactieve sidebar volledig te verwijderen."
 
-#: wp-admin/media-new.php:50
-msgid "Clicking <strong>Select Files</strong> opens a navigation window showing you files in your operating system. Selecting <strong>Open</strong> after clicking on the file you want activates a progress bar on the uploader screen."
-msgstr "Klikken op <strong>Selecteer bestanden</strong> opent een navigatiescherm wat je bestanden van je operatingsysteem toont. Selecteer <strong>Open</strong> nadat je op het bestand geklikt hebt wat je wilt activeren, vervolgens wordt een voortgangsbalk op het uploadscherm getoond."
-
 #: wp-admin/edit-tags.php:189
 msgid "You can create groups of links by using Link Categories. Link Category names must be unique and Link Categories are separate from the categories you use for posts."
 msgstr "Je kunt groepen van links maken met het gebruik van Linkcategorie&#235;n. Linkcategorienamen moeten uniek zijn. Linkcategorie&#235;n zijn gescheiden van de categorie&#235;n die je gebruikt voor berichten."
@@ -3804,6 +3800,10 @@ msgstr "Ontbrekende widgets"
 #: wp-admin/media-new.php:49
 msgid "<strong>Drag and drop</strong> your files into the area below. Multiple files are allowed."
 msgstr "<strong>Drag-en-drop</strong> je bestanden naar de onderstaande ruimte. Meerdere bestanden zijn toegestaan."
+
+#: wp-admin/media-new.php:50
+msgid "Clicking <strong>Select Files</strong> opens a navigation window showing you files in your operating system. Selecting <strong>Open</strong> after clicking on the file you want activates a progress bar on the uploader screen."
+msgstr "Klikken op <strong>Bestanden selecteren</strong> opent een navigatiescherm wat je bestanden van je computer toont. <strong>Open</strong> selecteren nadat je op het bestand geklikt hebt wat je wilt activeren, vervolgens wordt een voortgangsbalk op het uploadscherm getoond."
 
 #: wp-admin/link-manager.php:53
 msgid "Deleting Links"
@@ -5028,7 +5028,7 @@ msgstr[1] "Alles <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/file.php:308
 msgid "Sorry, this file type is not permitted for security reasons."
-msgstr "Sorry, dit type bestand vanwege veiligheidsredenen niet toegestaan."
+msgstr "Dit type bestand is vanwege veiligheidsredenen niet toegestaan."
 
 #: wp-admin/admin-header.php:32
 msgid "%1$s &#8212; WordPress"
@@ -5112,13 +5112,13 @@ msgstr "Opnieuw controleren"
 msgid "Last checked on %1$s at %2$s."
 msgstr "Laatste controle op %1$s om %2$s."
 
-#: wp-admin/update-core.php:518
-msgid "Please select one or more plugins to update."
-msgstr "Selecteer een of meerdere plugins om bij te werken."
-
 #: wp-admin/update-core.php:516
 msgid "Please select one or more themes to update."
-msgstr "Selecteer een of meerdere  thema's om bij te werken."
+msgstr "Een of meerdere  thema's selecteren om bij te werken."
+
+#: wp-admin/update-core.php:518
+msgid "Please select one or more plugins to update."
+msgstr "Een of meerdere plugins selecteren om bij te werken."
 
 #: wp-admin/includes/class-wp-upgrader-skins.php:215
 msgid "The update process is starting. This process may take a while on some hosts, so please be patient."
@@ -5820,7 +5820,7 @@ msgstr "Categorie&#235;n en tags converteren"
 
 #: wp-admin/user-edit.php:416
 msgid "There is a pending change of your e-mail to <code>%1$s</code>. <a href=\"%2$s\">Cancel</a>"
-msgstr "Een wijziging van je e-mailadres in <code>%1$s</code> is nog niet goedgekeurd. <a href=\"%2$s\">Annuleer</a>"
+msgstr "Een wijziging van je e-mailadres in <code>%1$s</code> is nog niet goedgekeurd. <a href=\"%2$s\">Annuleren</a>"
 
 #: wp-admin/includes/nav-menu.php:692
 msgid "Most Recent"
@@ -6457,7 +6457,7 @@ msgid "The password you chose during the install."
 msgstr "Het wachtwoord wat je gekozen hebt tijdens de installatie."
 
 #: wp-admin/includes/class-wp-upgrader.php:2671
-#: wp-admin/includes/update-core.php:1171 wp-admin/update-core.php:430
+#: wp-admin/includes/update-core.php:1172 wp-admin/update-core.php:430
 msgid "WordPress updated successfully"
 msgstr "WordPress succesvol bijgewerkt"
 
@@ -6774,7 +6774,7 @@ msgstr "Details"
 msgid "Version: %s"
 msgstr "Versie: %s"
 
-#: wp-admin/includes/update-core.php:809
+#: wp-admin/includes/update-core.php:810
 msgid "The update could not be unpacked"
 msgstr "De bijgewerkte versie kon niet worden uitgepakt"
 
@@ -7300,10 +7300,6 @@ msgstr "Bewerken <strong>%s</strong> (niet actief)"
 msgid "Browsing <strong>%s</strong> (inactive)"
 msgstr "Bladeren <strong>%s</strong> (niet actief)"
 
-#: wp-admin/plugin-editor.php:197
-msgid "Select plugin to edit:"
-msgstr "Selecteer plugin om te bewerken:"
-
 #: wp-admin/plugin-editor.php:219
 msgid "Plugin Files"
 msgstr "Pluginbestanden"
@@ -7481,10 +7477,6 @@ msgstr "Tags:"
 #: wp-admin/theme-editor.php:56 wp-admin/theme-editor.php:59
 msgid "The requested theme does not exist."
 msgstr "Dat thema bestaat niet."
-
-#: wp-admin/theme-editor.php:142
-msgid "Select theme to edit:"
-msgstr "Selecteer thema om te bewerken"
 
 #: wp-admin/theme-editor.php:195
 msgid "Oops, no such file exists! Double check the name and try again, merci."
@@ -7806,11 +7798,11 @@ msgstr "Je kunt deze gebruiker niet bewerken."
 msgid "Could not fully remove the theme %s."
 msgstr "Volledig verwijderen van thema %s niet mogelijk."
 
-#: wp-admin/includes/update-core.php:796
+#: wp-admin/includes/update-core.php:797
 msgid "Verifying the unpacked files&#8230;"
 msgstr "Uitgepakte bestanden verifi&#235;ren&#8230;"
 
-#: wp-admin/includes/update-core.php:1052
+#: wp-admin/includes/update-core.php:1053
 msgid "Upgrading database&#8230;"
 msgstr "Database bijwerken&#8230;"
 
@@ -8059,15 +8051,15 @@ msgstr "Wanneer je een thema in zip format hebt, kan je die installeren door hem
 msgid "Comment author must have a previously approved comment"
 msgstr "De afzender moet een eerder toegelaten reactie geplaatst hebben"
 
-#: wp-admin/includes/update-core.php:838
+#: wp-admin/includes/update-core.php:839
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "De bijgewerkte versie kan niet worden ge&#239;nstalleerd. WordPress %1$s vereist PHP versie %2$s of hoger en MySQL versie %3$s of hoger. Je gebruikt PHP versie: %4$s en MySQL versie %5$s."
 
-#: wp-admin/includes/update-core.php:840
+#: wp-admin/includes/update-core.php:841
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "De bijgewerkte versie kan niet worden ge&#239;nstalleerd. WordPress %1$s vereist PHP versie %2$s of hoger. Je gebruikt versie: %3$s."
 
-#: wp-admin/includes/update-core.php:842
+#: wp-admin/includes/update-core.php:843
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "De bijgewerkte versie kan niet worden ge&#239;nstalleerd. WordPress %1$s vereist MySQL versie %2$s of hoger. Je gebruikt versie: %3$s."
 
@@ -8221,6 +8213,14 @@ msgstr "Lezen instellingen"
 #: wp-admin/user-edit.php:472
 msgid "If you would like to change the password type a new one. Otherwise leave this blank."
 msgstr "Alleen als je het wachtwoord wilt wijzigen. Anders niets invullen."
+
+#: wp-admin/plugin-editor.php:197
+msgid "Select plugin to edit:"
+msgstr "Plugin selecteren om te bewerken:"
+
+#: wp-admin/theme-editor.php:142
+msgid "Select theme to edit:"
+msgstr "Thema selecteren om te bewerken:"
 
 #: wp-admin/includes/upgrade.php:156
 msgid "Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!"
@@ -8697,7 +8697,7 @@ msgstr "Doelmap bestaat al."
 
 #: wp-admin/includes/class-wp-upgrader.php:133 wp-admin/includes/file.php:632
 #: wp-admin/includes/file.php:735 wp-admin/includes/file.php:786
-#: wp-admin/includes/update-core.php:1125
+#: wp-admin/includes/update-core.php:1126
 msgid "Could not create directory."
 msgstr "Map kan niet aangemaakt worden."
 
@@ -10078,8 +10078,8 @@ msgid "You do not have permission to customize headers."
 msgstr "Je hebt onvoldoende rechten om headers te aan te passen."
 
 #: wp-admin/includes/file.php:651 wp-admin/includes/file.php:748
-#: wp-admin/includes/file.php:781 wp-admin/includes/update-core.php:1017
-#: wp-admin/includes/update-core.php:1120
+#: wp-admin/includes/file.php:781 wp-admin/includes/update-core.php:1018
+#: wp-admin/includes/update-core.php:1121
 msgid "Could not copy file."
 msgstr "Kan bestand niet kopi&#235;ren"
 
@@ -10200,12 +10200,12 @@ msgid "Installing the latest version&#8230;"
 msgstr "De laatste versie installeren&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:136
-#: wp-admin/includes/update-core.php:897
+#: wp-admin/includes/update-core.php:898
 msgid "Enabling Maintenance mode&#8230;"
 msgstr "Onderhoudsmode activeren&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:137
-#: wp-admin/includes/update-core.php:980
+#: wp-admin/includes/update-core.php:981
 msgid "Disabling Maintenance mode&#8230;"
 msgstr "Onderhoudsmode deactiveren&#8230;"
 
@@ -10379,10 +10379,6 @@ msgstr "Volgende &raquo;"
 msgid "You did not enter a category name."
 msgstr "Je hebt geen categorienaam ingevoerd."
 
-#: wp-admin/includes/ajax-actions.php:956
-msgid "Sorry, you must be logged in to reply to a comment."
-msgstr "Helaas, je moet ingelogd zijn om een reactie te geven."
-
 #: wp-admin/includes/ajax-actions.php:1260
 msgid "User <a href=\"#%s\">%s</a> added"
 msgstr "Gebruiker <a href=\"#%s\">%s</a> toegevoegd"
@@ -10510,3 +10506,7 @@ msgstr "Concept opgeslagen op %s."
 #: wp-admin/includes/ajax-actions.php:691
 msgid "Comment %d does not exist"
 msgstr "Reactie %d bestaat niet"
+
+#: wp-admin/includes/ajax-actions.php:956
+msgid "Sorry, you must be logged in to reply to a comment."
+msgstr "Je moet ingelogd zijn om een reactie te geven."
