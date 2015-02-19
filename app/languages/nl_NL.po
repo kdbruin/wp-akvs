@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-01-23 07:45:22+0000\n"
+"PO-Revision-Date: 2015-02-18 13:34:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -73,7 +73,7 @@ msgid "Rich Text Area. Press Alt-Shift-H for help"
 msgstr "Verrijkt tekstgebied. Klik Alt-Shift-H voor hulp"
 
 #. translators: 1: month, 2: day of month
-#: wp-includes/date.php:437
+#: wp-includes/date.php:449
 msgid "The following values do not describe a valid date: month %1$s, day %2$s."
 msgstr "De volgende waarde beschrijft geen geldige datum: maand %1$s, dag %2$s."
 
@@ -289,7 +289,7 @@ msgid "Do not pass style tags to wp_add_inline_style()."
 msgstr "Geef stijltags niet door aan wp_add_inline_style()."
 
 #. translators: 1: year, 2: month, 3: day of month
-#: wp-includes/date.php:420
+#: wp-includes/date.php:432
 msgid "The following values do not describe a valid date: year %1$s, month %2$s, day %3$s."
 msgstr "De volgende waarden beschrijven geen geldige datum: dag %3$s, maand %2$s, jaar %1$s."
 
@@ -299,7 +299,7 @@ msgstr "Antwoord op %s"
 
 #. translators: Date query invalid date message: 1: invalid value, 2: type of
 #. value, 3: minimum valid value, 4: maximum valid value
-#: wp-includes/date.php:391
+#: wp-includes/date.php:402
 msgid "Invalid value %1$s for %2$s. Expected value should be between %3$s and %4$s."
 msgstr "Ongeldige waarde %1$s voor %2$s. Verwachte waarde moet liggen tussen %3$s en %4$s."
 
@@ -1546,22 +1546,22 @@ msgstr "Zoeken en vervangen"
 msgid "Insert Read More tag"
 msgstr "Lees-meer-tag invoegen"
 
-#: wp-includes/general-template.php:2786
+#: wp-includes/general-template.php:2799
 msgctxt "admin color scheme"
 msgid "Ectoplasm"
 msgstr "Ectoplasma"
 
-#: wp-includes/general-template.php:2792
+#: wp-includes/general-template.php:2805
 msgctxt "admin color scheme"
 msgid "Ocean"
 msgstr "Oceaan"
 
-#: wp-includes/general-template.php:2798
+#: wp-includes/general-template.php:2811
 msgctxt "admin color scheme"
 msgid "Coffee"
 msgstr "Koffie"
 
-#: wp-includes/general-template.php:2780
+#: wp-includes/general-template.php:2793
 msgctxt "admin color scheme"
 msgid "Sunrise"
 msgstr "Zonsopkomst"
@@ -1635,17 +1635,17 @@ msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: wp-includes/general-template.php:2752
+#: wp-includes/general-template.php:2765
 msgctxt "admin color scheme"
 msgid "Default"
 msgstr "Standaard"
 
-#: wp-includes/general-template.php:2762
+#: wp-includes/general-template.php:2775
 msgctxt "admin color scheme"
 msgid "Light"
 msgstr "Licht"
 
-#: wp-includes/general-template.php:2774
+#: wp-includes/general-template.php:2787
 msgctxt "admin color scheme"
 msgid "Midnight"
 msgstr "Middernacht"
@@ -1658,7 +1658,7 @@ msgstr "Gebruik komma&#39;s in plaats van %s om terminologie uit te sluiten."
 msgid "Menu"
 msgstr "Menu"
 
-#: wp-includes/update.php:555
+#: wp-includes/update.php:553
 msgid "Translation Updates"
 msgstr "Vertalingsupdates"
 
@@ -2423,11 +2423,11 @@ msgstr "Topnavigatiewerkbalk."
 msgid "Hex Value"
 msgstr "Hex-waarde"
 
-#: wp-includes/class-wp-customize-manager.php:1033
+#: wp-includes/class-wp-customize-manager.php:1056
 msgid "Header Text Color"
 msgstr "Headertekstkleur"
 
-#: wp-includes/class-wp-customize-manager.php:1011
+#: wp-includes/class-wp-customize-manager.php:1034
 msgid "Colors"
 msgstr "Kleuren"
 
@@ -2460,12 +2460,12 @@ msgstr "Onvoldoende argumenten gebruikt in deze XML-RPC-methode."
 msgid "Sorry, you cannot stick a private post."
 msgstr "Je kan een priv&#137;bericht niet sticky maken."
 
-#: wp-includes/class-wp-customize-manager.php:1158
+#: wp-includes/class-wp-customize-manager.php:1181
 msgid "You can edit your menu content on the Menus screen in the Appearance section."
 msgstr "Je kunt de inhoud van het menu wijzigen in het Weergave-gedeelte."
 
 #: wp-includes/class-wp-customize-control.php:925
-#: wp-includes/class-wp-customize-manager.php:1056
+#: wp-includes/class-wp-customize-manager.php:1079
 msgid "Header Image"
 msgstr "Kopafbeelding"
 
@@ -2509,32 +2509,32 @@ msgstr "Voer een gebruikersnaam in."
 msgid "Site name must be at least 4 characters."
 msgstr "Website-naam moet minimaal 4 tekens zijn."
 
-#: wp-includes/class-wp-customize-manager.php:1207
+#: wp-includes/class-wp-customize-manager.php:1230
 msgid "A static page"
 msgstr "Een statische pagina"
 
-#: wp-includes/class-wp-customize-manager.php:1048
+#: wp-includes/class-wp-customize-manager.php:1071
 msgid "Background Color"
 msgstr "Achtergrondkleur"
 
 #: wp-includes/class-wp-customize-control.php:894
-#: wp-includes/class-wp-customize-manager.php:1076
+#: wp-includes/class-wp-customize-manager.php:1099
 msgid "Background Image"
 msgstr "Achtergrondafbeelding"
 
-#: wp-includes/class-wp-customize-manager.php:1098
+#: wp-includes/class-wp-customize-manager.php:1121
 msgid "Background Repeat"
 msgstr "Achtergrond herhalen"
 
-#: wp-includes/class-wp-customize-manager.php:1027
+#: wp-includes/class-wp-customize-manager.php:1050
 msgid "Display Header Text"
 msgstr "Koptekst weergeven"
 
-#: wp-includes/class-wp-customize-manager.php:1115
+#: wp-includes/class-wp-customize-manager.php:1138
 msgid "Background Position"
 msgstr "Achtergrondpositie"
 
-#: wp-includes/class-wp-customize-manager.php:1131
+#: wp-includes/class-wp-customize-manager.php:1154
 msgid "Background Attachment"
 msgstr "Achtergrondbijlage"
 
@@ -2546,35 +2546,35 @@ msgstr "Afbeelding wijzigen"
 msgid "Sorry, you are not allowed to edit this post type."
 msgstr "Je hebt geen rechten om dit type bericht te bewerken."
 
-#: wp-includes/class-wp-customize-manager.php:1102
+#: wp-includes/class-wp-customize-manager.php:1125
 msgid "No Repeat"
 msgstr "Niet herhalen"
 
-#: wp-includes/class-wp-customize-manager.php:1103
+#: wp-includes/class-wp-customize-manager.php:1126
 msgid "Tile"
 msgstr "Herhalen"
 
-#: wp-includes/class-wp-customize-manager.php:1135
+#: wp-includes/class-wp-customize-manager.php:1158
 msgid "Scroll"
 msgstr "Bladeren"
 
-#: wp-includes/class-wp-customize-manager.php:1136
+#: wp-includes/class-wp-customize-manager.php:1159
 msgid "Fixed"
 msgstr "Vast"
 
-#: wp-includes/class-wp-customize-manager.php:1104
+#: wp-includes/class-wp-customize-manager.php:1127
 msgid "Tile Horizontally"
 msgstr "Onder elkaar"
 
-#: wp-includes/class-wp-customize-manager.php:1105
+#: wp-includes/class-wp-customize-manager.php:1128
 msgid "Tile Vertically"
 msgstr "Naast elkaar"
 
-#: wp-includes/class-wp-customize-manager.php:1230
+#: wp-includes/class-wp-customize-manager.php:1253
 msgid "Posts page"
 msgstr "Berichtenpagina"
 
-#: wp-includes/class-wp-customize-manager.php:1218
+#: wp-includes/class-wp-customize-manager.php:1241
 msgid "Front page"
 msgstr "Startpagina"
 
@@ -2682,33 +2682,33 @@ msgstr "Het thema  \"%s\" is geen geldig hoofdthema."
 msgid "ERROR: The themes directory is either empty or doesn&#8217;t exist. Please check your installation."
 msgstr "MISLUKT: De themamap is leeg of bestaat niet. Graag de installatie controleren."
 
-#: wp-includes/class-wp-customize-manager.php:1206
+#: wp-includes/class-wp-customize-manager.php:1229
 msgid "Your latest posts"
 msgstr "Je laatste berichten"
 
-#: wp-includes/class-wp-customize-manager.php:1004
+#: wp-includes/class-wp-customize-manager.php:1027
 msgid "Tagline"
 msgstr "Ondertitel"
 
 #: wp-includes/class-wp-customize-control.php:475
-#: wp-includes/class-wp-customize-manager.php:1162
+#: wp-includes/class-wp-customize-manager.php:1185
 #: wp-includes/default-widgets.php:1362
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Selecteren &mdash;"
 
-#: wp-includes/class-wp-customize-manager.php:1155
+#: wp-includes/class-wp-customize-manager.php:1178
 msgid "Navigation"
 msgstr "Navigatie"
 
-#: wp-includes/class-wp-customize-manager.php:1188
+#: wp-includes/class-wp-customize-manager.php:1211
 msgid "Static Front Page"
 msgstr "Statische startpagina"
 
-#: wp-includes/class-wp-customize-manager.php:1191
+#: wp-includes/class-wp-customize-manager.php:1214
 msgid "Your theme supports a static front page."
 msgstr "Het thema ondersteunt een statische startpagina."
 
-#: wp-includes/class-wp-customize-manager.php:1202
+#: wp-includes/class-wp-customize-manager.php:1225
 msgid "Front page displays"
 msgstr "Startpagina toont"
 
@@ -2716,13 +2716,13 @@ msgstr "Startpagina toont"
 msgid "Refresh"
 msgstr "Verversen"
 
-#: wp-includes/class-wp-customize-manager.php:1158
+#: wp-includes/class-wp-customize-manager.php:1181
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "Je thema ondersteunt %s menu. Het menu selecteren die je wilt gebruiken."
 msgstr[1] "Je thema ondersteunt %s menu&#39;s. De menu's selecteren die je wilt gebruiken op elke locatie."
 
-#: wp-includes/class-wp-customize-manager.php:982
+#: wp-includes/class-wp-customize-manager.php:1005
 msgid "Site Title & Tagline"
 msgstr "Website-titel en ondertitel"
 
@@ -3035,7 +3035,7 @@ msgstr "Documentatie"
 msgid "Support Forums"
 msgstr "Ondersteuningsforums"
 
-#: wp-includes/formatting.php:2598 wp-includes/general-template.php:2678
+#: wp-includes/formatting.php:2598 wp-includes/general-template.php:2691
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -3111,7 +3111,7 @@ msgstr "Dit bestand is geen foto. Probeer een ander bestand."
 msgid "This is larger than the maximum size. Please try another."
 msgstr "Dit is groter dan de maximaal toegestane grootte. Een ander bestand proberen."
 
-#: wp-includes/general-template.php:2768
+#: wp-includes/general-template.php:2781
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Blauw"
@@ -3241,7 +3241,7 @@ msgstr "Er zijn geen HTTP verzoeken beschikbaar welke het gevraagde vereiste kan
 #: wp-includes/taxonomy.php:120 wp-includes/taxonomy.php:121
 msgctxt "post format"
 msgid "Format"
-msgstr "Notatie"
+msgstr "Berichttype"
 
 #: wp-includes/class-wp-editor.php:1449
 msgid "Enter the destination URL"
@@ -3317,7 +3317,7 @@ msgstr "Audio"
 #: wp-includes/class-wp-xmlrpc-server.php:4414
 #: wp-includes/class-wp-xmlrpc-server.php:4723
 msgid "Invalid post format"
-msgstr "Ongeldige berichtsnotatie"
+msgstr "Ongeldige berichttype"
 
 #: wp-includes/pluggable.php:1536
 msgid "Whois  : http://whois.arin.net/rest/ip/%s"
@@ -4123,17 +4123,17 @@ msgstr ""
 msgid "This is the short link."
 msgstr "Dit is een verkorte link."
 
-#: wp-includes/update.php:549
+#: wp-includes/update.php:547
 msgid "%d WordPress Update"
 msgstr "%d WordPress bijwerken"
 
-#: wp-includes/update.php:553
+#: wp-includes/update.php:551
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
 msgstr[0] "%d Thema bijwerken"
 msgstr[1] "%d Thema&#39;s bijwerken"
 
-#: wp-includes/update.php:551
+#: wp-includes/update.php:549
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
 msgstr[0] "%d plugin-update"
@@ -4724,11 +4724,11 @@ msgstr "%1$s %2$s Feed"
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s zoekresultaten voor &#8220;%3$s&#8221;"
 
-#: wp-includes/general-template.php:2614
+#: wp-includes/general-template.php:2612
 msgid "&laquo; Previous"
 msgstr "&laquo; Vorige"
 
-#: wp-includes/general-template.php:2615
+#: wp-includes/general-template.php:2613
 msgid "Next &raquo;"
 msgstr "Volgende &raquo;"
 
@@ -6410,79 +6410,6 @@ msgstr "Bladwijzers"
 msgid "No categories"
 msgstr "Geen categorie&#235;n"
 
-#: wp-includes/class-pop3.php:82
-msgid "No server specified"
-msgstr "Geen server opgegeven"
-
-#: wp-includes/class-pop3.php:90 wp-includes/class-pop3.php:102
-#: wp-includes/class-pop3.php:123 wp-includes/class-pop3.php:246
-#: wp-includes/class-pop3.php:300 wp-includes/class-pop3.php:311
-#: wp-includes/class-pop3.php:359 wp-includes/class-pop3.php:393
-#: wp-includes/class-pop3.php:426 wp-includes/class-pop3.php:525
-#: wp-includes/class-pop3.php:548
-msgid "Error "
-msgstr "Fout"
-
-#: wp-includes/class-pop3.php:115
-msgid "no login ID submitted"
-msgstr "geen gebruikersnaam opgegeven"
-
-#: wp-includes/class-pop3.php:118 wp-includes/class-pop3.php:138
-msgid "connection not established"
-msgstr "verbinding niet gelukt"
-
-#: wp-includes/class-pop3.php:135 wp-includes/class-pop3.php:171
-msgid "No password submitted"
-msgstr "Geen wachtwoord opgegeven"
-
-#: wp-includes/class-pop3.php:143
-msgid "Authentication failed"
-msgstr "Aanmelding mislukt"
-
-#: wp-includes/class-pop3.php:162 wp-includes/class-pop3.php:205
-#: wp-includes/class-pop3.php:230 wp-includes/class-pop3.php:272
-#: wp-includes/class-pop3.php:346 wp-includes/class-pop3.php:386
-#: wp-includes/class-pop3.php:416 wp-includes/class-pop3.php:450
-#: wp-includes/class-pop3.php:513 wp-includes/class-pop3.php:578
-msgid "No connection to server"
-msgstr "Geen verbinding met server"
-
-#: wp-includes/class-pop3.php:168
-msgid "No login ID submitted"
-msgstr "Geen gebruikersnaam opgegeven"
-
-#: wp-includes/class-pop3.php:176
-msgid "No server banner"
-msgstr "Geen serverbanner"
-
-#: wp-includes/class-pop3.php:176 wp-includes/class-pop3.php:186
-msgid "abort"
-msgstr "afbreken"
-
-#: wp-includes/class-pop3.php:186
-msgid "apop authentication failed"
-msgstr "apop-aanmelding mislukt"
-
-#: wp-includes/class-pop3.php:323
-msgid "Premature end of list"
-msgstr "Voortijdig einde van lijst"
-
-#: wp-includes/class-pop3.php:456
-msgid "Empty command string"
-msgstr "Lege opdrachtstring"
-
-#: wp-includes/class-pop3.php:476
-msgid "connection does not exist"
-msgstr "Verbinding bestaat niet:"
-
-#: wp-includes/class-pop3.php:583
-msgid "No msg number submitted"
-msgstr "Geen berichtnummer opgegeven"
-
-#: wp-includes/class-pop3.php:589
-msgid "Command failed "
-msgstr "Opdracht mislukt "
-
 #: wp-includes/category-template.php:998
 msgid "Feed for all posts filed under %s"
 msgstr "Feed voor alle berichten opgeslagen onder %s"
@@ -6579,7 +6506,7 @@ msgstr "Mijn sites"
 msgid "Visit %s&#8217;s website"
 msgstr "Bezoek %s&#8217;s site"
 
-#: wp-includes/class-wp-customize-manager.php:993
+#: wp-includes/class-wp-customize-manager.php:1016
 #: wp-includes/class-wp-xmlrpc-server.php:430
 msgid "Site Title"
 msgstr "Websitetitel"
@@ -6915,19 +6842,19 @@ msgstr "Media toevoegen"
 msgid "Saved."
 msgstr "Opgeslagen."
 
-#: wp-includes/class-wp-customize-manager.php:1119
+#: wp-includes/class-wp-customize-manager.php:1142
 #: wp-includes/class-wp-editor.php:952 wp-includes/media-template.php:600
 #: wp-includes/media-template.php:831 wp-includes/media-template.php:897
 msgid "Left"
 msgstr "Links"
 
-#: wp-includes/class-wp-customize-manager.php:1120
+#: wp-includes/class-wp-customize-manager.php:1143
 #: wp-includes/class-wp-editor.php:953 wp-includes/media-template.php:603
 #: wp-includes/media-template.php:834 wp-includes/media-template.php:900
 msgid "Center"
 msgstr "Gecentreerd"
 
-#: wp-includes/class-wp-customize-manager.php:1121
+#: wp-includes/class-wp-customize-manager.php:1144
 #: wp-includes/class-wp-editor.php:954 wp-includes/media-template.php:606
 #: wp-includes/media-template.php:837 wp-includes/media-template.php:903
 msgid "Right"
