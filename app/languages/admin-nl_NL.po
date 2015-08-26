@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-08-14 11:33:04+0000\n"
+"PO-Revision-Date: 2015-08-20 06:57:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,14 +30,14 @@ msgstr "Termen die gedeeld worden over meerdere taxonomieën zijn nu opgesplitst
 msgid "Taxonomy Roadmap"
 msgstr "Taxonomie roadmap"
 
-#: wp-admin/about.php:77
-msgid "Wherever you are on the front-end, you can click the customize link in the toolbar to swiftly make changes to your site."
-msgstr "Wanneer je op de daadwerkelijke site ben, kan je klikken op de aangepaste link in de toolbar om snel wijzigingen aan je site te maken."
-
 #. Translators: 1: singular.php; 2: single.php; 3:page.php
 #: wp-admin/about.php:89
 msgid "Added %1$s as a fallback for %2$s and %3$s"
 msgstr "%1$s is toegevoegd als backup voor %2$s en %3$s"
+
+#: wp-admin/about.php:77
+msgid "Wherever you are on the front-end, you can click the customize link in the toolbar to swiftly make changes to your site."
+msgstr "Wanneer je aan de 'voorkant' van je site bent, kun je klikken op de \"Bewerken\" link in de toolbar, om snel iets te wijzigen."
 
 #: wp-admin/about.php:76
 msgid "Customize your site quickly"
@@ -53,7 +53,7 @@ msgstr "Reacties zijn uitgeschakeld op pagina's"
 
 #: wp-admin/about.php:67
 msgid "Refinements to the list view across the admin make your WordPress more accessible and easier to work with on any device."
-msgstr "Verbeteren aan de lijst weergave maakt WordPress meer toegankelijk en eenvoudiger om te werken met elk type apparaat."
+msgstr "Verbeteringen aan de lijstweergave in het admin-panel maken WordPress toegankelijker en eenvoudiger om mee te werken op elk type apparaat."
 
 #: wp-admin/about.php:66
 msgid "A smoother admin experience"
@@ -65,7 +65,7 @@ msgstr "Favicons presenteren je site in tabbladen van browsers, in bookmark menu
 
 #: wp-admin/about.php:53
 msgid "Keep your site more secure with WordPress&#8217; improved approach to passwords. Instead of receiving passwords via email, you&#8217;ll get a password reset link. When you add new users to your site or edit a user profile, WordPress will automatically generate a secure password."
-msgstr "Houdt je site nog veiliger met de door WordPress verbeterde aanpak voor wachtwoorden. In plaats van het ontvangen van wachtwoorden via de e-mail, ontvang je nu een 'wachtwoord reset'-link. Wanneer nieuwe gebruikers toegevoegd worden aan de site of wanneer een gebruikersprofiel wordt bewerkt zal WordPress automatisch een veilig wachtwoord genereren."
+msgstr "Je site nog veiliger met de door WordPress verbeterde aanpak voor wachtwoorden. In plaats van het ontvangen van wachtwoorden via e-mail, ontvang je nu een 'wachtwoord reset'-link. Wanneer nieuwe gebruikers toegevoegd worden aan de site of wanneer een gebruikersprofiel wordt bewerkt zal WordPress automatisch een veilig wachtwoord genereren."
 
 #: wp-admin/about.php:52
 msgid "Better Passwords"
@@ -215,7 +215,7 @@ msgstr "Wanneer je je %1$s-bestand gaat bewerken, neem een moment om te controle
 
 #: wp-admin/about.php:57
 msgid "Site Icons"
-msgstr "Site iconen"
+msgstr "Favicons"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:563
 #: wp-admin/includes/class-wp-list-table.php:500
@@ -2510,10 +2510,6 @@ msgstr "Voeg nieuwe menu-onderdelen toe vanuit de linkerkolom."
 msgid "Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href=\"%1$s\">WordPress Plugin Directory</a> or upload a plugin in .zip format via <a href=\"%2$s\">this page</a>."
 msgstr "Plugins vergroten de functionaliteiten van WordPress. Je kunt plugins automatisch installeren vanaf de <a href=\"%1$s\">WordPress Plugin Directory</a> of een plugin uploaden in .zip formaat via <a href=\"%2$s\">deze pagina</a>."
 
-#. Plugin URI of the plugin/theme
-msgid "http://wordpress.org/plugins/hello-dolly/"
-msgstr "http://wordpress.org/plugins/hello-dolly/"
-
 #: wp-admin/includes/class-wp-upgrader.php:131
 msgid "The package contains no files."
 msgstr "Dit pakket bevat geen bestanden."
@@ -3648,22 +3644,6 @@ msgstr[1] "Incomplete <span class=\"count\">(%s)</span>"
 #: wp-admin/includes/theme.php:211
 msgid "Light"
 msgstr "Licht"
-
-#. Plugin Name of the plugin/theme
-msgid "Hello Dolly"
-msgstr "Hallo Dolly"
-
-#. Author of the plugin/theme
-msgid "Matt Mullenweg"
-msgstr "Matt Mullenweg"
-
-#. Author URI of the plugin/theme
-msgid "http://ma.tt/"
-msgstr "http://ma.tt/"
-
-#. Description of the plugin/theme
-msgid "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page."
-msgstr "Dit is niet zomaar een plugin, deze plugin symboliseert de hoop en enthousiasme van een hele generatie opgesomd en gezongen in twee beroemde woorden door Louis Armstrong: Hello, Dolly. Wanneer je de plugin activeert worden er willekeurige quotes getoond uit <cite>Hello, Dolly</cite> rechts bovenaan je Dashboard op elke pagina."
 
 #: wp-admin/includes/screen.php:1066
 msgid "Show on screen"
@@ -7408,10 +7388,6 @@ msgstr "Dit bestand bestaat niet! Controleer de naam en probeer het opnieuw."
 msgid "Files of this type are not editable."
 msgstr "Bestanden van dit type zijn niet bewerkbaar."
 
-#: wp-admin/plugin-editor.php:167 wp-admin/theme-editor.php:125
-msgid "File edited successfully."
-msgstr "Bestand met succes bewerkt."
-
 #: wp-admin/plugin-editor.php:169
 msgid "This plugin has been deactivated because your changes resulted in a <strong>fatal error</strong>."
 msgstr "Deze plugin is gedeactiveerd omdat je wijzigingen een <strong>fatale fout</strong> hebben veroorzaakt."
@@ -7663,11 +7639,6 @@ msgstr "HTTPS gebruiken"
 #: wp-admin/user-edit.php:73
 msgid "Always use https when visiting the admin"
 msgstr "Altijd HTTPS-gebruiken voor beheerhandelingen"
-
-#: wp-admin/user-edit.php:96 wp-admin/user-edit.php:125
-#: wp-admin/user-edit.php:178
-msgid "You do not have permission to edit this user."
-msgstr "Je hebt geen rechten om deze gebruiker aan te passen."
 
 #: wp-admin/user-edit.php:193
 msgid "User updated."
@@ -8084,10 +8055,6 @@ msgstr "Nieuwe uploaden"
 msgid "Media Settings"
 msgstr "Media instellingen"
 
-#: wp-admin/user-edit.php:489
-msgid "Type your new password again."
-msgstr "Voer je nieuwe wachtwoord nogmaals."
-
 #. translators: Content suitability rating: http:bit.ly/89QxZA
 #: wp-admin/options-discussion.php:220
 msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
@@ -8210,6 +8177,15 @@ msgstr "Ja, verwijder deze bestanden"
 msgid "No, return me to the plugin list"
 msgstr "Nee, ga terug naar het overzicht"
 
+#: wp-admin/user-edit.php:489
+msgid "Type your new password again."
+msgstr "Je nieuwe wachtwoord nogmaals invoeren."
+
+#: wp-admin/user-edit.php:96 wp-admin/user-edit.php:125
+#: wp-admin/user-edit.php:178
+msgid "You do not have permission to edit this user."
+msgstr "Je hebt geen rechten om deze gebruiker te bewerken."
+
 #. translators: add new links
 #: wp-admin/edit-link-form.php:73 wp-admin/link-manager.php:72
 #: wp-admin/menu.php:76
@@ -8283,6 +8259,10 @@ msgstr "E-mail versturen wanneer een reactie wacht op moderatie"
 #: wp-admin/includes/misc.php:625 wp-admin/user-edit.php:244
 msgid "Admin Color Scheme"
 msgstr "Kleurenschema beheren"
+
+#: wp-admin/plugin-editor.php:167 wp-admin/theme-editor.php:125
+msgid "File edited successfully."
+msgstr "Bestand succesvol bijgewerkt."
 
 #: wp-admin/edit.php:207 wp-admin/includes/class-wp-list-table.php:440
 msgid "Bulk Actions"
@@ -8635,10 +8615,6 @@ msgstr "Publieke en priv&#233; sleutels onjuist voor %s"
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:141
 msgid "Unable to perform command: %s"
 msgstr "Niet mogelijk om commando %s uit te voeren"
-
-#: wp-admin/includes/class-wp-upgrader.php:119
-msgid "Invalid Data provided."
-msgstr "Ongeldig data verstrekt."
 
 #: wp-admin/includes/class-wp-upgrader.php:120
 #: wp-admin/includes/class-wp-upgrader.php:2805 wp-admin/includes/file.php:529
@@ -9523,10 +9499,6 @@ msgstr "Op deze reactie reageren"
 msgid "Comment by %s moved to the trash."
 msgstr "Reactie van %s verplaatst naar de prullenbak."
 
-#: wp-admin/includes/template.php:555
-msgid "Comment by %s marked as spam."
-msgstr "Reactie van %s gemarkeerd als spam"
-
 #: wp-admin/includes/template.php:575 wp-admin/includes/template.php:590
 #: wp-admin/includes/template.php:654 wp-admin/includes/template.php:699
 msgid "Value"
@@ -9559,14 +9531,6 @@ msgstr "Berichten of pagina&#39;s zoeken"
 #: wp-admin/edit-tags.php:262
 msgid "Item deleted."
 msgstr "Item verwijderd."
-
-#: wp-admin/edit-tags.php:261
-msgid "Item added."
-msgstr "Items toegevoegd."
-
-#: wp-admin/edit-tags.php:263
-msgid "Item updated."
-msgstr "Items bijgewerkt."
 
 #: wp-admin/edit-tags.php:264
 msgid "Item not added."
@@ -9724,10 +9688,6 @@ msgstr "In antwoord op <a href=\"%1$s\">%2$s</a>."
 #: wp-admin/includes/template.php:516
 msgid "Submit Reply"
 msgstr "Reactie verzenden"
-
-#: wp-admin/includes/template.php:694
-msgid "Add New Custom Field:"
-msgstr "Voeg nieuw aangepast veld toe:"
 
 #: wp-admin/includes/template.php:1087
 msgid "Click to toggle"
@@ -9987,14 +9947,6 @@ msgstr "Header bijgewerkt. <a href=\"%s\">Bezoek je site</a> om te zien hoe het 
 msgid "The <code>%1$s</code> plugin header is deprecated. Use <code>%2$s</code> instead."
 msgstr "De <code>%1$s</code> plugin header is afgekeurd. Gebruik in plaats daarvan <code>%2$s</code>."
 
-#: wp-admin/custom-header.php:761
-msgid "Choose the part of the image you want to use as your header."
-msgstr "Kies het deel van de afbeelding wat je als header wilt gebruiken."
-
-#: wp-admin/custom-header.php:914
-msgid "You do not have permission to customize headers."
-msgstr "Je hebt onvoldoende rechten om headers te aan te passen."
-
 #: wp-admin/includes/file.php:668 wp-admin/includes/file.php:767
 #: wp-admin/includes/file.php:802 wp-admin/includes/update-core.php:1040
 #: wp-admin/includes/update-core.php:1148
@@ -10249,6 +10201,34 @@ msgstr "Kan bestand niet ophalen uit het archief."
 msgid "Could not extract file from archive."
 msgstr "Kan bestand niet terughalen uit het archief."
 
+#: wp-admin/custom-header.php:761
+msgid "Choose the part of the image you want to use as your header."
+msgstr "Het deel van de afbeelding kiezen die je als header wilt gebruiken."
+
+#: wp-admin/includes/template.php:555
+msgid "Comment by %s marked as spam."
+msgstr "Reactie van %s gemarkeerd als spam."
+
+#: wp-admin/includes/class-wp-upgrader.php:119
+msgid "Invalid Data provided."
+msgstr "Ongeldige gegevens verstrekt."
+
+#: wp-admin/edit-tags.php:263
+msgid "Item updated."
+msgstr "Item bijgewerkt."
+
+#: wp-admin/includes/template.php:694
+msgid "Add New Custom Field:"
+msgstr "Nieuw extra veld toevoegen:"
+
+#: wp-admin/edit-tags.php:261
+msgid "Item added."
+msgstr "Item toegevoegd."
+
+#: wp-admin/custom-header.php:914
+msgid "You do not have permission to customize headers."
+msgstr "Je hebt onvoldoende rechten om headers aan te passen."
+
 #: wp-admin/tools.php:16 wp-admin/tools.php:40 wp-admin/tools.php:51
 msgid "Press This"
 msgstr "Press this"
@@ -10391,12 +10371,6 @@ msgstr "Ongeldige plugin pagina"
 msgid "You are about to mark the following comment as spam:"
 msgstr "Je staat op het punt de volgende reactie als spam te markeren:"
 
-#: wp-admin/includes/ajax-actions.php:1199
-#: wp-admin/includes/ajax-actions.php:1204
-#: wp-admin/includes/ajax-actions.php:1224
-msgid "Please provide a custom field value."
-msgstr "Geef een waarden voor een aangepast veld."
-
 #. translators: %s: date and time
 #: wp-admin/includes/misc.php:834
 msgid "Draft saved at %s."
@@ -10405,6 +10379,12 @@ msgstr "Concept opgeslagen op %s."
 #: wp-admin/includes/ajax-actions.php:708
 msgid "Comment %d does not exist"
 msgstr "Reactie %d bestaat niet"
+
+#: wp-admin/includes/ajax-actions.php:1199
+#: wp-admin/includes/ajax-actions.php:1204
+#: wp-admin/includes/ajax-actions.php:1224
+msgid "Please provide a custom field value."
+msgstr "Geef een waarde voor een extra veld."
 
 #: wp-admin/includes/ajax-actions.php:980
 msgid "Sorry, you must be logged in to reply to a comment."
