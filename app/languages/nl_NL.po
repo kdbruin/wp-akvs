@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-08-18 13:06:08+0000\n"
+"PO-Revision-Date: 2015-09-30 09:48:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +33,7 @@ msgstr "Sectie wisselen: %s"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/formatting.php:2862 wp-includes/script-loader.php:409
+#: wp-includes/formatting.php:2864 wp-includes/script-loader.php:409
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
@@ -96,11 +96,11 @@ msgstr "Menu opties"
 msgid "Registration confirmation will be e-mailed to you."
 msgstr "Registratiebevestiging zal via e-mail worden verzonden."
 
-#: wp-includes/script-loader.php:378
+#: wp-includes/script-loader.php:379
 msgid "Hide"
 msgstr "Verbergen"
 
-#: wp-includes/script-loader.php:377
+#: wp-includes/script-loader.php:378
 msgid "Show"
 msgstr "Tonen"
 
@@ -181,7 +181,7 @@ msgstr "WordPress database fout:"
 msgid "Username may not be longer than 60 characters."
 msgstr "Gebruikersnaam mag niet langer zijn dan 60 tekens."
 
-#: wp-includes/pluggable.php:1730
+#: wp-includes/pluggable.php:1740
 msgid "To set your password, visit the following address:"
 msgstr "Om je wachtwoord in te stellen, bezoek het volgende adres:"
 
@@ -945,7 +945,7 @@ msgstr "<strong>Database tabellen ontbreken.</strong> Dit betekent dat MySQL nie
 msgid "Custom Link"
 msgstr "Aangepaste link"
 
-#: wp-includes/media.php:3042
+#: wp-includes/media.php:3044
 msgid "Drag and drop to reorder media files."
 msgstr "Drag en drop om media bestanden te herschikken."
 
@@ -1142,7 +1142,7 @@ msgstr "Reactie: %s"
 msgid "URL: %s"
 msgstr "URL: %s"
 
-#: wp-includes/media.php:3060
+#: wp-includes/media.php:3062
 msgctxt "noun"
 msgid "Trash"
 msgstr "Prullenbak"
@@ -1375,11 +1375,11 @@ msgstr "Standaard"
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
 msgstr "<strong>WordPress is succesvol bijgewerkt!</strong> Opnieuw inloggen om te zien wat er nieuw is."
 
-#: wp-includes/media.php:3067
+#: wp-includes/media.php:3069
 msgid "Trash Selected"
 msgstr "Selectie verwijderen"
 
-#: wp-includes/media.php:3068
+#: wp-includes/media.php:3070
 msgid "Untrash Selected"
 msgstr "Selectie terugzetten"
 
@@ -1387,7 +1387,7 @@ msgstr "Selectie terugzetten"
 msgid "Untrash"
 msgstr "Terugzetten"
 
-#: wp-includes/media.php:3064
+#: wp-includes/media.php:3066
 msgid ""
 "You are about to trash these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -1399,15 +1399,15 @@ msgstr ""
 msgid "Press return or enter to open this panel"
 msgstr "Druk op return of enter om dit paneel te openen"
 
-#: wp-includes/media.php:3066
+#: wp-includes/media.php:3068
 msgid "Cancel Selection"
 msgstr "Selectie annuleren"
 
-#: wp-includes/media.php:3069
+#: wp-includes/media.php:3071
 msgid "Delete Selected"
 msgstr "Selectie verwijderen"
 
-#: wp-includes/media.php:3065
+#: wp-includes/media.php:3067
 msgid "Bulk Select"
 msgstr "Massaselectie"
 
@@ -1423,7 +1423,7 @@ msgctxt "missing menu item navigation label"
 msgid "(no label)"
 msgstr "(geen label)"
 
-#: wp-includes/media.php:1520
+#: wp-includes/media.php:1522
 msgid "Bitrate"
 msgstr "Bitrate"
 
@@ -1459,7 +1459,7 @@ msgstr "Geüpload op: "
 msgid "Uploaded To"
 msgstr "Geüpload naar"
 
-#: wp-includes/media.php:3056
+#: wp-includes/media.php:3058
 msgid "All dates"
 msgstr "Alle datums"
 
@@ -1467,7 +1467,7 @@ msgstr "Alle datums"
 msgid "Bitrate:"
 msgstr "Bitrate:"
 
-#: wp-includes/media.php:1521
+#: wp-includes/media.php:1523
 msgid "Bitrate Mode"
 msgstr "Bitratemodus"
 
@@ -1495,15 +1495,15 @@ msgstr "Lijstweergave"
 msgid "Grid View"
 msgstr "Rasterweergave"
 
-#: wp-includes/media.php:3072
+#: wp-includes/media.php:3074
 msgid "Filter by date"
 msgstr "Op datum filteren"
 
-#: wp-includes/media.php:3073
+#: wp-includes/media.php:3075
 msgid "Filter by type"
 msgstr "Op type filteren"
 
-#: wp-includes/media.php:3074
+#: wp-includes/media.php:3076
 msgid "Search Media"
 msgstr "Media zoeken"
 
@@ -1519,10 +1519,6 @@ msgstr "Vorige media-item aanpassen"
 msgid "Edit next media item"
 msgstr "Volgende media-item aanpassen"
 
-#: wp-includes/media-template.php:430
-msgid "View attachment page"
-msgstr "Bijlagepagina weergeven"
-
 #: wp-includes/class-wp-editor.php:1017
 msgid "Your browser does not support direct access to the clipboard. Please use keyboard shortcuts or your browser&#8217;s edit menu instead."
 msgstr "Je browser ondersteunt geen directe toegang tot het klembord. Gebruik in plaats daarvan een sneltoets of het menu bewerken van je browser."
@@ -1531,17 +1527,21 @@ msgstr "Je browser ondersteunt geen directe toegang tot het klembord. Gebruik in
 msgid "Search or use up and down arrow keys to select an item."
 msgstr "Zoek, of gebruik de pijltjestoetsen omhoog en omlaag om een item te selecteren."
 
-#: wp-includes/media.php:3059
+#: wp-includes/media.php:3061
 msgid "Unattached"
 msgstr "Niet-gekoppeld"
 
-#: wp-includes/media.php:3063
+#: wp-includes/media.php:3065
 msgid ""
 "You are about to permanently delete these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
 "Je staat op het punt om deze items permanent te verwijderen.\n"
 "'Annuleren' om te stoppen, 'OK', om te verwijderen."
+
+#: wp-includes/media-template.php:430
+msgid "View attachment page"
+msgstr "Bijlagepagina tonen"
 
 #: wp-includes/class-wp-customize-widgets.php:359
 msgid "Widgets are independent sections of content that can be placed into widgetized areas provided by your theme (commonly called sidebars)."
@@ -1610,29 +1610,29 @@ msgid "None"
 msgstr "Geen"
 
 #: wp-includes/media-template.php:389 wp-includes/media-template.php:569
-#: wp-includes/media.php:1511
+#: wp-includes/media.php:1513
 msgid "Artist"
 msgstr "Artiest"
 
 #: wp-includes/media-template.php:390 wp-includes/media-template.php:570
-#: wp-includes/media.php:1512
+#: wp-includes/media.php:1514
 msgid "Album"
 msgstr "Album"
 
-#: wp-includes/media.php:1516
+#: wp-includes/media.php:1518
 msgid "Genre"
 msgstr "Genre"
 
-#: wp-includes/media.php:1517
+#: wp-includes/media.php:1519
 msgid "Year"
 msgstr "Jaar"
 
-#: wp-includes/media.php:1518
+#: wp-includes/media.php:1520
 msgctxt "video or audio"
 msgid "Length"
 msgstr "Duur"
 
-#: wp-includes/media.php:3111
+#: wp-includes/media.php:3113
 msgid "There has been an error cropping your image."
 msgstr "Er is een fout opgetreden met het bijsnijden van je afbeelding."
 
@@ -1656,31 +1656,31 @@ msgstr "Tabelcellen splitsen"
 msgid "Custom Size"
 msgstr "Aangepaste afmetingen"
 
-#: wp-includes/media-template.php:241 wp-includes/media.php:3110
+#: wp-includes/media-template.php:241 wp-includes/media.php:3112
 msgid "Suggested image dimensions:"
 msgstr "Voorgestelde afbeeldingsafmetingen:"
 
-#: wp-includes/media.php:3135
+#: wp-includes/media.php:3137
 msgid "Add to Audio Playlist"
 msgstr "Aan audio-afspeellijst toevoegen"
 
-#: wp-includes/media.php:3134
+#: wp-includes/media.php:3136
 msgid "Add to audio playlist"
 msgstr "Aan audio-afspeellijst toevoegen"
 
-#: wp-includes/media.php:3133
+#: wp-includes/media.php:3135
 msgid "Update audio playlist"
 msgstr "Audio-afspeellijst bijwerken"
 
-#: wp-includes/media.php:3132
+#: wp-includes/media.php:3134
 msgid "Insert audio playlist"
 msgstr "Audio-afspeellijst invoegen"
 
-#: wp-includes/media.php:3131
+#: wp-includes/media.php:3133
 msgid "&#8592; Cancel Audio Playlist"
 msgstr "&#8592; Audio-afspeellijst annuleren"
 
-#: wp-includes/media.php:3130
+#: wp-includes/media.php:3132
 msgid "Edit Audio Playlist"
 msgstr "Audio-afspeellijst bewerken"
 
@@ -1757,7 +1757,7 @@ msgstr "Automatisch"
 msgid "Tracks (subtitles, captions, descriptions, chapters, or metadata)"
 msgstr "Sporen (ondertiteling, koppen, beschrijvingen, hoofdstukken of metadata)"
 
-#: wp-includes/media.php:3109
+#: wp-includes/media.php:3111
 msgid "Cropping&hellip;"
 msgstr "Bijsnijden&hellip;"
 
@@ -2006,17 +2006,17 @@ msgid "Add alternate sources for maximum HTML5 playback:"
 msgstr "Voeg alternatieve bronnen toe voor betere HTML5-ondersteuning:"
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:3897
+#: wp-includes/formatting.php:3899
 msgid "%s, %s"
 msgstr "%s, %s"
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:3899
+#: wp-includes/formatting.php:3901
 msgid "%s, and %s"
 msgstr "%s, en %s"
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:3901
+#: wp-includes/formatting.php:3903
 msgid "%s and %s"
 msgstr "%s en %s"
 
@@ -2024,7 +2024,7 @@ msgstr "%s en %s"
 #: wp-includes/class-wp-customize-panel.php:369
 #: wp-includes/class-wp-customize-panel.php:459
 #: wp-includes/class-wp-customize-section.php:356
-#: wp-includes/class-wp-customize-widgets.php:688 wp-includes/media.php:3036
+#: wp-includes/class-wp-customize-widgets.php:688 wp-includes/media.php:3038
 msgid "Back"
 msgstr "Terug"
 
@@ -2032,8 +2032,8 @@ msgstr "Terug"
 msgid "Show Images"
 msgstr "Afbeeldingen weergeven"
 
-#: wp-includes/media.php:3100 wp-includes/media.php:3117
-#: wp-includes/media.php:3123
+#: wp-includes/media.php:3102 wp-includes/media.php:3119
+#: wp-includes/media.php:3125
 msgid "Cancel Edit"
 msgstr "Bewerken annuleren"
 
@@ -2041,11 +2041,11 @@ msgstr "Bewerken annuleren"
 msgid "Autoplay"
 msgstr "Automatisch afspelen"
 
-#: wp-includes/media.php:3121
+#: wp-includes/media.php:3123
 msgid "Replace Video"
 msgstr "Video vervangen"
 
-#: wp-includes/class-wp-customize-control.php:924 wp-includes/media.php:3104
+#: wp-includes/class-wp-customize-control.php:924 wp-includes/media.php:3106
 msgid "Choose Image"
 msgstr "Afbeelding kiezen"
 
@@ -2053,27 +2053,27 @@ msgstr "Afbeelding kiezen"
 msgid "Show Tracklist"
 msgstr "Afspeellijst weergeven"
 
-#: wp-includes/media.php:3052
+#: wp-includes/media.php:3054
 msgid "Create a new playlist"
 msgstr "Een nieuwe afspeellijst aanmaken"
 
-#: wp-includes/media.php:3053
+#: wp-includes/media.php:3055
 msgid "Create a new video playlist"
 msgstr "Een nieuwe video afspeellijst aanmaken"
 
-#: wp-includes/media.php:3099
+#: wp-includes/media.php:3101
 msgid "Replace Image"
 msgstr "Afbeelding vervangen"
 
-#: wp-includes/media.php:3105
+#: wp-includes/media.php:3107
 msgid "Select and Crop"
 msgstr "Selecteren en bijsnijden"
 
-#: wp-includes/media.php:3106
+#: wp-includes/media.php:3108
 msgid "Skip Cropping"
 msgstr "Bijsnijden overslaan"
 
-#: wp-includes/media.php:3107
+#: wp-includes/media.php:3109
 msgid "Crop Image"
 msgstr "Afbeelding bijsnijden"
 
@@ -2082,11 +2082,11 @@ msgctxt "Search widget"
 msgid "Search"
 msgstr "Zoeken"
 
-#: wp-includes/media.php:3108
+#: wp-includes/media.php:3110
 msgid "Crop your image"
 msgstr "Afbeelding bijsnijden"
 
-#: wp-includes/media.php:3128
+#: wp-includes/media.php:3130
 msgid "Drag and drop to reorder tracks."
 msgstr "Gebruik drag en drop om de volgorde aan te passen."
 
@@ -2110,7 +2110,7 @@ msgstr "Het query argument %s moet een waarde bevatten."
 msgid "Poster Image"
 msgstr "Posterafbeelding"
 
-#: wp-includes/media.php:3124
+#: wp-includes/media.php:3126
 msgid "Select Poster Image"
 msgstr "Posterafbeelding selecteren"
 
@@ -2138,15 +2138,15 @@ msgstr ""
 "</ul>\n"
 "<p>Als je niet weet hoe je een database installeert, neem dan <strong>contact op met je host</strong>. Als het dan nog steeds niet lukt, neem eens een kijkje bij de <a href=\"https://wordpress.org/support/\">WordPress Support Forums</a>.</p>"
 
-#: wp-includes/media.php:3115
+#: wp-includes/media.php:3117
 msgid "Replace Audio"
 msgstr "Audio vervangen"
 
-#: wp-includes/media.php:3116
+#: wp-includes/media.php:3118
 msgid "Add Audio Source"
 msgstr "Audiobron toevoegen"
 
-#: wp-includes/media.php:3122
+#: wp-includes/media.php:3124
 msgid "Add Video Source"
 msgstr "Videobron toevoegen"
 
@@ -2154,7 +2154,7 @@ msgstr "Videobron toevoegen"
 msgid "Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ &amp; )."
 msgstr "Hint: het wachtwoord moet minimaal twaalf tekens lang zijn. Om het sterker te maken, gebruik hoofd- en kleine letters, nummers en tekens zoals ! \" ? $ % ^ &amp; )."
 
-#: wp-includes/media.php:3125
+#: wp-includes/media.php:3127
 msgid "Add Subtitles"
 msgstr "Subtitels toevoegen"
 
@@ -2162,51 +2162,51 @@ msgstr "Subtitels toevoegen"
 msgid "Playlist Settings"
 msgstr "Afspeellijstinstellingen"
 
-#: wp-includes/media.php:3145
+#: wp-includes/media.php:3147
 msgid "Add to Video Playlist"
 msgstr "Toevoegen aan video-afspeellijst"
 
-#: wp-includes/media.php:3144
+#: wp-includes/media.php:3146
 msgid "Add to video playlist"
 msgstr "Toevoegen aan video-afspeellijst"
 
-#: wp-includes/media.php:3143
+#: wp-includes/media.php:3145
 msgid "Update video playlist"
 msgstr "Video-afspeellijst bijwerken"
 
-#: wp-includes/media.php:3142
+#: wp-includes/media.php:3144
 msgid "Insert video playlist"
 msgstr "Video-afspeellijst invoegen"
 
-#: wp-includes/media.php:3141
+#: wp-includes/media.php:3143
 msgid "&#8592; Cancel Video Playlist"
 msgstr "&#8592; Video-afspeellijst annuleren"
 
-#: wp-includes/media.php:3140
+#: wp-includes/media.php:3142
 msgid "Edit Video Playlist"
 msgstr "Video-afspeellijst bewerken"
 
-#: wp-includes/media.php:3139
+#: wp-includes/media.php:3141
 msgid "Create Video Playlist"
 msgstr "Video-afspeellijst aanmaken"
 
-#: wp-includes/media.php:3138
+#: wp-includes/media.php:3140
 msgid "Drag and drop to reorder videos."
 msgstr "Video's verslepen om te sorteren."
 
-#: wp-includes/media.php:3129
+#: wp-includes/media.php:3131
 msgid "Create Audio Playlist"
 msgstr "Audio-afspeellijst aanmaken"
 
-#: wp-includes/media.php:3120
+#: wp-includes/media.php:3122
 msgid "Video Details"
 msgstr "Videodetails"
 
-#: wp-includes/media.php:3114
+#: wp-includes/media.php:3116
 msgid "Audio Details"
 msgstr "Audiodetails"
 
-#: wp-includes/media.php:3098
+#: wp-includes/media.php:3100
 msgid "Image Details"
 msgstr "Afbeeldingsdetails"
 
@@ -2294,7 +2294,7 @@ msgstr "Video toevoegen"
 msgid "Embed"
 msgstr "Insluiten"
 
-#: wp-includes/media-template.php:892 wp-includes/media.php:3034
+#: wp-includes/media-template.php:892 wp-includes/media.php:3036
 msgid "Replace"
 msgstr "Vervangen"
 
@@ -2701,19 +2701,19 @@ msgstr "Volledig scherm uitzetten"
 msgid "Captions/Subtitles"
 msgstr "Ondertitels"
 
-#: wp-includes/formatting.php:2754
+#: wp-includes/formatting.php:2756
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s week"
 msgstr[1] "%s weken"
 
-#: wp-includes/formatting.php:2759
+#: wp-includes/formatting.php:2761
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s maand"
 msgstr[1] "%s maanden"
 
-#: wp-includes/formatting.php:2764
+#: wp-includes/formatting.php:2766
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s jaar"
@@ -2885,11 +2885,11 @@ msgstr "Plaats een onderschrift&hellip;"
 #. If there is not a word you can use in your language to avoid issues with
 #. the 		   lack of plural support here, turn it into "selected: %d" then
 #. translate it.
-#: wp-includes/media.php:3041
+#: wp-includes/media.php:3043
 msgid "%d selected"
 msgstr "%d geselecteerd"
 
-#: wp-includes/media.php:3081
+#: wp-includes/media.php:3083
 msgid "Insert from URL"
 msgstr "Invoegen via URL"
 
@@ -2898,15 +2898,15 @@ msgctxt "Links widget"
 msgid "Random"
 msgstr "Willekeurig"
 
-#: wp-includes/media-template.php:1236 wp-includes/media.php:3057
+#: wp-includes/media-template.php:1236 wp-includes/media.php:3059
 msgid "No items found."
 msgstr "Niets gevonden."
 
-#: wp-includes/media.php:3094
+#: wp-includes/media.php:3096
 msgid "Add to Gallery"
 msgstr "Aan de galerij toevoegen"
 
-#: wp-includes/media.php:3095
+#: wp-includes/media.php:3097
 msgid "Reverse order"
 msgstr "Volgorde omkeren"
 
@@ -2924,11 +2924,11 @@ msgid "Sorry, that file cannot be edited."
 msgstr "Het bewerken van dit bestand is niet mogelijk."
 
 #: wp-includes/media-template.php:442 wp-includes/media-template.php:544
-#: wp-includes/media.php:3070
+#: wp-includes/media.php:3072
 msgid "Delete Permanently"
 msgstr "Permanent verwijderen"
 
-#: wp-includes/media.php:3062
+#: wp-includes/media.php:3064
 msgid ""
 "You are about to permanently delete this item.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -2944,7 +2944,7 @@ msgstr "Uploadlimiet overschreden"
 msgid "Dismiss Errors"
 msgstr "Foutmeldingen negeren"
 
-#: wp-includes/media.php:2556
+#: wp-includes/media.php:2558
 msgid "No editor could be selected."
 msgstr "Niet mogelijk om editor te selecteren."
 
@@ -2986,15 +2986,15 @@ msgid_plural "Video <span class=\"count\">(%s)</span>"
 msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Video <span class=\"count\">(%s)</span>"
 
-#: wp-includes/media.php:3058
+#: wp-includes/media.php:3060
 msgid "Insert into page"
 msgstr "In pagina invoegen"
 
-#: wp-includes/media.php:3061
+#: wp-includes/media.php:3063
 msgid "Uploaded to this page"
 msgstr "Ge&#252;pload naar deze pagina"
 
-#: wp-includes/media.php:3055
+#: wp-includes/media.php:3057
 msgid "All media items"
 msgstr "Alle mediabestanden"
 
@@ -3002,11 +3002,11 @@ msgstr "Alle mediabestanden"
 msgid "Audio"
 msgstr "Audio"
 
-#: wp-includes/media.php:3061
+#: wp-includes/media.php:3063
 msgid "Uploaded to this post"
 msgstr "Ge&#252;pload naar dit bericht"
 
-#: wp-includes/media.php:3054
+#: wp-includes/media.php:3056
 msgid "&#8592; Return to library"
 msgstr "&#8592; Terug naar bibliotheek"
 
@@ -3015,7 +3015,7 @@ msgstr "&#8592; Terug naar bibliotheek"
 msgid "Custom URL"
 msgstr "Aangepaste URL"
 
-#: wp-includes/media-template.php:500 wp-includes/media.php:3078
+#: wp-includes/media-template.php:500 wp-includes/media.php:3080
 msgid "Attachment Details"
 msgstr "Bijlagedetails"
 
@@ -3029,15 +3029,15 @@ msgid "Alt Text"
 msgstr "Alt-tekst"
 
 #: wp-includes/media-template.php:696 wp-includes/media-template.php:771
-#: wp-includes/media-template.php:945 wp-includes/media.php:2787
+#: wp-includes/media-template.php:945 wp-includes/media.php:2789
 msgid "Large"
 msgstr "Groot"
 
-#: wp-includes/media.php:3046
+#: wp-includes/media.php:3048
 msgid "Upload Images"
 msgstr "Afbeeldingen uploaden"
 
-#: wp-includes/media.php:3090
+#: wp-includes/media.php:3092
 msgid "&#8592; Cancel Gallery"
 msgstr "&#8592; Galerij annuleren"
 
@@ -3053,7 +3053,7 @@ msgstr "Weergave-instellingen bijlagen"
 msgid "WordPress &rsaquo; Success"
 msgstr "WordPress &rsaquo; succes"
 
-#: wp-includes/media.php:3045
+#: wp-includes/media.php:3047
 msgid "Upload Files"
 msgstr "Bestanden uploaden"
 
@@ -3061,7 +3061,7 @@ msgstr "Bestanden uploaden"
 msgid "Drop files anywhere to upload"
 msgstr "Je bestanden hier naartoe slepen"
 
-#: wp-includes/media.php:3091
+#: wp-includes/media.php:3093
 msgid "Insert gallery"
 msgstr "Galerij invoegen"
 
@@ -3069,11 +3069,11 @@ msgstr "Galerij invoegen"
 msgid "Drop files to upload"
 msgstr "Sleep bestanden om te uploaden"
 
-#: wp-includes/media.php:3049
+#: wp-includes/media.php:3051
 msgid "Media Library"
 msgstr "Mediabibliotheek"
 
-#: wp-includes/media.php:3088
+#: wp-includes/media.php:3090
 msgid "Create Gallery"
 msgstr "Galerij aanmaken"
 
@@ -3152,7 +3152,7 @@ msgstr "Omschrijf dit mediabestand&hellip;"
 msgid "Describe this audio file&hellip;"
 msgstr "Omschrijf dit audiobestand&hellip;"
 
-#: wp-includes/media.php:3092
+#: wp-includes/media.php:3094
 msgid "Update gallery"
 msgstr "Galerij bijwerken"
 
@@ -3214,15 +3214,15 @@ msgstr "Bijlagepagina tonen"
 msgid "Whoops, the provided date is invalid."
 msgstr "Oeps, de aangeleverde data is ongeldig."
 
-#: wp-includes/media.php:3051
+#: wp-includes/media.php:3053
 msgid "Create a new gallery"
 msgstr "Een nieuwe galerij aanmaken"
 
-#: wp-includes/media.php:3058
+#: wp-includes/media.php:3060
 msgid "Insert into post"
 msgstr "Invoegen in bericht"
 
-#: wp-includes/media.php:3093
+#: wp-includes/media.php:3095
 msgid "Add to gallery"
 msgstr "Aan galerij toevoegen"
 
@@ -3248,7 +3248,7 @@ msgctxt "Display name based on first name and last name"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: wp-includes/media.php:3050
+#: wp-includes/media.php:3052
 msgid "Insert Media"
 msgstr "Media invoegen"
 
@@ -3495,7 +3495,7 @@ msgstr "Startpagina"
 #: wp-includes/class-wp-customize-control.php:1754
 #: wp-includes/class-wp-customize-widgets.php:653
 #: wp-includes/class-wp-editor.php:1035 wp-includes/media-template.php:473
-#: wp-includes/media.php:3035
+#: wp-includes/media.php:3037
 msgid "Remove"
 msgstr "Verwijderen"
 
@@ -3606,7 +3606,7 @@ msgstr "Ondertitel"
 
 #: wp-includes/class-wp-customize-control.php:481
 #: wp-includes/class-wp-customize-nav-menus.php:480
-#: wp-includes/default-widgets.php:1593
+#: wp-includes/default-widgets.php:1592
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Selecteren &mdash;"
 
@@ -3737,7 +3737,7 @@ msgid "F Y"
 msgstr "F Y"
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:88 wp-includes/formatting.php:4148
+#: wp-includes/formatting.php:88 wp-includes/formatting.php:4150
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -3906,7 +3906,7 @@ msgstr "Documentatie"
 msgid "Support Forums"
 msgstr "Ondersteuningsforums"
 
-#: wp-includes/formatting.php:2851 wp-includes/general-template.php:2853
+#: wp-includes/formatting.php:2853 wp-includes/general-template.php:2853
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -3966,7 +3966,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Blauw"
 
-#: wp-includes/formatting.php:3683
+#: wp-includes/formatting.php:3685
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "De opgegeven tijdzone is niet geldig. Een geldige tijdzone selecteren."
 
@@ -3984,13 +3984,13 @@ msgstr "Gebruiker"
 msgid "View Category"
 msgstr "Categorie bekijken"
 
-#: wp-includes/taxonomy.php:505
-msgid "View Tag"
-msgstr "Tag tonen"
-
 #: wp-includes/pluggable.php:1089
 msgid "You should specify a nonce action to be verified by using the first parameter."
 msgstr "Je moet een nonce-actie specificeren die kan worden geverifieerd door gebruik te maken van de eerste parameter."
+
+#: wp-includes/taxonomy.php:505
+msgid "View Tag"
+msgstr "Tag bekijken"
 
 #: wp-activate.php:121
 msgid "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the <a href=\"%2$s\">homepage</a>."
@@ -4177,12 +4177,12 @@ msgid "No pages found."
 msgstr "Geen pagina&#39;s gevonden."
 
 #: wp-includes/post.php:1656
-msgid "No posts found in Trash."
-msgstr "Geen berichten gevonden in prullenbak."
-
-#: wp-includes/post.php:1656
 msgid "No pages found in Trash."
 msgstr "Geen pagina&#39;s gevonden in de prullenbak."
+
+#: wp-includes/post.php:1656
+msgid "No posts found in Trash."
+msgstr "Geen berichten gevonden in de prullenbak."
 
 #: wp-includes/admin-bar.php:504
 msgid "Shortlink"
@@ -4722,7 +4722,7 @@ msgstr "Websitenamen mogen geen &#8220;_&#8221; karakters bevatten!"
 msgid "Sorry, that site already exists!"
 msgstr "Deze website bestaat al!"
 
-#: wp-includes/pluggable.php:1705
+#: wp-includes/pluggable.php:1715
 msgid "New user registration on your site %s:"
 msgstr "Nieuwe gebruiker geregistreerd op de site %s:"
 
@@ -4742,15 +4742,15 @@ msgstr "De menunaam <strong>%s</strong> conflicteert met een andere menunaam. Pr
 msgid "The given object ID is not that of a menu item."
 msgstr "Het opgegeven object ID is niet van een menu-item."
 
-#: wp-includes/formatting.php:3628
+#: wp-includes/formatting.php:3630
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Het ingevulde siteadres is geen geldige URL. Voer een geldige URL in."
 
-#: wp-includes/formatting.php:3514
+#: wp-includes/formatting.php:3516
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "Het ingevulde e-mailadres is ongeldig. Een geldig e-mailadres invoeren."
 
-#: wp-includes/formatting.php:3615
+#: wp-includes/formatting.php:3617
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Het ingevulde WordPress-adres is geen geldige URL. Voer een geldige URL in."
 
@@ -4859,7 +4859,7 @@ msgstr "Navigatiemenu-items"
 msgid "Links for %s"
 msgstr "Links voor %s"
 
-#: wp-includes/default-widgets.php:1583
+#: wp-includes/default-widgets.php:1582
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr "Er zijn nog geen menu&#39;s aangemaakt. <a href=\"%s\">Maak er &#233;&#233;n aan</a>."
 
@@ -4991,7 +4991,7 @@ msgstr "Indien je site niet vertoond wordt neem dan contact op met de eigenaar v
 msgid "Taxonomy:"
 msgstr "Taxonomie:"
 
-#: wp-includes/default-widgets.php:1591
+#: wp-includes/default-widgets.php:1590
 msgid "Select Menu:"
 msgstr "Menu selecteren:"
 
@@ -5383,13 +5383,13 @@ msgid "Protected Comments: Please enter your password to view comments."
 msgstr "Beveiligde reacties: geef je wachtwoord om de reacties te bekijken."
 
 #. translators: min=minute
-#: wp-includes/formatting.php:2739
+#: wp-includes/formatting.php:2741
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minuut"
 msgstr[1] "%s minuten"
 
-#: wp-includes/formatting.php:2749
+#: wp-includes/formatting.php:2751
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s dag"
@@ -5460,7 +5460,7 @@ msgid "Page not found"
 msgstr "Pagina niet gevonden"
 
 #. translators: 1: month name, 2: 4-digit year
-#: wp-includes/general-template.php:1475 wp-includes/media.php:2968
+#: wp-includes/general-template.php:1475 wp-includes/media.php:2970
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
 
@@ -5935,16 +5935,16 @@ msgstr "Wachtwoord kwijt en gewijzigd voor gebruiker: %s"
 msgid "[%s] Password Lost/Changed"
 msgstr "[%s] Wachtwoord kwijt/gewijzigd"
 
-#: wp-includes/pluggable.php:1706 wp-includes/pluggable.php:1729
+#: wp-includes/pluggable.php:1716 wp-includes/pluggable.php:1739
 #: wp-login.php:371
 msgid "Username: %s"
 msgstr "Gebruikersnaam: %s"
 
-#: wp-includes/pluggable.php:1709
+#: wp-includes/pluggable.php:1719
 msgid "[%s] New User Registration"
 msgstr "[%s] Registratie nieuwe gebruiker"
 
-#: wp-includes/pluggable.php:1735
+#: wp-includes/pluggable.php:1745
 msgid "[%s] Your username and password info"
 msgstr "[%s] Je gebruikersnaam en wachtwoord"
 
@@ -6592,7 +6592,7 @@ msgstr "Tabelrij onder plakken"
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s berichten in %3$s Feed"
 
-#: wp-includes/media.php:3089
+#: wp-includes/media.php:3091
 msgid "Edit Gallery"
 msgstr "Galerij bewerken"
 
@@ -6604,7 +6604,7 @@ msgstr "(Moet tenminste 4 karakters bevatten, alleen letters en cijfers zijn toe
 msgid "Email&nbsp;Address:"
 msgstr "E-mailadres:"
 
-#: wp-includes/formatting.php:2744
+#: wp-includes/formatting.php:2746
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s uur"
@@ -6926,7 +6926,7 @@ msgstr "Standaard"
 #: wp-includes/default-widgets.php:555 wp-includes/default-widgets.php:624
 #: wp-includes/default-widgets.php:758 wp-includes/default-widgets.php:907
 #: wp-includes/default-widgets.php:1075 wp-includes/default-widgets.php:1465
-#: wp-includes/default-widgets.php:1587
+#: wp-includes/default-widgets.php:1586
 msgid "Title:"
 msgstr "Titel:"
 
@@ -7206,7 +7206,7 @@ msgstr "Deze pagina is geldige XHTML 1.0 Transitional"
 msgid "Log out of this account"
 msgstr "Dit account uitloggen"
 
-#: wp-includes/category-template.php:1305
+#: wp-includes/category-template.php:1306
 msgid "Tags: "
 msgstr "Tags: "
 
@@ -7231,7 +7231,7 @@ msgstr "Categorie&#235;n"
 msgid "Search Categories"
 msgstr "Categorie&euml;n zoeken"
 
-#: wp-includes/class-wp-customize-widgets.php:651 wp-includes/media.php:3071
+#: wp-includes/class-wp-customize-widgets.php:651 wp-includes/media.php:3073
 msgid "Apply"
 msgstr "Uitvoeren"
 
@@ -7262,7 +7262,7 @@ msgstr "E-mailadres"
 #: wp-includes/class-wp-customize-control.php:1704
 #: wp-includes/class-wp-customize-nav-menus.php:737
 #: wp-includes/class-wp-editor.php:1407 wp-includes/media-template.php:377
-#: wp-includes/media-template.php:557 wp-includes/media.php:3028
+#: wp-includes/media-template.php:557 wp-includes/media.php:3030
 msgid "URL"
 msgstr "URL"
 
@@ -7380,7 +7380,7 @@ msgid "Plugins"
 msgstr "Plugins"
 
 #: wp-includes/class-wp-editor.php:860 wp-includes/class-wp-editor.php:1445
-#: wp-includes/media.php:3032 wp-includes/script-loader.php:380
+#: wp-includes/media.php:3034 wp-includes/script-loader.php:380
 #: wp-includes/script-loader.php:428 wp-includes/script-loader.php:491
 msgid "Cancel"
 msgstr "Annuleren"
@@ -7432,7 +7432,7 @@ msgid "Redo"
 msgstr "Opnieuw"
 
 #: wp-includes/media-template.php:694 wp-includes/media-template.php:769
-#: wp-includes/media-template.php:943 wp-includes/media.php:2785
+#: wp-includes/media-template.php:943 wp-includes/media.php:2787
 msgid "Thumbnail"
 msgstr "Thumbnail"
 
@@ -7444,7 +7444,7 @@ msgstr "Bestand &#8220;%s&#8221; bestaat niet?"
 msgid "File &#8220;%s&#8221; is not an image."
 msgstr "Bestand &#8220;%s&#8221; is geen afbeelding."
 
-#: wp-includes/media.php:3029
+#: wp-includes/media.php:3031
 msgid "Add Media"
 msgstr "Media toevoegen"
 
@@ -7471,7 +7471,7 @@ msgid "Right"
 msgstr "Rechts"
 
 #: wp-includes/media-template.php:695 wp-includes/media-template.php:770
-#: wp-includes/media-template.php:944 wp-includes/media.php:2786
+#: wp-includes/media-template.php:944 wp-includes/media.php:2788
 msgid "Medium"
 msgstr "Gemiddeld"
 
@@ -7513,7 +7513,7 @@ msgstr "Openbaar"
 msgid "Schedule"
 msgstr "Inplannen"
 
-#: wp-includes/media.php:3033 wp-includes/script-loader.php:394
+#: wp-includes/media.php:3035 wp-includes/script-loader.php:394
 #: wp-includes/script-loader.php:501
 msgid "Update"
 msgstr "Bijwerken"
@@ -7523,7 +7523,7 @@ msgid "All Categories"
 msgstr "Alle categorie&#235;n"
 
 #: wp-includes/admin-bar.php:785 wp-includes/admin-bar.php:786
-#: wp-includes/class-wp-editor.php:1420 wp-includes/media.php:3030
+#: wp-includes/class-wp-editor.php:1420 wp-includes/media.php:3032
 msgid "Search"
 msgstr "Zoeken"
 
@@ -7553,7 +7553,7 @@ msgstr "Geen categorie"
 msgid "Close"
 msgstr "Sluiten"
 
-#: wp-includes/media.php:3031
+#: wp-includes/media.php:3033
 msgid "Select"
 msgstr "Selecteren"
 
@@ -7565,7 +7565,7 @@ msgstr "Media bewerken"
 msgid "New Post"
 msgstr "Nieuw bericht"
 
-#: wp-includes/media.php:2761 wp-includes/script-loader.php:396
+#: wp-includes/media.php:2763 wp-includes/script-loader.php:396
 #: wp-includes/script-loader.php:547
 msgid "(no title)"
 msgstr "(geen titel)"
@@ -7583,17 +7583,17 @@ msgid "Are you sure you want to do this?"
 msgstr "Weet je zeker dat je dit wilt doen?"
 
 #: wp-includes/media-template.php:333 wp-includes/media-template.php:528
-#: wp-includes/media.php:3101
+#: wp-includes/media.php:3103
 msgid "Edit Image"
 msgstr "Afbeelding bewerken"
 
 #: wp-includes/media-template.php:697 wp-includes/media-template.php:772
-#: wp-includes/media-template.php:946 wp-includes/media.php:2788
+#: wp-includes/media-template.php:946 wp-includes/media.php:2790
 msgid "Full Size"
 msgstr "Volledige grootte"
 
 #: wp-includes/pluggable.php:1465 wp-includes/pluggable.php:1595
-#: wp-includes/pluggable.php:1707
+#: wp-includes/pluggable.php:1717
 msgid "E-mail: %s"
 msgstr "E-mailadres: %s"
 
@@ -7661,7 +7661,7 @@ msgstr "Sidebar"
 msgid "The GD image library is not installed."
 msgstr "De GD-afbeeldingenbibliotheek is niet ge&#239;nstalleerd."
 
-#: wp-includes/media.php:3075
+#: wp-includes/media.php:3077
 msgid "No media attachments found."
 msgstr "Geen mediabijlages gevonden."
 

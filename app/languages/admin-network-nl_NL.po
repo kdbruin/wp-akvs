@@ -63,7 +63,7 @@ msgstr "Site URL"
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentatie over het upgraden van een Netwerk</a>"
 
-#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:279
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:280
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentatie over Netwerk-gebruikers</a>"
 
@@ -140,7 +140,7 @@ msgid_plural "%s themes deleted."
 msgstr[0] "%s thema is verwijderd."
 msgstr[1] "%s thema's zijn verwijderd."
 
-#: wp-admin/network/users.php:117
+#: wp-admin/network/users.php:118
 msgid "Once you hit &#8220;Confirm Deletion&#8221;, these users will be permanently removed."
 msgstr "Zodra je op &#8220;Verwijdering bevestigen&#8221; klikt, zullen deze gebruikers definitief worden verwijderd."
 
@@ -152,7 +152,7 @@ msgstr "Menu's activeren"
 msgid "Set site attributes"
 msgstr "Site attributen instellen"
 
-#: wp-admin/network/users.php:115
+#: wp-admin/network/users.php:116
 msgid "Once you hit &#8220;Confirm Deletion&#8221;, the user will be permanently removed."
 msgstr "Zodra je op &#8220;Verwijdering bevestigen&#8221; klikt, zal de gebruiker definitief worden verwijderd."
 
@@ -180,7 +180,7 @@ msgstr "Nieuwe registratie instellingen"
 msgid "Size in kilobytes"
 msgstr "Grootte in kilobytes"
 
-#: wp-admin/network/users.php:101
+#: wp-admin/network/users.php:102
 msgid "User has no sites or content and will be deleted."
 msgstr "De gebruiker heeft geen sites of inhoud en wordt verwijderd."
 
@@ -202,7 +202,7 @@ msgstr "De acties bevestigen"
 #: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
 #: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
 #: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
-#: wp-admin/network/users.php:280
+#: wp-admin/network/users.php:281
 msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"https://nl.forums.wordpress.org/\" target=\"_blank\">Support Forums</a>"
 
@@ -210,7 +210,7 @@ msgstr "<a href=\"https://nl.forums.wordpress.org/\" target=\"_blank\">Support F
 msgid "This email address will receive notifications. Registration and support emails will also come from this address."
 msgstr "Dit e-mailadres zal meldingen ontvangen. Registraties en onderhoudsberichten worden ook vanaf dit adres verstuurd."
 
-#: wp-admin/network/users.php:270
+#: wp-admin/network/users.php:271
 msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
 msgstr "Hover over een gebruiker in de lijst om de bewerken link te tonen. De linker bewerken link brengt je naar je eigen Profiel bewerken pagina; de bewerken link aan de rechterzijde naast een sitenaam gaat naar het Site bewerken scherm van dit site."
 
@@ -791,7 +791,7 @@ msgstr "De originele configuratie stappen worden hier weergegeven als referentie
 msgid "You do not have sufficient permissions to edit this site."
 msgstr "Je hebt onvoldoende rechten om deze site te bewerken."
 
-#: wp-admin/network/users.php:181
+#: wp-admin/network/users.php:182
 msgid "Warning! User cannot be modified. The user %s is a network administrator."
 msgstr "Let Op! Gebruiker kan niet worden aangepast. De gebruikers %s is een netwerk admin."
 
@@ -815,11 +815,11 @@ msgstr "Als de admin e-mail voor de nieuwe site niet bestaat in de database zal 
 msgid "Operational settings has fields for the network&#8217;s name and admin email."
 msgstr "Operationele instellingen bevatten velden voor de netwerk naam en admin email."
 
-#: wp-admin/network/users.php:271
+#: wp-admin/network/users.php:272
 msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
 msgstr "Je kunt ook naar de gebruikers profiel pagina door op de individuele gebruikersnaam te klikken."
 
-#: wp-admin/network/users.php:273
+#: wp-admin/network/users.php:274
 msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
 msgstr "De bulk actie zal de geselecteerde gebruikers permanent verwijderen, of de geselecteerde markeren/demarkeren als spam. De berichten van de spam gebruikers zullen verwijderd worden. Spam gebruikers kunnen zich niet opnieuw registreren met hetzelfde email adres."
 
@@ -851,7 +851,7 @@ msgstr "Als er geen versie update is gedaan, zal klikken op deze knop geen enkel
 msgid "If this process fails for any reason, users logging in to their sites will force the same update."
 msgstr "Indien dit proces mislukt om wat voor reden dan ook, zullen gebruikers die op hun site inloggen dezelfde update forceren."
 
-#: wp-admin/network/users.php:272
+#: wp-admin/network/users.php:273
 msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
 msgstr "Je kunt het overzicht sorteren door te klikken op &#233;&#233;n van de vetgedrukte teksten en wisselen tussen lijst en samenvattingen met gebruik van de icoontjes in de rechter bovenhoek."
 
@@ -859,11 +859,11 @@ msgstr "Je kunt het overzicht sorteren door te klikken op &#233;&#233;n van de v
 msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
 msgstr "Gebruikers die zijn geregistreerd op het netwerk zonder een eigen site, worden toegevoegd als inschrijvers op de hoofdsite, ze krijgen toegang in het Dashboard op hun eigen profiel pagina om hun account te beheren. Deze gebruikers zullen het Dashboard en Mijn sites alleen kunnen zien in de hoofdnavigatie, tot zijzelf een eigen site zullen bezitten."
 
-#: wp-admin/network/users.php:274
+#: wp-admin/network/users.php:275
 msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
 msgstr "Je kunt een bestaande gebruiker wijzigen naar Super Admin door naar de Bewerk Gebruiker profiel pagina te gaan en deze keuze toe te wijzen."
 
-#: wp-admin/network/users.php:269
+#: wp-admin/network/users.php:270
 msgid "This table shows all users across the network and the sites to which they are assigned."
 msgstr "Deze tabel toont alle gebruikers in het netwerk en de sites waar ze bij horen."
 
@@ -915,7 +915,7 @@ msgstr "Website gemarkeerd als spam."
 msgid "Sites removed from spam."
 msgstr "Website verwijderd uit spam."
 
-#: wp-admin/network/users.php:297
+#: wp-admin/network/users.php:298
 msgid "Users removed from spam."
 msgstr "Gebruikers verwijderd uit spam."
 
@@ -943,7 +943,7 @@ msgstr "Website gedeactiveerd."
 msgid "Site activated."
 msgstr "Website geactiveerd."
 
-#: wp-admin/network/users.php:300
+#: wp-admin/network/users.php:301
 msgid "Users deleted."
 msgstr "Gebruikers verwijderd."
 
@@ -955,7 +955,7 @@ msgstr "Website herstellen uit het archief."
 msgid "Site archived."
 msgstr "Website gearchiveerd."
 
-#: wp-admin/network/users.php:294
+#: wp-admin/network/users.php:295
 msgid "Users marked as spam."
 msgstr "Gebruikers gemarkeerd als spam."
 
@@ -1157,9 +1157,9 @@ msgstr "De gebruikersnaam en wachtwoord worden per e-mail verstuurd naar het e-m
 #: wp-admin/network/site-themes.php:64 wp-admin/network/site-users.php:57
 #: wp-admin/network/sites.php:17 wp-admin/network/sites.php:124
 #: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:37
-#: wp-admin/network/users.php:17 wp-admin/network/users.php:134
-#: wp-admin/network/users.php:155 wp-admin/network/users.php:168
-#: wp-admin/network/users.php:217
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:135
+#: wp-admin/network/users.php:156 wp-admin/network/users.php:169
+#: wp-admin/network/users.php:218
 msgid "You do not have permission to access this page."
 msgstr "Je hebt onvoldoende rechten om deze pagina op te vragen."
 
