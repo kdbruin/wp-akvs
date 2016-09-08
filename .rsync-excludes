@@ -14,8 +14,6 @@
 - build.xml
 - composer.json
 - composer.lock
-- app/plugins/debug*
-- app/plugins/monster-widget
 - app/themes/akvs/Gruntfile.coffee
 - app/themes/akvs/bower.json
 - app/themes/akvs/bower_components

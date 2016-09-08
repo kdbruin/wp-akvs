@@ -1,0 +1,406 @@
+# Translation of Simone in Dutch
+# This file is distributed under the same license as the Simone package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-03 17:44:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: Simone\n"
+
+#. Theme Name of the plugin/theme
+msgid "Simone"
+msgstr "Simone"
+
+#. Description of the plugin/theme
+msgid "Simone is a responsive, accessible, high-resolution theme featuring custom header and custom link colors, large images, and easy to read typography that scales to fit all screens. Other features include keyboard accessible navigation, optional social menu, sidebar- and footer widgets, no-sidebar page template, Aside post format, and collapsible author profile box. Simone is translation ready and ships in English with translations in Catalan, Chinese (simplified), Dutch, Finnish, French, German, Hungarian, Italian, Norwegian Bokmål, Persian, Russian, Spanish, Swedish, and Turkish."
+msgstr "Simone is een flexibele, toegankelijke, hoog resolutie thema. Het heeft opties als: aanpasbare header, aanpasbare linkkleuren, grote afbeeldingen, makkelijk leesbaar lettertype dat zich aanpast aan alle schermen. Andere opties zijn: navigeerbaar via het toetsenbord, optionele social menu, diverse widgets voor de footer en de sidebards, diverse pagina-templates. Simone is vertaalbaar en is beschikbaar in het Engels met vertalingen in het Catalaans, Chinees, Nederlands, Fins, Frans, Duits, Hongaars, Italiaans, Noors, Perzisch, Russisch, Spaans, Zweeds en Turks."
+
+#. Template Name of the plugin/theme
+msgid "Page with no sidebar"
+msgstr "Pagina zonder sidebar"
+
+#: inc/template-tags.php:126
+msgctxt "Public posted on date"
+msgid "F jS, Y"
+msgstr "d F Y"
+
+#: inc/template-tags.php:128
+msgctxt "Public modified on date"
+msgid "F jS, Y"
+msgstr "d F Y"
+
+#. Translators: Text wrapped in mobile-hide class is hidden on wider screens.
+#: inc/template-tags.php:131
+msgctxt "mobile-hide class is used to hide connecting elements like \"on\" and \".\" on wider screens."
+msgid "<span class=\"byline\">Written by %1$s</span><span class=\"mobile-hide\"> on </span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</span>"
+msgstr "<span class=\"byline\">Geschreven door %1$s</span><span class=\"mobile-hide\"> op </span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</span>"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: inc/template-tags.php:105
+msgid "Next Image"
+msgstr "Volgende afbeelding"
+
+#: inc/template-tags.php:104
+msgid "Previous Image"
+msgstr "Vorige afbeelding"
+
+#: inc/template-tags.php:83
+msgid "Next Post:"
+msgstr "Volgend bericht:"
+
+#: inc/template-tags.php:82
+msgid "Previous Post:"
+msgstr "Vorig bericht:"
+
+#: inc/template-tags.php:79 inc/template-tags.php:101
+msgid "Post navigation"
+msgstr "Berichtnavigatie"
+
+#: inc/template-tags.php:54
+msgid "Posts navigation"
+msgstr "Berichtennavigatie"
+
+#: inc/template-tags.php:46
+msgid "Next &rarr;"
+msgstr "Volgende &rarr;"
+
+#: inc/template-tags.php:45
+msgid "&larr; Previous"
+msgstr "&larr; Vorige"
+
+#: inc/customizer.php:137
+msgid "Full content"
+msgstr "Volledige inhoud"
+
+#: inc/extras.php:63
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: inc/customizer.php:132
+msgid "Archive display"
+msgstr "Archiefpresentatie"
+
+#: inc/customizer.php:133
+msgid "Display excerpts or full content with optional \"More\" tag in the blog index and archive pages."
+msgstr "Vertoon samenvattingen of volledige inhoud met het \"Meer\" label in de blog-index en archiefpagina's."
+
+#: inc/customizer.php:136
+msgid "Excerpt"
+msgstr "Samenvatting"
+
+#: inc/customizer.php:108
+msgid "Right sidebar"
+msgstr "Sidebar rechts"
+
+#: inc/customizer.php:82
+msgid "Change the default display options for the theme."
+msgstr "Verander de standaard weergave instellingen voor het thema."
+
+#: inc/customizer.php:104
+msgid "Sidebar position"
+msgstr "Sidebar positie"
+
+#: inc/customizer.php:107
+msgid "Left sidebar"
+msgstr "Sidebar links"
+
+#: inc/customizer.php:80
+msgid "Theme Options"
+msgstr "Thema opties"
+
+#: inc/customizer.php:47
+msgid "Header Color"
+msgstr "Header Kleur"
+
+#: inc/customizer.php:67
+msgid "Link Color"
+msgstr "Linkkleur"
+
+#: inc/author-box.php:65
+msgid "All posts by %s"
+msgstr "Alle berichten van %s"
+
+#: inc/author-box.php:52
+msgid "Like %s on Facebook"
+msgstr "Like %s op Facebook"
+
+#: inc/author-box.php:52
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/author-box.php:49
+msgid "Add %s to your Google+ circles"
+msgstr "Voeg %s toe aan uw Google+ kringen"
+
+#: inc/author-box.php:49
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/author-box.php:46
+msgid "Twitter"
+msgstr "Twitter"
+
+#. translators: May be followed by another sentence. There is a space after the
+#. punctuation mark.
+#: inc/author-box.php:29
+msgid "One article and counting. "
+msgstr "Een Artikel en er zullen er meer volgen"
+
+#. translators: May be followed by another sentence. There is a space after the
+#. punctuation mark.
+#: inc/author-box.php:34
+msgid "%s articles and counting. "
+msgstr "%s Artikels en er zullen er meer volgen. "
+
+#: inc/author-box.php:44
+msgid "Follow %s on social media: "
+msgstr "Volg %s op social media:"
+
+#: inc/author-box.php:46
+msgid "Follow %s on Twitter"
+msgstr "Volg %s op Twitter"
+
+#: image.php:25
+msgid "Featured in: "
+msgstr "Prominent gebruikt in: "
+
+#: image.php:26
+msgid "Full size image: "
+msgstr "Volledige afbeelding:"
+
+#: image.php:27
+msgid "Edit attachment post"
+msgstr "Wijzigen bijvoegsel bericht"
+
+#: inc/author-box.php:10
+msgid "Hide Author Bio"
+msgstr "Verberg Auteur Biografie"
+
+#: inc/author-box.php:21
+msgid "About %s"
+msgstr "Over %s"
+
+#: header.php:52
+msgid "Search"
+msgstr "Zoeken"
+
+#: header.php:46
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:114
+msgid "Footer widget area appears, not surprisingly, in the footer of the site."
+msgstr "Het footer widgetgebied is zichtbaar in de footer van de website."
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Spring naar inhoud"
+
+#: functions.php:113
+msgid "Footer Widget"
+msgstr "Footerwidget"
+
+#: functions.php:104
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:75
+msgid "Social Menu"
+msgstr "Sociaal menu"
+
+#: footer.php:29
+msgid "mor10.com"
+msgstr "mor10.com"
+
+#: functions.php:74
+msgid "Primary Menu"
+msgstr "Primair menu"
+
+#. translators: %1$s = text link: Simone, URL:
+#. http:wordpress.org/themes/simone/, %2$s = text link: mor10.com, URL:
+#. http:mor10.com/
+#: footer.php:27
+msgid "Theme: %1$s by %2$s"
+msgstr "Vormgeving: %1$s door %2$s"
+
+#: footer.php:21
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: %s = text link: WordPress, URL: http:wordpress.org/
+#: footer.php:20
+msgid "Proudly powered by %s"
+msgstr "Ondersteund door %s"
+
+#: content.php:91
+msgid "Continue Reading"
+msgstr "Lees verder"
+
+#: content.php:72 content.php:89
+msgctxt "First part of \"Read *article title* in title tag of Read more link"
+msgid "Read "
+msgstr "Lees "
+
+#: content.php:72 content.php:89
+msgid "Read <span aria-hidden=\"true\">the article</span>"
+msgstr "Lees  <span aria-hidden=\"true\">het artikel</span>"
+
+#: content.php:91
+msgid "Continue Reading "
+msgstr "Lees verder"
+
+#: content.php:13 content.php:26
+msgid "Read "
+msgstr "Gelezen"
+
+#: content-single.php:38 content.php:57
+msgid "% Comments"
+msgstr "% reacties"
+
+#: content-single.php:38 content.php:57
+msgid "1 Comment"
+msgstr "1 reactie"
+
+#: content-single.php:38 content.php:57
+msgid "Leave a comment"
+msgstr "Een reactie plaatsen"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:25 content.php:43
+msgid ", "
+msgstr ", "
+
+#: content-none.php:56
+msgid "Most recent posts:"
+msgstr "Meest recente berichten:"
+
+#: content-page.php:27 content-single.php:50 image.php:48
+msgid "Pages:"
+msgstr "Pagina&#39;s:"
+
+#: content-none.php:35
+msgid "You seem to be lost. To find what you are looking for check out the most recent articles below or try a search:"
+msgstr "Het lijkt erop dat u verdwaalt bent. Probeer eens een zoekopdracht of een van de recente berichten:"
+
+#: content-none.php:40
+msgid "Nothing matched your search terms. Check out the most recent articles below or try searching for something else:"
+msgstr "U zoekopdracht komt met niets overeen. Probeer eens een van de recente berichten of een andere zoekopdracht:"
+
+#: content-none.php:45
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat we niet kunnen vinden waar je naar zoekt. Misschien kun je er naar zoeken."
+
+#: content-none.php:31
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Start hier</a>."
+
+#: content-none.php:16
+msgid "Page not available"
+msgstr "Pagina niet beschikbaar"
+
+#. translators: %s = search query
+#: content-none.php:20
+msgid "Nothing found for %s"
+msgstr "Niets gevonden voor %s"
+
+#: content-none.php:22
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: content-aside.php:17 content-page.php:32 content-single.php:42
+#: content.php:61
+msgid "Edit"
+msgstr "Bewerken"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: comments.php:49
+msgid "Newer Comments"
+msgstr "Nieuwere reacties"
+
+#: comments.php:48
+msgid "Older Comments"
+msgstr "Oudere reacties"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One comment:"
+msgid_plural "%1$s comments:"
+msgstr[0] "Een reactie:"
+msgstr[1] "%1$s reacties:"
+
+#: comments.php:47
+msgid "Comment navigation"
+msgstr "Reactienavigatie"
+
+#: archive.php:45
+msgid "Archives"
+msgstr "Archieven"
+
+#: archive.php:42
+msgid "Asides"
+msgstr "Asides"
+
+#: archive.php:39
+msgctxt "archive for a year"
+msgid "Posts from %s"
+msgstr "Berichten van %s"
+
+#: archive.php:39
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgctxt "archive for a month"
+msgid "Posts from %s"
+msgstr "Berichten van %s"
+
+#: archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgctxt "archive for a day"
+msgid "Posts from %s"
+msgstr "Berichten van %s"
+
+#: archive.php:33
+msgctxt "Daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#. translators: %s = single category title
+#: archive.php:22
+msgid "Posts in the %s category:"
+msgstr "Berichten in de categorie %s:"
+
+#. translators: %s = single tag title
+#: archive.php:26
+msgid "Posts with the %s tag"
+msgstr "Berichten met het label %s:"
+
+#: archive.php:29
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#. Theme URI of the plugin/theme
+msgid "http://mor10.com/simone-wordpress-theme/"
+msgstr "http://mor10.com/simone-wordpress-theme/"
+
+#. Author of the plugin/theme
+msgid "Morten Rand-Hendriksen"
+msgstr "Morten Rand-Hendriksen"
+
+#. Author URI of the plugin/theme
+msgid "http://mor10.com/"
+msgstr "http://mor10.com/"
